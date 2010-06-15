@@ -1,8 +1,9 @@
 {
 	"instance" : { },
 	"class" : {
-		"addToStartupList" : "StefanMarr 10/14/2009 13:27",
 		"executeRunFor:with:" : "StefanMarr 10/14/2009 17:38",
+		"addToStartupList" : "StefanMarr 6/15/2010 10:50",
+		"initialize" : "StefanMarr 6/15/2010 10:49",
 		"getSystemAttributes" : "",
 		"startUp" : "StefanMarr 10/14/2009 17:41"
 	}
