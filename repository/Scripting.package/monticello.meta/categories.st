@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'Scripting-Examples'!
-SystemOrganization addCategory: #'Scripting-Infrastructure'!
+SystemOrganization addCategory: #Scripting!
