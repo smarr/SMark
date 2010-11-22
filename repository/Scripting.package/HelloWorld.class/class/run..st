@@ -1,6 +1,6 @@
 script entry
 run: arguments 
-	RVMTester print: 'Hello World!'.
+	RVMPrimitives printOnConsole: 'Hello World!'.
 	arguments
-		do: [:elem | RVMTester print: elem].
+		do: [:elem | RVMPrimitives printOnConsole: elem].
 	SmalltalkImage current snapshot: false andQuit: true
