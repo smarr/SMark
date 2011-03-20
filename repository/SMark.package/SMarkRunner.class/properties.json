@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"iterations",
+		"suite",
+		"runner",
+		"results",
+		"currentBenchmark",
+		"timers"
+	],
+	"name" : "SMarkRunner",
+	"type" : "normal"
+}

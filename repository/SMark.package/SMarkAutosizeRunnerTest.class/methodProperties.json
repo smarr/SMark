@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"runnerClass" : "StefanMarr 3/20/2011 21:09",
+		"testExecute" : "StefanMarr 3/20/2011 21:10",
+		"testBaseBenchmark" : "StefanMarr 3/20/2011 21:07",
+		"testIterations" : "StefanMarr 3/20/2011 21:09",
+		"testAutosizing" : "StefanMarr 3/20/2011 21:10",
+		"testAutosizingBaseBenchmark" : "StefanMarr 3/20/2011 21:10"
+	},
+	"class" : {
+		"shouldInheritSelectors" : "StefanMarr 3/19/2011 20:40"
+	}
+}

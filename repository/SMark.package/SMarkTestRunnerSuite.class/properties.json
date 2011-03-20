@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "StefanMarr 3/13/2011 22:58",
+	"super" : "SMarkSuite",
+	"category" : "SMark-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkTestRunnerSuite",
+	"type" : "normal"
+}

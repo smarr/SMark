@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkRunner",
+	"category" : "SMark-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"performedBenchmarks",
+		"notifyRunnerWasExecuted",
+		"setUpCount",
+		"tearDownCount",
+		"didTearDownBenchC",
+		"didSetUpBenchB",
+		"baseBenchmarkExecuted"
+	],
+	"name" : "SMarkTestRunner",
+	"type" : "normal"
+}

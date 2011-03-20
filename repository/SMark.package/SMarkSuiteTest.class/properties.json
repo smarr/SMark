@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SMark-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"setUpCount",
+		"tearDownCount",
+		"didSetUpBenchB",
+		"didTearDownBenchC"
+	],
+	"name" : "SMarkSuiteTest",
+	"type" : "normal"
+}

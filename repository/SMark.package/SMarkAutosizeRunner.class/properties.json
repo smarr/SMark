@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkRunner",
+	"category" : "SMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"targetTime",
+		"innerLoopIterations"
+	],
+	"name" : "SMarkAutosizeRunner",
+	"type" : "normal"
+}

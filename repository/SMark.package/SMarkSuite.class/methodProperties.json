@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"shouldRunSelector:" : "ToonVerwaest 8/31/2010 15:21",
+		"cleanUpInstanceVariables" : "StefanMarr 3/12/2011 21:56",
+		"performCustomSelector:with:" : "StefanMarr 3/12/2011 22:53",
+		"tearDown" : "StefanMarr 3/12/2011 21:39",
+		"benchmarkNameForSelector:" : "StefanMarr 3/19/2011 00:36",
+		"runner" : "StefanMarr 3/12/2011 22:19",
+		"runner:" : "StefanMarr 3/12/2011 21:22",
+		"runBenchmark:" : "StefanMarr 3/12/2011 22:54",
+		"run" : "StefanMarr 3/19/2011 22:49",
+		"setUp" : "StefanMarr 3/12/2011 21:38"
+	},
+	"class" : {
+		"defaultRunner" : "StefanMarr 3/20/2011 21:00",
+		"isAbstractClass" : "StefanMarr 3/19/2011 10:29",
+		"run" : "StefanMarr 3/13/2011 21:04",
+		"run:" : "StefanMarr 3/20/2011 19:50"
+	}
+}

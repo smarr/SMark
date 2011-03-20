@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkRunnerTest",
+	"category" : "SMark-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkAutosizeRunnerTest",
+	"type" : "normal"
+}

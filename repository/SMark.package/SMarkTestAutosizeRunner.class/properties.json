@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkAutosizeRunner",
+	"category" : "SMark-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"performedBenchmarks",
+		"notifyRunnerWasExecuted",
+		"setUpCount",
+		"tearDownCount",
+		"didTearDownBenchC",
+		"didSetUpBenchB",
+		"baseBenchmarkExecuted"
+	],
+	"name" : "SMarkTestAutosizeRunner",
+	"type" : "normal"
+}

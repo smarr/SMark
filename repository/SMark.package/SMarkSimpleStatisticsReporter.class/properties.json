@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkReporter",
+	"category" : "SMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkSimpleStatisticsReporter",
+	"type" : "normal"
+}

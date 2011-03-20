@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "StefanMarr 3/20/2011 19:55",
+	"super" : "Object",
+	"category" : "SMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"runner",
+		"stream"
+	],
+	"name" : "SMarkReporter",
+	"type" : "normal"
+}

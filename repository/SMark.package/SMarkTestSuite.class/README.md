@@ -1,0 +1,1 @@
+This class is used for unit testing only.
