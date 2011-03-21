@@ -1,4 +1,4 @@
-as yet unclassified
+reporting
 reportAllRuns: aListOfResults
 	aListOfResults do: [:result |
 		result criteria keysAndValuesDo: [:benchName :timer |

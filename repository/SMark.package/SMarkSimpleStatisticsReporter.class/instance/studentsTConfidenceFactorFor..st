@@ -1,4 +1,4 @@
-as yet unclassified
+statistics
 studentsTConfidenceFactorFor: aNumberOfMeasurements
 	"used for small probe counts < 30"
 	"the students T distribution sucks to calculate since the value depends on the probeCout"

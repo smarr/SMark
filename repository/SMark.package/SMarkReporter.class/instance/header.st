@@ -1,4 +1,4 @@
-as yet unclassified
+reporting
 header
 	| suiteName |
 	suiteName := runner suite class name asString.

@@ -1,3 +1,3 @@
-as yet unclassified
+reporting
 benchmarkFooter: aName
 	stream cr.

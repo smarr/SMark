@@ -1,3 +1,3 @@
-as yet unclassified
+reporting
 benchmarkHeader: aName
 	stream << 'Benchmark ' << (aName asString); cr.

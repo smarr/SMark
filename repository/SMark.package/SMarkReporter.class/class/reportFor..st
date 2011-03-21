@@ -1,3 +1,3 @@
-as yet unclassified
+reporting
 reportFor: aRunner
 	self reportFor: aRunner on: self defaultOutputDestination.

@@ -1,4 +1,4 @@
-as yet unclassified
+timing
 stop
 	| elapsedInThisPeriod current |
 	current := self currentMillis.

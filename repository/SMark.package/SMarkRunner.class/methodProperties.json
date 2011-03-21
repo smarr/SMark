@@ -7,7 +7,7 @@
 		"suite:" : "StefanMarr 3/18/2011 19:38",
 		"createTimer:" : "StefanMarr 3/20/2011 10:28",
 		"execute" : "StefanMarr 3/13/2011 23:05",
-		"initialize" : "StefanMarr 3/19/2011 00:21",
+		"initialize" : "StefanMarr 3/21/2011 11:43",
 		"suite" : "StefanMarr 3/20/2011 18:45",
 		"timedBenchmarkExecution:" : "StefanMarr 3/19/2011 22:08",
 		"performBenchmark:" : "StefanMarr 3/19/2011 00:58",
@@ -15,6 +15,7 @@
 	},
 	"class" : {
 		"defaultTimer" : "StefanMarr 3/20/2011 20:56",
+		"defaultNumberOfIterations" : "StefanMarr 3/21/2011 11:43",
 		"execute:with:" : "StefanMarr 3/20/2011 19:51",
 		"execute:" : "StefanMarr 3/20/2011 19:51"
 	}

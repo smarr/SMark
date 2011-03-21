@@ -1,4 +1,4 @@
-running
+benchmarking
 run
 	"Executes all the benchmarks in the suite, 
 	 coordinating with the runner when necessary"

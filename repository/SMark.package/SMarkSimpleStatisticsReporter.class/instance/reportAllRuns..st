@@ -1,4 +1,4 @@
-as yet unclassified
+reporting
 reportAllRuns: aListOfResults
 	| data convidenceVariance significantDigits quantum total stdev totalSignificantDigits|
 

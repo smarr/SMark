@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 recordResults: timer for: aSelector
 	| result name |
 	name := suite benchmarkNameForSelector: aSelector.

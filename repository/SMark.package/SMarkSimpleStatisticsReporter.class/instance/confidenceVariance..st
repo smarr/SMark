@@ -1,4 +1,4 @@
-as yet unclassified
+statistics
 confidenceVariance: times
 	| numMeasurements |
 	numMeasurements := times size.

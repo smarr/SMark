@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 performCustomSelector: aSelector with: aPrefix
 	| customSelector |
 	customSelector := (aPrefix, aSelector capitalized) asSymbol.

@@ -1,3 +1,3 @@
-as yet unclassified
+timing
 start
 	startTime := self currentMillis.

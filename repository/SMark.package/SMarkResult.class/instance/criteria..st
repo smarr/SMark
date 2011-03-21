@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 criteria: aCollectionOfTimers
 	criteria := aCollectionOfTimers

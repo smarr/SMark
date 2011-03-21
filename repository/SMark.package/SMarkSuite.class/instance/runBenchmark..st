@@ -1,4 +1,4 @@
-running
+benchmarking
 runBenchmark: aSelector
 	
 	[self setUp.

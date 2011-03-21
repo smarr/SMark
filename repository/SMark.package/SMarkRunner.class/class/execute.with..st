@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 execute: aSuite with: nIterations
 	| runner |
 	runner := self new.

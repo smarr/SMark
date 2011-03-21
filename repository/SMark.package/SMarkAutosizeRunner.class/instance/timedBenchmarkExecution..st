@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 timedBenchmarkExecution: aSelector
 	"Will do a timed execution of the benchmark and return the result timer"
 	| timer |

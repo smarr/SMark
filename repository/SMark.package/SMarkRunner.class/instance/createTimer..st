@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 createTimer: name
 	"Create and register a new timer for the current benchmark"
 	| timer |

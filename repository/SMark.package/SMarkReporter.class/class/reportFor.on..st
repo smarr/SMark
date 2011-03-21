@@ -1,4 +1,4 @@
-as yet unclassified
+reporting
 reportFor: aRunner on: aStream
 	| reporter |
 	reporter := self new.

@@ -1,4 +1,4 @@
-as yet unclassified
+execution
 execute
 	suite run.
 	self runBaseBenchmark.

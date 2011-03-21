@@ -1,4 +1,4 @@
-as yet unclassified
+statistics
 significantDigits: confidenceVariance
 	confidenceVariance = 0 
 		ifTrue: [ ^ 2].

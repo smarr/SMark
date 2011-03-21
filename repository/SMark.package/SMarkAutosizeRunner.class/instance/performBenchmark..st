@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 performBenchmark: aSelector
 	"First determine a useful number of inner loop iterations until the targetTime is reached."
 	| execTime i |
