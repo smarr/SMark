@@ -3,7 +3,7 @@ benchStone
 	"modified by nishis"
 
 	| n nTests iters times speeds stones scale printA printB printC param count speed0 expln block time iter speed stone geoMean gm power |
-	n := self problemSize asInteger.	"Number of times each test block will be evaluated."
+	n := self problemSize.	"Number of times each test block will be evaluated."
 	n > SmallInteger maxVal
 		ifTrue: [ self error: 'Count exceeded max small int.' ].
 	

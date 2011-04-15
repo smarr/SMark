@@ -11,7 +11,8 @@
 		"runner",
 		"results",
 		"currentBenchmark",
-		"timers"
+		"timers",
+		"problemSize"
 	],
 	"name" : "SMarkRunner",
 	"type" : "normal"

@@ -1,9 +1,10 @@
 {
 	"instance" : {
+		"benchStone" : "StefanMarr 4/15/2011 16:17",
 		"readme" : "nishis 2/14/98 02:33",
-		"benchStone" : "StefanMarr 4/15/2011 11:00",
-		"benchTODO" : "StefanMarr 4/15/2011 11:02",
-		"setUp" : "StefanMarr 4/15/2011 11:01"
+		"setUp" : "StefanMarr 4/15/2011 11:01",
+		"defaultProblemSize" : "StefanMarr 4/15/2011 16:19",
+		"problemSize" : "StefanMarr 4/15/2011 16:18"
 	},
 	"class" : { }
 }
