@@ -3,15 +3,14 @@
 		"fractonacci:" : "nishis 2/14/98 02:47",
 		"primesUpTo:" : "StefanMarr 1/16/2011 21:11",
 		"sort:" : "nishis 2/14/98 02:39",
-		"runBench" : "sm 1/17/2011 10:37",
+		"benchStone" : "StefanMarr 4/15/2011 11:04",
 		"readme" : "nishis 2/14/98 02:46",
 		"generate:counts:" : "StefanMarr 1/16/2011 21:11",
-		"execute" : "StefanMarr 1/16/2011 21:32",
 		"setFrom:" : "nishis 2/14/98 02:46",
-		"setup" : "StefanMarr 1/16/2011 21:07",
 		"sorcerersApprentice" : "StefanMarr 1/16/2011 21:11",
 		"stringsUpTo:" : "nishis 2/14/98 02:39",
-		"streamTestsOn:" : "sm 1/17/2011 09:55"
+		"streamTestsOn:" : "sm 1/17/2011 09:55",
+		"setUp" : "StefanMarr 4/15/2011 11:04"
 	},
 	"class" : {
 		"initialize" : "simon.denier 9/14/2010 13:44"

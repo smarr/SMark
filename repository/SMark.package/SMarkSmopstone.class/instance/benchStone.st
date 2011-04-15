@@ -1,8 +1,9 @@
 benchmarking
-execute
+benchStone
 	"modified by nishis"
-
-	| n nTests times stones printA printC param time0 expln block time stone geoMean gm power |
+	| n nTests times stones printA printC param time0 expln block time stone geoMean gm power problemSize |
+	
+	self error: 'here we need support for a problem size in the runner/whatever/framework'.
 	n := problemSize asInteger.	 "Each test is repeated this many times. The smopstone times in
 			the test parameters are normalized to a value of one. You may
 			set it to a higher number if your machine is really blazing."

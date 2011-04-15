@@ -1,5 +1,5 @@
 benchmarking
-execute
+benchStone
 	"modified by nishis"
 
 	| n nTests iters times speeds stones scale printA printB printC param count speed0 expln block time iter speed stone geoMean gm power |

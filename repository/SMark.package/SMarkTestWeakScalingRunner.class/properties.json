@@ -5,7 +5,15 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"setUpCount",
+		"tearDownCount",
+		"notifyRunnerWasExecuted",
+		"performedBenchmarks",
+		"baseBenchmarkExecuted",
+		"didSetUpBenchB",
+		"didTearDownBenchC"
+	],
 	"name" : "SMarkTestWeakScalingRunner",
 	"type" : "normal"
 }

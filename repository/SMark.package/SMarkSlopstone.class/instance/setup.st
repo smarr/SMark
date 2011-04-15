@@ -1,5 +1,5 @@
 benchmarking
-setup
+setUp
  
 	"Numbers in testParams represent the following:
  

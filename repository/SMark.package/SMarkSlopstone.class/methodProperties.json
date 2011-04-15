@@ -1,9 +1,9 @@
 {
 	"instance" : {
-		"execute" : "StefanMarr 1/16/2011 21:11",
 		"readme" : "nishis 2/14/98 02:33",
-		"runBench" : "sm 1/17/2011 10:38",
-		"setup" : "StefanMarr 1/16/2011 20:58"
+		"benchStone" : "StefanMarr 4/15/2011 11:00",
+		"benchTODO" : "StefanMarr 4/15/2011 11:02",
+		"setUp" : "StefanMarr 4/15/2011 11:01"
 	},
 	"class" : { }
 }

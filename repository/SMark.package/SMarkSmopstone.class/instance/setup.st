@@ -1,5 +1,5 @@
 benchmarking
-setup
+setUp
 	"modified by nishis"
 
 	"Numbers in testParams represent the approximate number of seconds it

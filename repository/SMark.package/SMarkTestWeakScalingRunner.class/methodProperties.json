@@ -1,4 +1,18 @@
 {
-	"instance" : { },
+	"instance" : {
+		"didRunBaseBenchmark" : "StefanMarr 4/15/2011 10:42",
+		"baseBenchmarkExecuted" : "StefanMarr 4/15/2011 10:44",
+		"countTearDownInvoke" : "StefanMarr 4/15/2011 10:41",
+		"countSetUpInvoke" : "StefanMarr 4/15/2011 10:41",
+		"isNotifyRunnerWasExecutedSet" : "StefanMarr 4/15/2011 10:42",
+		"didSetUpBenchB" : "StefanMarr 4/15/2011 10:42",
+		"notifyRunnerWasExecuted" : "StefanMarr 4/15/2011 10:42",
+		"countWasExecuted" : "StefanMarr 4/15/2011 10:41",
+		"didTearDownBenchC" : "StefanMarr 4/15/2011 10:42",
+		"initialize" : "StefanMarr 4/15/2011 10:42",
+		"didPerform:" : "StefanMarr 4/15/2011 10:41",
+		"performedBenchmarks" : "StefanMarr 4/15/2011 10:42",
+		"setUp" : "StefanMarr 4/15/2011 10:43"
+	},
 	"class" : { }
 }
