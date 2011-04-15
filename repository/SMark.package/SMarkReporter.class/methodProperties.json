@@ -10,8 +10,9 @@
 		"footer" : "StefanMarr 3/20/2011 18:59"
 	},
 	"class" : {
+		"defaultReporter" : "StefanMarr 4/15/2011 16:46",
 		"reportFor:" : "StefanMarr 3/20/2011 18:42",
-		"reportFor:on:" : "StefanMarr 3/20/2011 18:43",
-		"defaultOutputDestination" : "StefanMarr 3/20/2011 17:54"
+		"defaultOutputDestination" : "StefanMarr 3/20/2011 17:54",
+		"reportFor:on:" : "StefanMarr 3/20/2011 18:43"
 	}
 }
