@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "nishis 2/21/98 06:26",
+	"super" : "SMarkSuite",
+	"category" : "SMark-Classic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testParams",
+		"testBlocks",
+		"output"
+	],
+	"name" : "SMarkSlopstone",
+	"type" : "normal"
+}

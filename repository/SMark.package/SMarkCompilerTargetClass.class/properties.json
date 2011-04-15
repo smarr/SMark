@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Class",
+	"category" : "SMark-Classic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkCompilerTargetClass",
+	"type" : "normal"
+}

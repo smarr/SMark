@@ -2,7 +2,7 @@ benchmarking
 performBenchmark: aSelector
 	currentBenchmark := aSelector.
 	
-	1 to: iterations do: [:i|
+	1 to: numIterations do: [:i|
 		self timedBenchmarkExecution: aSelector.
 	].	
 	

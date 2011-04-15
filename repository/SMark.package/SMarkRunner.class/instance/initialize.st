@@ -1,4 +1,4 @@
 initialization
 initialize
-	iterations := self class defaultNumberOfIterations.
+	numIterations := self class defaultNumberOfIterations.
 	results := Dictionary new.

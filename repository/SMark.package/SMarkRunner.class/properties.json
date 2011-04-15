@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"iterations",
+		"numIterations",
 		"suite",
 		"runner",
 		"results",

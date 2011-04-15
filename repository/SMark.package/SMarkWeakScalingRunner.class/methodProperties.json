@@ -1,5 +1,8 @@
 {
-	"instance" : { },
+	"instance" : {
+		"timedBenchmarkExecution:" : "StefanMarr 3/21/2011 12:06",
+		"startBenchmarkAndWaitForCompletion:" : "StefanMarr 3/21/2011 12:22"
+	},
 	"class" : {
 		"defaultNumberOfProcesses" : "StefanMarr 3/21/2011 11:44"
 	}

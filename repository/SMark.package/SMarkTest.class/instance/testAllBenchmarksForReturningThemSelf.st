@@ -7,9 +7,12 @@ testAllBenchmarksForReturningThemSelf
 	
 	allSuites do: [:suite |
 		suite isAbstractClass ifFalse: [
-			| result |
-			result := suite run.
-			self assert: (result isKindOf: suite defaultRunner).
-			self assert: result iterations equals: 1.
+			| runner results |
+			Transcript show: (suite class name asString); cr.
+			runner := suite run.
+			results := runner results.
+			self assert: (runner isKindOf: suite defaultRunner).
+			self assert: 1 equals: runner iterations.
+			self assert: (results size > 0).
 		].
 	].

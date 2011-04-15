@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"benchCompiler" : "StefanMarr 3/21/2011 15:30"
+	},
+	"class" : {
+		"defaultNumberOfIterations" : "StefanMarr 1/14/2011 17:32",
+		"defaultNumberOfProcesses" : "StefanMarr 1/14/2011 17:32"
+	}
+}

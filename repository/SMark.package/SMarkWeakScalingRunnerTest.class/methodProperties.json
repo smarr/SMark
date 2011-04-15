@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"testWeakScalingFewProcesses" : "StefanMarr 3/24/2011 12:57",
+		"testWeakScalingManyProcesses" : "StefanMarr 3/24/2011 12:43",
+		"runnerClass" : "StefanMarr 3/24/2011 12:35"
+	},
+	"class" : {
+		"shouldInheritSelectors" : "StefanMarr 3/24/2011 12:32"
+	}
+}

@@ -1,3 +1,3 @@
 accessing
 iterations: anInteger
-	iterations := anInteger
+	numIterations := anInteger

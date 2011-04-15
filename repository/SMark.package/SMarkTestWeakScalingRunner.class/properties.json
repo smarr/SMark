@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkWeakScalingRunner",
+	"category" : "SMark-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkTestWeakScalingRunner",
+	"type" : "normal"
+}
