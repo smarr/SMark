@@ -6,8 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"setUpCount",
-		"tearDownCount",
 		"didSetUpBenchB",
 		"didTearDownBenchC"
 	],

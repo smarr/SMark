@@ -1,11 +1,7 @@
 as yet unclassified
 testCustomTearDown
-	| suite |
+	| suite runner |
 	suite := SMarkTestSuite new.
-	suite runner: self.
+	runner := SMarkTestRunner execute: suite.  
 	
-	didTearDownBenchC := false.
-				
-	suite run.
-	
-	self assert: didTearDownBenchC
+	self assert: runner hasTearDownBenchC.

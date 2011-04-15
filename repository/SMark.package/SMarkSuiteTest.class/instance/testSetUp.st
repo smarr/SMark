@@ -1,14 +1,13 @@
 as yet unclassified
 testSetUp
-	| suite |
+	| suite runner |
 	suite := SMarkTestSuite new.
-	suite runner: self.
 	
 	self assert: suite a			equals: 1.
 	self assert: suite b			equals: 2.
 	self assert: suite c			equals: #three.
-				
-	suite run.
+	
+	runner := SMarkTestRunner execute: suite.
 	
 	"Make sure they are reset after each run,
 	 well we test just whether they are reset after the final run"
@@ -17,6 +16,6 @@ testSetUp
 	self assert: suite c			equals: nil.
 	self assert: suite d			equals: nil.
 
-	"Make sure setUp was called 3 times."
+	"Make sure setUp was called 4 times."
 	
-	self assert: setUpCount	equals: 4.
+	self assert: 4 equals: runner setUpCount.

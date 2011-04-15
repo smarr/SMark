@@ -1,11 +1,8 @@
 as yet unclassified
 testCustomSetUp
-	| suite |
+	| suite runner |
+	
 	suite := SMarkTestSuite new.
-	suite runner: self.
+	runner := SMarkTestRunner execute: suite.  
 	
-	didSetUpBenchB := false.
-				
-	suite run.
-	
-	self assert: didSetUpBenchB
+	self assert: runner hasSetUpBenchB

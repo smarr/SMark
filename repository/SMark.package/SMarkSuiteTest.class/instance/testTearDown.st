@@ -1,11 +1,7 @@
 as yet unclassified
 testTearDown
-	| suite |
+	| suite runner |
 	suite := SMarkTestSuite new.
-	suite runner: self.
+	runner := SMarkTestRunner execute: suite.  
 	
-	self assert: tearDownCount		equals: 0.
-	
-	suite run.
-	
-	self assert: tearDownCount		equals: 4.
+	self assert: 4 equals: runner tearDownCount.

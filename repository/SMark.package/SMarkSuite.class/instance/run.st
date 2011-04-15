@@ -5,7 +5,7 @@ run
 	self class allSelectors
 		do: [ :selector |
 			(self shouldRunSelector: selector)
-				ifTrue: [ 
-					self runBenchmark: selector ]
+				ifTrue: [
+					runner performBenchmark: selector ]
 		].
 	

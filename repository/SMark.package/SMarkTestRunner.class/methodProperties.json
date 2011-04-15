@@ -1,5 +1,6 @@
 {
 	"instance" : {
+		"setUp" : "StefanMarr 3/15/2011 22:15",
 		"didRunBaseBenchmark" : "StefanMarr 3/18/2011 17:56",
 		"baseBenchmarkExecuted" : "StefanMarr 3/18/2011 18:35",
 		"countTearDownInvoke" : "StefanMarr 3/18/2011 17:39",
@@ -7,12 +8,15 @@
 		"isNotifyRunnerWasExecutedSet" : "StefanMarr 3/15/2011 22:16",
 		"didSetUpBenchB" : "StefanMarr 3/18/2011 17:43",
 		"notifyRunnerWasExecuted" : "StefanMarr 3/18/2011 19:44",
+		"tearDownCount" : "StefanMarr 4/15/2011 12:39",
 		"countWasExecuted" : "StefanMarr 3/18/2011 19:44",
 		"didTearDownBenchC" : "StefanMarr 3/18/2011 17:42",
 		"initialize" : "StefanMarr 3/18/2011 19:49",
+		"setUpCount" : "StefanMarr 4/15/2011 12:27",
+		"hasTearDownBenchC" : "StefanMarr 4/15/2011 12:21",
+		"hasSetUpBenchB" : "StefanMarr 4/15/2011 12:14",
 		"didPerform:" : "StefanMarr 3/18/2011 19:00",
-		"performedBenchmarks" : "StefanMarr 3/18/2011 19:00",
-		"setUp" : "StefanMarr 3/15/2011 22:15"
+		"performedBenchmarks" : "StefanMarr 3/18/2011 19:00"
 	},
 	"class" : { }
 }
