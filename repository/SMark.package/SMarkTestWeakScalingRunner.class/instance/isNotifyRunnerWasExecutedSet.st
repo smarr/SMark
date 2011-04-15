@@ -1,3 +1,3 @@
 as yet unclassified
 isNotifyRunnerWasExecutedSet
-	^ notifyRunnerWasExecuted
+	^ notifyRunnerWasExecuted > 0

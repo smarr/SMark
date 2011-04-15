@@ -11,5 +11,4 @@ testWeakScaling3Processes
 	results := runner execute.
 	
 	self assert: 6 equals: runner countWasExecuted.
-	
-	results error: 'Should test for a bit more, for instance correct result layout, should be just one result per iteration, indepent of processes'.
+	self assert: 2 equals: (results at: #NotifyRunner) size.

@@ -1,9 +1,9 @@
 {
 	"instance" : {
 		"testWeakScalingFewProcesses" : "StefanMarr 3/24/2011 12:57",
-		"testWeakScalingManyProcesses" : "StefanMarr 4/15/2011 10:49",
+		"testWeakScalingManyProcesses" : "StefanMarr 4/15/2011 15:49",
 		"runnerClass" : "StefanMarr 3/24/2011 12:35",
-		"testWeakScaling3Processes" : "StefanMarr 4/15/2011 10:48"
+		"testWeakScaling3Processes" : "StefanMarr 4/15/2011 15:48"
 	},
 	"class" : {
 		"shouldInheritSelectors" : "StefanMarr 3/24/2011 12:32"

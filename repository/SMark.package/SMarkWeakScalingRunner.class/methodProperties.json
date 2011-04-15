@@ -1,11 +1,17 @@
 {
 	"instance" : {
-		"processes" : "StefanMarr 4/15/2011 10:54",
 		"processes:" : "StefanMarr 4/15/2011 10:53",
+		"initialize" : "StefanMarr 4/15/2011 15:43",
+		"executeDirectly:withTimer:" : "StefanMarr 4/15/2011 13:55",
+		"execute:withProcesses:withTimer:" : "StefanMarr 4/15/2011 15:41",
+		"innerIterations" : "StefanMarr 4/15/2011 15:43",
+		"processes" : "StefanMarr 4/15/2011 10:54",
 		"startBenchmarkAndWaitForCompletion:" : "StefanMarr 3/21/2011 12:22",
-		"timedBenchmarkExecution:" : "StefanMarr 3/21/2011 12:06"
+		"timedBenchmarkExecution:" : "StefanMarr 4/15/2011 13:50",
+		"innerIterations:" : "StefanMarr 4/15/2011 15:43"
 	},
 	"class" : {
-		"defaultNumberOfProcesses" : "StefanMarr 3/21/2011 11:44"
+		"defaultNumberOfProcesses" : "StefanMarr 3/21/2011 11:44",
+		"defaultNumberOfInnerIterations" : "StefanMarr 4/15/2011 15:42"
 	}
 }

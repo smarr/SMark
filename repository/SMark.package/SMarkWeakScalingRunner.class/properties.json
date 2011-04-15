@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"numProcesses"
+		"numProcesses",
+		"numInnerIterations"
 	],
 	"name" : "SMarkWeakScalingRunner",
 	"type" : "normal"
