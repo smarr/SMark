@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "NPBISBase",
+	"category" : "NPB-IS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Iteration"
+	],
+	"instvars" : [
+		"id",
+		"localHist",
+		"start",
+		"end",
+		"rStart",
+		"rEnd",
+		"state"
+	],
+	"name" : "RankThread",
+	"type" : "normal"
+}

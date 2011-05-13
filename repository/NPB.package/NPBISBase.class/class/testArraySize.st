@@ -1,0 +1,3 @@
+constants
+testArraySize
+	^ 5

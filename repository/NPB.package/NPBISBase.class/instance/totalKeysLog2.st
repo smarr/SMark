@@ -1,0 +1,3 @@
+accessors
+totalKeysLog2
+	^totalKeysLog2

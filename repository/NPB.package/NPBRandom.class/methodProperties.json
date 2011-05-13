@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"license" : "StefanMarr 4/15/2011 17:04",
+		"findSeedFor:with:of:using:and:" : "StefanMarr 10/16/2009 00:21",
+		"initialize" : "StefanMarr 4/15/2011 17:22",
+		"seed:" : "StefanMarr 10/14/2009 22:36",
+		"seed" : "StefanMarr 10/15/2009 23:13",
+		"randlc:" : "StefanMarr 10/14/2009 21:18"
+	},
+	"class" : {
+		"i246m1" : "StefanMarr 9/23/2009 18:13",
+		"d2m46" : "StefanMarr 9/23/2009 18:13",
+		"seed" : "StefanMarr 10/14/2009 23:24"
+	}
+}

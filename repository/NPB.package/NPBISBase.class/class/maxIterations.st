@@ -1,0 +1,3 @@
+constants
+maxIterations
+	^ 10

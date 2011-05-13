@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkSuite",
+	"category" : "NPB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bench"
+	],
+	"name" : "NPBSuite",
+	"type" : "normal"
+}
