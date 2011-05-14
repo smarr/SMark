@@ -2,7 +2,7 @@ system startup entry
 startUp
 	"startUp is invoked during startup.
 	 ScriptStarter has to be registered in the SystemDirectory's StartUpList
-	 See ScriptStarter>>addToStartupList"
+	 See ScriptStarter>>install"
 	
 	| arguments scriptClassName |
 	arguments := self getSystemAttributes.

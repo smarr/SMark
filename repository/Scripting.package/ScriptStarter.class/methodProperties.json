@@ -1,10 +1,11 @@
 {
 	"instance" : { },
 	"class" : {
-		"executeRunFor:with:" : "StefanMarr 10/14/2009 17:38",
-		"addToStartupList" : "StefanMarr 6/15/2010 10:50",
-		"initialize" : "StefanMarr 6/15/2010 10:49",
+		"executeRunFor:with:" : "StefanMarr 5/14/2011 16:36",
+		"install" : "StefanMarr 5/14/2011 16:31",
+		"initialize" : "StefanMarr 5/14/2011 16:31",
 		"getSystemAttributes" : "",
-		"startUp" : "StefanMarr 10/14/2009 17:41"
+		"uninstall" : "StefanMarr 5/14/2011 16:32",
+		"startUp" : "StefanMarr 5/14/2011 16:33"
 	}
 }

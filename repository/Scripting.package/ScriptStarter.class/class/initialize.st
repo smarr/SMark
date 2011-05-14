@@ -1,3 +1,4 @@
 as yet unclassified
 initialize
-	self addToStartupList
+	"Automatically install ScriptStarter when the code is filed in"
+	self install
