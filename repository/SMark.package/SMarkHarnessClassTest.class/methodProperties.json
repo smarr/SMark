@@ -1,7 +1,15 @@
 {
 	"instance" : {
+		"testParseArgumentsOnlySuite" : "StefanMarr 5/15/2011 00:25",
+		"testShouldShowUsage" : "StefanMarr 5/14/2011 20:21",
+		"testParseArgumentsRunnerReporterSuiteIterations" : "StefanMarr 5/15/2011 00:32",
 		"testParseBenchmarkOrSuite" : "StefanMarr 5/14/2011 20:10",
-		"testShouldShowUsage" : "StefanMarr 5/14/2011 20:21"
+		"testParseArgumentsSuiteAndIterations" : "StefanMarr 5/15/2011 00:27",
+		"testParseArgumentsReporterSuiteIterations" : "StefanMarr 5/15/2011 00:32",
+		"testParseArgumentsSuiteIterationsProcesses" : "StefanMarr 5/15/2011 00:28",
+		"testParseArgumentsRunnerSuiteIterations" : "StefanMarr 5/15/2011 00:30",
+		"testParseArgumentsOnlyBench" : "StefanMarr 5/15/2011 00:24",
+		"testParseArgumentsSuiteIterationsProcessesProblemSize" : "StefanMarr 5/15/2011 00:28"
 	},
 	"class" : { }
 }

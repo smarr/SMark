@@ -1,3 +1,3 @@
 benchmarking
 runOnly: aSymbol
-	selectedBenchmarks := IdentitySet new: { aSymbol }.
+	selectedBenchmarks := IdentitySet newFrom: { aSymbol }.
