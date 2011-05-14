@@ -7,7 +7,4 @@ version01: spec
 		spec description: ''.
 		spec author: 'StefanMarr'.
 		spec timestamp: '5/14/2011 12:19'.
-		spec package: 'SMark'. 
-		spec package: 'Scripting'.
-		spec package: 'NPB'.
 	].

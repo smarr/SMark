@@ -6,4 +6,6 @@ baseline01: spec
 		spec blessing: #'baseline'.
 		spec repository: 'http://www.squeaksource.com/SMark'.
 		spec package: 'SMark'.
-		spec group: 'default' with: #('SMark' ). ].
+		spec package: 'Scripting'.
+		spec package: 'NPB'.
+	].
