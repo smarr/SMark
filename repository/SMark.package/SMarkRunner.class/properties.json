@@ -12,7 +12,8 @@
 		"results",
 		"currentBenchmark",
 		"timers",
-		"problemSize"
+		"problemSize",
+		"numProcesses"
 	],
 	"name" : "SMarkRunner",
 	"type" : "normal"

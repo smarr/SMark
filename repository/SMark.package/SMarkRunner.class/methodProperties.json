@@ -1,26 +1,29 @@
 {
 	"instance" : {
-		"recordResults:for:" : "StefanMarr 3/20/2011 21:01",
 		"iterations" : "StefanMarr 3/21/2011 12:20",
+		"processes" : "StefanMarr 5/14/2011 11:08",
+		"recordResults:for:" : "StefanMarr 3/20/2011 21:01",
 		"results" : "StefanMarr 3/18/2011 19:41",
 		"runBaseBenchmark" : "StefanMarr 3/18/2011 18:42",
 		"suite:" : "StefanMarr 4/15/2011 16:14",
 		"createTimer:" : "StefanMarr 3/20/2011 10:28",
 		"execute" : "StefanMarr 3/13/2011 23:05",
 		"problemSize" : "StefanMarr 4/15/2011 16:08",
-		"initialize" : "StefanMarr 4/15/2011 15:30",
+		"initialize" : "StefanMarr 5/14/2011 11:10",
 		"suite" : "StefanMarr 3/20/2011 18:45",
 		"timedBenchmarkExecution:" : "StefanMarr 3/19/2011 22:08",
 		"performBenchmark:" : "StefanMarr 4/15/2011 11:50",
 		"iterations:" : "StefanMarr 3/21/2011 12:20",
 		"problemSize:" : "StefanMarr 4/15/2011 16:09",
 		"report" : "StefanMarr 4/15/2011 16:46",
-		"reportOn:" : "StefanMarr 4/15/2011 16:47"
+		"reportOn:" : "StefanMarr 4/15/2011 16:47",
+		"processes:" : "StefanMarr 5/14/2011 11:08"
 	},
 	"class" : {
-		"defaultTimer" : "StefanMarr 3/20/2011 20:56",
 		"defaultNumberOfIterations" : "StefanMarr 3/21/2011 11:43",
+		"defaultTimer" : "StefanMarr 3/20/2011 20:56",
 		"execute:with:" : "StefanMarr 3/20/2011 19:51",
-		"execute:" : "StefanMarr 3/20/2011 19:51"
+		"execute:" : "StefanMarr 3/20/2011 19:51",
+		"defaultNumberOfProcesses" : "StefanMarr 5/14/2011 11:09"
 	}
 }
