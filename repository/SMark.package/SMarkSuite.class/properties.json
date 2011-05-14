@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"runner"
+		"runner",
+		"selectedBenchmarks"
 	],
 	"name" : "SMarkSuite",
 	"type" : "normal"

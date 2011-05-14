@@ -1,4 +1,12 @@
 {
 	"instance" : { },
-	"class" : { }
+	"class" : {
+		"usage" : "StefanMarr 5/14/2011 21:05",
+		"run:" : "StefanMarr 5/14/2011 20:16",
+		"version" : "StefanMarr 5/14/2011 20:42",
+		"instructRunner:with:" : "StefanMarr 5/14/2011 19:13",
+		"shouldShowUsage:" : "StefanMarr 5/14/2011 20:19",
+		"parseBenchmarkOrSuite:" : "StefanMarr 5/14/2011 20:11",
+		"execute:using:andReport:" : "StefanMarr 5/14/2011 18:46"
+	}
 }
