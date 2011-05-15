@@ -1,5 +1,3 @@
 as yet unclassified
 testNBody
-	self shouldnt: [
-		BGNBody run: #(ignored '1' '1000') with: RoarBenchmarkHarness new]
-		 raise: Error.
+	self assert: (((BGNBody nbody: 1000) asString) beginsWith: '-0.169087605')

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ProtoObject",
+	"super" : "TestCase",
 	"category" : "CL-Benchmarks-Game-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

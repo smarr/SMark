@@ -1,5 +1,8 @@
 as yet unclassified
 testFasta
-	self shouldnt: [
-		BGFasta run: #(ignored '1' '1000') with: RoarBenchmarkHarness new]
-		 raise: Error.
+	| result |
+	self flag: 'TODO: add proper verification'.
+	self shouldnt: [result := BGFasta fasta] raise: Error.
+	self assert: (result size > 0).
+	self assert: (result isKindOf: String).
+	

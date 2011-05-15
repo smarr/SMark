@@ -1,6 +1,15 @@
 as yet unclassified
 testBinaryTreesResult
-	| bench |
+	| bench output |
 	bench := BGBinaryTrees new.
-	bench problemSize: 9.
-	self assert: bench runBench equals: -1.
+				
+	output := (TextStream with: String new).
+	self assert: -1 equals: (bench binarytrees: 9 to: output).
+	
+	output := (TextStream with: String new).
+	self assert: -1 equals: (bench binarytrees: 8 to: output).
+	
+	output := (TextStream with: String new).
+	self assert: -1 equals: (bench binarytrees: 7 to: output).
+	
+	
