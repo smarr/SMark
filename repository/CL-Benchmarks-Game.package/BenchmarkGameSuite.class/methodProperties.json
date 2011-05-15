@@ -1,11 +1,11 @@
 {
 	"instance" : {
-		"benchChameleons" : "StefanMarr 5/15/2011 13:10",
+		"benchChameleons" : "StefanMarr 5/15/2011 22:41",
 		"license" : "StefanMarr 5/15/2011 12:31",
 		"benchNBody" : "StefanMarr 5/15/2011 13:12",
 		"benchFasta" : "StefanMarr 5/15/2011 13:11",
-		"benchFannkuchRedux" : "StefanMarr 5/15/2011 13:10",
-		"benchChameneosRedux" : "StefanMarr 5/15/2011 13:16",
+		"benchFannkuchRedux" : "StefanMarr 5/15/2011 22:42",
+		"benchChameneosRedux" : "StefanMarr 5/15/2011 22:42",
 		"benchBinaryTrees" : "StefanMarr 5/15/2011 13:01"
 	},
 	"class" : { }

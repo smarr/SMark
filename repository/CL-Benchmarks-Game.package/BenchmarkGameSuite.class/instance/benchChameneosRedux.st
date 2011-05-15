@@ -8,4 +8,5 @@ benchChameneosRedux
 	"Result should be 2*problemSize"
 	self flag: 'TODO: adapt once verification is supported'.
 	result = (2 * self problemSize asInteger) ifFalse: [
-		RVMOperations print: self class name, ' benchmark failed. Input: ', runner processes asString, ' Output: ', result asString  ].
+		ScriptConsole print: self class name, ' benchmark failed. Input: ',
+								 runner processes asString, ' Output: ', result asString  ].
