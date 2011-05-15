@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarks
 pfannkuchen: anArray
    | first complement a b k |
    k := 0.

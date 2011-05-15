@@ -1,4 +1,4 @@
-as yet unclassified
+license
 license
 	^
 'Revised BSD license

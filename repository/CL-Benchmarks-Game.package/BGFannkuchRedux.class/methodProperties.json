@@ -1,7 +1,5 @@
 {
-	"instance" : {
-		"runBench" : "StefanMarr 5/15/2011 12:15"
-	},
+	"instance" : { },
 	"class" : {
 		"fannkuchredux" : "StefanMarr 11/7/2010 12:33",
 		"fannkuchRedux:to:" : "StefanMarr 5/15/2011 12:19"

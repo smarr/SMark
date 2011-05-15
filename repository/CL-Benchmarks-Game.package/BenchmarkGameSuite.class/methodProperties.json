@@ -1,6 +1,12 @@
 {
 	"instance" : {
-		"license" : "StefanMarr 5/15/2011 12:31"
+		"benchChameleons" : "StefanMarr 5/15/2011 13:10",
+		"license" : "StefanMarr 5/15/2011 12:31",
+		"benchNBody" : "StefanMarr 5/15/2011 13:12",
+		"benchFasta" : "StefanMarr 5/15/2011 13:11",
+		"benchFannkuchRedux" : "StefanMarr 5/15/2011 13:10",
+		"benchChameneosRedux" : "StefanMarr 5/15/2011 13:16",
+		"benchBinaryTrees" : "StefanMarr 5/15/2011 13:01"
 	},
 	"class" : { }
 }
