@@ -10,3 +10,12 @@ baseline01: spec
 		spec package: 'NPB'.
 		spec package: 'CL-Benchmarks-Game'.
 	].
+
+	spec for: #pharo do: [
+		spec project: 'OSProcess'
+			with:
+				[ spec
+					className: 'ConfigurationOfOSProcess';
+					file: 'ConfigurationOfOSProcess';
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ]
+		]
