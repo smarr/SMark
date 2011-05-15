@@ -5,6 +5,9 @@ startUp
 	 See ScriptStarter>>install"
 	
 	| arguments scriptClassName |
+	"First make sure that stdout output can be used if available."
+	ScriptConsole detectAvailableMechanismForStdout.
+	
 	arguments := self getSystemAttributes.
 	arguments size > 0
 		ifTrue: [scriptClassName := arguments at: 1.
