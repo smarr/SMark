@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 problemSize
 	| ps |
 	ps := super problemSize.

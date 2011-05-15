@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 benchCompiler
 	"was Benchmark>>testCompiler"
 	SMarkCompilerTargetClass new compile:

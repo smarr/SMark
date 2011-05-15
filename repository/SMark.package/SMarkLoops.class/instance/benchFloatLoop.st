@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 benchFloatLoop
 	| a |
 	a := 1.23.

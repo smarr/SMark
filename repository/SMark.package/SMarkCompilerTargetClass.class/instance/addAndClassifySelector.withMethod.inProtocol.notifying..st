@@ -1,4 +1,4 @@
-as yet unclassified
+accessing method dictionary
 addAndClassifySelector: selector withMethod: compiledMethod inProtocol: aCategory notifying: requestor
 	| priorMethodOrNil oldProtocol newProtocol |
 	priorMethodOrNil := self compiledMethodAt: selector ifAbsent: [nil].

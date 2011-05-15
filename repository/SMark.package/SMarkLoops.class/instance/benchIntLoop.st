@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 benchIntLoop
 	| i |
 	i := 50000.
