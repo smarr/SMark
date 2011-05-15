@@ -1,5 +1,7 @@
 benchmarking
 benchBinaryTrees
-	| bench |
+	| bench problemSize |
 	bench := BGBinaryTrees new.
-	^ bench binarytrees: self problemSize asInteger to: (TextStream with: String new).
+	problemSize := self problemSize ifNotNilDo: [:ps | ps asInteger ]
+										  ifNil: [ BGBinaryTrees defaultProblemSize ].
+	^ bench binarytrees: problemSize to: (TextStream with: String new).

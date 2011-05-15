@@ -1,6 +1,7 @@
 {
 	"instance" : { },
 	"class" : {
+		"defaultProblemSize" : "StefanMarr 5/15/2011 23:36",
 		"nbody:" : "StefanMarr 5/15/2011 22:43"
 	}
 }

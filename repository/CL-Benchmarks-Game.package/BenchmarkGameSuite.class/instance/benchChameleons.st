@@ -1,12 +1,14 @@
 benchmarking
 benchChameleons
-	| result |
-	result := BGChameleons chameneos: self problemSize.
+	| result problemSize |
+	problemSize := self problemSize ifNotNilDo: [:ps | ps asInteger ]
+										  ifNil: [ BGChameleons defaultProblemSize ].
+	result := BGChameleons chameneos: problemSize.
 	
 	"Result should be 2*numberOfProcesses (as far as I understand the benchmark)"
 	self flag: 'TODO adapt once verification is supported'.
-	result = (2 * self problemSize)
+	result = (2 * problemSize)
 	ifFalse: [
 		ScriptConsole print: BGChameleons name, ' benchmark failed. Input: ', 
-								 self problemSize asString, ' Output: ', result asString
+								 problemSize asString, ' Output: ', result asString
 	].
