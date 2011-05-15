@@ -1,7 +1,7 @@
 {
 	"instance" : { },
 	"class" : {
-		"detectAvailableMechanismForStdout" : "StefanMarr 5/15/2011 22:23",
+		"detectAvailableMechanismForStdout" : "StefanMarr 5/16/2011 00:12",
 		"initialize" : "StefanMarr 5/15/2011 22:20",
 		"print:" : "StefanMarr 5/15/2011 23:00",
 		"outputToTranscript:" : "StefanMarr 5/15/2011 21:52",

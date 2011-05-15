@@ -11,14 +11,14 @@ detectAvailableMechanismForStdout
 	"Squeak 4.2 provides a stream at FileStream>>stdout"
 	(FileStream respondsTo: #stdout)
 		ifTrue: [
-			PrintAStringBlock := [:aString | FileStream stdout nextPutAll: aString ].
+			PrintAStringBlock := [:aString | FileStream stdout nextPutAll: (aString, String crlf) ].
 			^ PrintAStringBlock.
 		].
 	
 	"Pharo and Squeak <4.2 do not have that..., so requires OSProcess"
 	(Smalltalk hasClassNamed: 'OSProcess')
 		ifTrue: [
-			PrintAStringBlock := [:aString | OSProcess thisOSProcess stdOut nextPutAll: aString ].
+			PrintAStringBlock := [:aString | OSProcess thisOSProcess stdOut nextPutAll: (aString, String crlf) ].
 			^ PrintAStringBlock.
 		].
 	
