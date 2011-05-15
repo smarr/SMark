@@ -2,10 +2,10 @@
 	"instance" : { },
 	"class" : {
 		"executeRunFor:with:" : "StefanMarr 5/14/2011 16:36",
-		"install" : "StefanMarr 5/14/2011 16:31",
+		"install" : "StefanMarr 5/15/2011 11:31",
 		"initialize" : "StefanMarr 5/14/2011 16:31",
 		"getSystemAttributes" : "",
-		"uninstall" : "StefanMarr 5/14/2011 16:32",
-		"startUp" : "StefanMarr 5/14/2011 16:33"
+		"uninstall" : "StefanMarr 5/15/2011 11:33",
+		"startUp" : "StefanMarr 5/15/2011 11:37"
 	}
 }

@@ -1,4 +1,4 @@
-system startup entry
+accessing
 startUp
 	"startUp is invoked during startup.
 	 ScriptStarter has to be registered in the SystemDirectory's StartUpList
