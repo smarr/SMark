@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game-ChameneosRedux",
+	"classinstvars" : [
+		"lastSum"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"Units"
+	],
+	"instvars" : [
+		"guard",
+		"maxRendezvous",
+		"open",
+		"process",
+		"queue",
+		"cache",
+		"pairCache"
+	],
+	"name" : "BGMall",
+	"type" : "normal"
+}

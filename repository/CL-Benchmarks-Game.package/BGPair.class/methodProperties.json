@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"me:" : "",
+		"wait" : "",
+		"initialize" : "",
+		"partner:" : "",
+		"signal" : "",
+		"me" : "",
+		"release" : "",
+		"partner" : ""
+	},
+	"class" : {
+		"new" : "",
+		"with:" : ""
+	}
+}

@@ -1,0 +1,2 @@
+This is an adaptation of a benchmark for testing GC. A whole tree is allocated before any nodes are GC'd.
+The binary-trees benchmark is a simplistic adaptation of Hans Boehm's GCBench, which in turn was adapted from a benchmark by John Ellis and Pete Kovac.

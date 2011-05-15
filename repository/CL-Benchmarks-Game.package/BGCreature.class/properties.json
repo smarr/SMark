@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game-ChameneosRedux",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"creatureName",
+		"colour",
+		"selfMet",
+		"creaturesMet"
+	],
+	"name" : "BGCreature",
+	"type" : "normal"
+}

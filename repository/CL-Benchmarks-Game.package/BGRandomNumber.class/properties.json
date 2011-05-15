@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"FModulus",
+		"Increment",
+		"Modulus",
+		"Multiplier"
+	],
+	"instvars" : [
+		"seed",
+		"scale"
+	],
+	"name" : "BGRandomNumber",
+	"type" : "normal"
+}

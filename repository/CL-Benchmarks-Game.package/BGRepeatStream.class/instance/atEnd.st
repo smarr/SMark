@@ -1,0 +1,3 @@
+testing
+atEnd
+   ^repeatPtr >= repeatLimit

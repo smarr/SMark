@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"initialize" : "",
+		"max:" : "",
+		"organizeMeetingWith:" : "",
+		"reachedBy:" : ""
+	},
+	"class" : {
+		"forMeetings:" : ""
+	}
+}

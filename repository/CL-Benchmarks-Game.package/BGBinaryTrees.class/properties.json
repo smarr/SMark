@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "StefanMarr 1/16/2011 17:29",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"left",
+		"right",
+		"item"
+	],
+	"name" : "BGBinaryTrees",
+	"type" : "normal"
+}

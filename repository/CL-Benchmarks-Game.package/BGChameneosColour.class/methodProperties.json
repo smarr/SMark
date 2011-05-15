@@ -1,0 +1,25 @@
+{
+	"instance" : {
+		"isRed" : "",
+		"printOn:" : "",
+		"complementaryColourFor:" : "",
+		"color:" : "",
+		"color" : "",
+		"isYellow" : "",
+		"isBlue" : "",
+		"hasSameColorAs:" : ""
+	},
+	"class" : {
+		"red" : "",
+		"generateReportOfColoursOn:" : "StefanMarr 1/16/2011 14:13",
+		"yellow:" : "",
+		"createYellow" : "",
+		"red:" : "",
+		"yellow" : "",
+		"initialize" : "",
+		"createRed" : "",
+		"blue:" : "",
+		"blue" : "",
+		"createBlue" : ""
+	}
+}

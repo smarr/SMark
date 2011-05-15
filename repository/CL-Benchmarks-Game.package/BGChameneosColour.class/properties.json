@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game-ChameneosRedux",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Blue",
+		"Red",
+		"Yellow"
+	],
+	"instvars" : [
+		"color"
+	],
+	"name" : "BGChameneosColour",
+	"type" : "normal"
+}

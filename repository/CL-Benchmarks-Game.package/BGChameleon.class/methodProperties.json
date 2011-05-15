@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"meetings" : "",
+		"run:" : "",
+		"initialize" : "",
+		"color:" : "",
+		"fork:" : "",
+		"color" : "",
+		"fade" : "",
+		"met:" : "",
+		"wait" : ""
+	},
+	"class" : {
+		"color:" : ""
+	}
+}

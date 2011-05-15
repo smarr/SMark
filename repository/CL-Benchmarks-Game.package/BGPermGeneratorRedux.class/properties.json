@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timesRotated",
+		"perm",
+		"atEnd"
+	],
+	"name" : "BGPermGeneratorRedux",
+	"type" : "normal"
+}

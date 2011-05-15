@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"to:" : "",
+		"next" : ""
+	},
+	"class" : {
+		"initialize" : "",
+		"to:" : ""
+	}
+}

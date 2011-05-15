@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"x" : "",
+		"increaseVelocity:y:z:m:" : "",
+		"z" : "",
+		"and:velocityAfter:" : "",
+		"offsetMomentum:" : "",
+		"decreaseVelocity:y:z:m:" : "",
+		"addMomentumTo:" : "",
+		"mass" : "",
+		"x:y:z:vx:vy:vz:mass:" : "",
+		"potentialEnergy:" : "",
+		"y" : "",
+		"kineticEnergy" : "",
+		"positionAfter:" : ""
+	},
+	"class" : {
+		"uranus" : "",
+		"jupiter" : "",
+		"sun" : "",
+		"solarMass" : "",
+		"pi" : "",
+		"saturn" : "",
+		"daysPerYear" : "",
+		"neptune" : ""
+	}
+}

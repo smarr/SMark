@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ProtoObject",
+	"category" : "CL-Benchmarks-Game-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BGTests",
+	"type" : "normal"
+}

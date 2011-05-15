@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BGRepeatStream",
+	"category" : "CL-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"random",
+		"percentages"
+	],
+	"name" : "BGRandomStream",
+	"type" : "normal"
+}

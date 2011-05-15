@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"creaturesMet" : "",
+		"selfMet:" : "",
+		"name" : "",
+		"selfMet" : "",
+		"colour:" : "",
+		"name:" : "",
+		"initialize" : "",
+		"visitMall:" : "",
+		"creaturesMet:" : "",
+		"colour" : ""
+	},
+	"class" : {
+		"withName:colour:" : "StefanMarr 5/15/2011 12:28"
+	}
+}
