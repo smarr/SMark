@@ -8,4 +8,5 @@ baseline01: spec
 		spec package: 'SMark'.
 		spec package: 'Scripting'.
 		spec package: 'NPB'.
+		spec package: 'CL-Benchmarks-Game'.
 	].
