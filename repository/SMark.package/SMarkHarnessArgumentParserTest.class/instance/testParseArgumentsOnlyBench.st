@@ -1,8 +1,8 @@
-tests
+as yet unclassified
 testParseArgumentsOnlyBench
 	| arguments runnerAndReporter runner reporter runOnly |
 	arguments := {#ignored. 'SMarkTestSuite.benchA' }.
-	runnerAndReporter := SMarkHarness parseArguments: arguments.
+	runnerAndReporter := parser parse: arguments.
 	
 	runner   := runnerAndReporter first.
 	reporter := runnerAndReporter second.

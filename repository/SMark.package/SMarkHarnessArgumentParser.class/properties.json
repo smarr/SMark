@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"runner",
+		"reporter",
+		"suiteOrBenchmark",
+		"iterations",
+		"processes",
+		"problemSize",
+		"i",
+		"current",
+		"numParams",
+		"currentObj",
+		"arguments",
+		"suite",
+		"specificBenchmark",
+		"suiteClass",
+		"harness"
+	],
+	"name" : "SMarkHarnessArgumentParser",
+	"type" : "normal"
+}

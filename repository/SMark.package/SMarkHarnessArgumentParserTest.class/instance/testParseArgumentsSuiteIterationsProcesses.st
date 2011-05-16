@@ -1,8 +1,8 @@
-tests
-testParseArgumentsSuiteIterationsProcessesProblemSize
+as yet unclassified
+testParseArgumentsSuiteIterationsProcesses
 	| arguments runnerAndReporter runner reporter |
-	arguments := {#ignored. 'SMarkTestSuite'. '13'. '91'. 'SSS' }.
-	runnerAndReporter := SMarkHarness parseArguments: arguments.
+	arguments := {#ignored. 'SMarkTestSuite'. '13'. '91' }.
+	runnerAndReporter := parser parse: arguments.
 	
 	runner   := runnerAndReporter first.
 	reporter := runnerAndReporter second.
@@ -15,4 +15,3 @@ testParseArgumentsSuiteIterationsProcessesProblemSize
 	
 	self assert: 13 equals: runner iterations.
 	self assert: 91 equals: runner processes.
-	self assert: 'SSS' equals: runner problemSize.

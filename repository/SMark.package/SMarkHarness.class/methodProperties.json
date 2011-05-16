@@ -1,19 +1,17 @@
 {
 	"instance" : { },
 	"class" : {
-		"parseArguments:" : "StefanMarr 5/15/2011 00:51",
+		"parseArguments:" : "StefanMarr 5/16/2011 10:38",
 		"defaultRunner" : "StefanMarr 5/15/2011 00:39",
-		"instructRunner:with:" : "StefanMarr 5/14/2011 19:13",
 		"usage" : "StefanMarr 5/16/2011 09:37",
 		"usageBenchmarkParameters:" : "StefanMarr 5/16/2011 09:39",
 		"usageReporter:" : "StefanMarr 5/16/2011 09:24",
 		"defaultReporter" : "StefanMarr 5/15/2011 00:40",
 		"usageRunner:" : "StefanMarr 5/16/2011 09:23",
 		"version" : "StefanMarr 5/14/2011 20:42",
-		"shouldShowUsage:" : "StefanMarr 5/14/2011 20:19",
-		"execute:using:andReport:" : "StefanMarr 5/15/2011 00:55",
-		"parseBenchmarkOrSuite:" : "StefanMarr 5/14/2011 20:11",
 		"usageHeader" : "StefanMarr 5/16/2011 09:29",
+		"execute:using:andReport:" : "StefanMarr 5/15/2011 00:55",
+		"shouldShowUsage:" : "StefanMarr 5/14/2011 20:19",
 		"execute:andReport:" : "StefanMarr 5/14/2011 23:24",
 		"run:" : "StefanMarr 5/14/2011 23:43"
 	}

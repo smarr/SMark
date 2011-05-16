@@ -1,8 +1,8 @@
-tests
+as yet unclassified
 testParseArgumentsRunnerReporterSuiteIterations
 	| arguments runnerAndReporter runner reporter |
 	arguments := {#ignored. 'SMarkTestRunner'. 'SMarkSimpleStatisticsReporter'. 'SMarkTestSuite'. '13'. }.
-	runnerAndReporter := SMarkHarness parseArguments: arguments.
+	runnerAndReporter := parser parse: arguments.
 	
 	runner   := runnerAndReporter first.
 	reporter := runnerAndReporter second.
