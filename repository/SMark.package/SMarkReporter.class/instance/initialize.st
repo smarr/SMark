@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 initialize
 	stream := self class defaultOutputDestination.

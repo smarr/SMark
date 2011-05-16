@@ -1,4 +1,4 @@
-as yet unclassified
+argument parsing
 determineReporter
 	(currentObj isKindOf: SMarkReporter)
 		ifFalse: [ reporter := harness defaultReporter new. ]

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 parse: argumentsArray
 	arguments := argumentsArray.
 	numParams := arguments size.

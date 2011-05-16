@@ -1,4 +1,4 @@
-as yet unclassified
+argument parsing
 determineBenchmarkParameters
 	"Initialize with defaults, will be overwritten in case
 	 it is specified."

@@ -1,4 +1,4 @@
-as yet unclassified
+argument parsing
 determineBenchmarkParametersFromArguments
 	i := i + 1.
 	i <= numParams ifTrue: [

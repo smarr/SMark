@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 report
 	SMarkReporter defaultReporter reportFor: self.  
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+argument parsing
 parseBenchmarkOrSuite: aBenchmarkOrSuite
 	"Identify the benchmark suite or suite and benchmark method
 	 that should be executed. The string should be of the format 'Class>>benchName' or 'Class.benchName' for shell/bash compatibility.
