@@ -1,3 +1,3 @@
 defaults
 defaultReporter
-	^ self
+	^ SMarkSimpleStatisticsReporter

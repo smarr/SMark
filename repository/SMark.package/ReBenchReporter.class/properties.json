@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkSimpleStatisticsReporter",
+	"category" : "SMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ReBenchReporter",
+	"type" : "normal"
+}
