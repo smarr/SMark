@@ -1,4 +1,7 @@
-as yet unclassified
+initialization
 initialize
-	"Automatically install ScriptStarter when the code is filed in"
-	self install
+	"Automatically install ScriptStarter when the code is filed in."
+	self install.
+	
+	QuitVM := true.
+	SafeBeforeQuit := false.

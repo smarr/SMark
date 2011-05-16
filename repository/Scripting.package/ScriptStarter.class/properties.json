@@ -4,7 +4,10 @@
 	"category" : "Scripting",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"QuitVM",
+		"SafeBeforeQuit"
+	],
 	"instvars" : [ ],
 	"name" : "ScriptStarter",
 	"type" : "normal"
