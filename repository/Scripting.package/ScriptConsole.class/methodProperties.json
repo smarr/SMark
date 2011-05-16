@@ -1,10 +1,14 @@
 {
 	"instance" : { },
 	"class" : {
-		"detectAvailableMechanismForStdout" : "StefanMarr 5/16/2011 00:12",
-		"initialize" : "StefanMarr 5/15/2011 22:20",
-		"print:" : "StefanMarr 5/15/2011 23:00",
 		"outputToTranscript:" : "StefanMarr 5/15/2011 21:52",
+		"detectAvailableMechanismForStdout" : "StefanMarr 5/16/2011 14:38",
+		"cr" : "StefanMarr 5/16/2011 14:42",
+		"initialize" : "StefanMarr 5/15/2011 22:20",
+		"println:" : "StefanMarr 5/16/2011 14:40",
+		"print:" : "StefanMarr 5/16/2011 14:40",
+		"print:withLineEnding:" : "StefanMarr 5/16/2011 14:41",
+		"<<" : "StefanMarr 5/16/2011 14:35",
 		"outputToTranscript" : "StefanMarr 5/15/2011 21:52"
 	}
 }

@@ -4,21 +4,21 @@ detectAvailableMechanismForStdout
 	((Smalltalk hasClassNamed: 'RVMOperations')
 		and: [(Smalltalk at: #RVMOperations) perform: #isRVM])
 		ifTrue: [ 
-			PrintAStringBlock := [:aString | RVMOperations print: aString ].
+			PrintAStringBlock := [:aString :lineEnd | RVMOperations print: aString ].
 			^ PrintAStringBlock
 		].
 	
 	"Squeak 4.2 provides a stream at FileStream>>stdout"
 	(FileStream respondsTo: #stdout)
 		ifTrue: [
-			PrintAStringBlock := [:aString | FileStream stdout nextPutAll: (aString, String crlf) ].
+			PrintAStringBlock := [:aString :lineEnd | FileStream stdout nextPutAll: (aString, lineEnd) ].
 			^ PrintAStringBlock.
 		].
 	
 	"Pharo and Squeak <4.2 do not have that..., so requires OSProcess"
 	(Smalltalk hasClassNamed: 'OSProcess')
 		ifTrue: [
-			PrintAStringBlock := [:aString | OSProcess thisOSProcess stdOut nextPutAll: (aString, String crlf) ].
+			PrintAStringBlock := [:aString :lineEnd | OSProcess thisOSProcess stdOut nextPutAll: (aString, lineEnd) ].
 			^ PrintAStringBlock.
 		].
 	
