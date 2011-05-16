@@ -13,7 +13,7 @@ partialVerify: iteration
 			
 			((masterHist at: k) ~= ((testRankArray at: i) + offset))
 				ifTrue: [
-					RVMOperations print: 'Failed partial verification: iteration ', iteration asString, ', test key ', i asString ]
+					ScriptConsole println: 'Failed partial verification: iteration ', iteration asString, ', test key ', i asString ]
 				ifFalse: [
 					NPBISBase passedVerification: (NPBISBase passedVerification + 1). ]
 			]

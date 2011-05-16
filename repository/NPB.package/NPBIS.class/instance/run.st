@@ -2,7 +2,7 @@ as yet unclassified
 run
 	| mainTimer tPhase1 tPhase2 tKeyInit tVerify executionVerified |
 
-	ScriptConsole print: ' Size: ', totalKeys asString, ' Iterations: ', NPBISBase maxIterations asString.
+	ScriptConsole println: ' Size: ', totalKeys asString, ' Iterations: ', NPBISBase maxIterations asString.
 	
 	mainTimer := runner createTimer: 'precise-total'.
 	tPhase1 := runner createTimer: 'phase1'.
@@ -64,8 +64,8 @@ run
 	
 	executionVerified := ((NPBISBase passedVerification) == ((5 * NPBIS maxIterations) + 1)).
 	executionVerified
-		ifTrue:  [ ScriptConsole print: 'Benchmark done and verified']
-		ifFalse: [ ScriptConsole print: 'Benchmark done and verification failed'].
+		ifTrue:  [ ScriptConsole println: 'Benchmark done and verified']
+		ifFalse: [ ScriptConsole println: 'Benchmark done and verification failed'].
 		
 	serial ifFalse: [ self do: #quit. ].
 	^ executionVerified
