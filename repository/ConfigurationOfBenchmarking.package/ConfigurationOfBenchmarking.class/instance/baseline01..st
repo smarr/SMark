@@ -5,10 +5,7 @@ baseline01: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec repository: 'http://www.squeaksource.com/SMark'.
-		spec package: 'SMark'.
-		spec package: 'Scripting'.
-		spec package: 'NPB'.
-		spec package: 'CL-Benchmarks-Game'.
+		self class subPackages do: [:pkg | spec package:  pkg ].
 	].
 
 	spec for: #pharo do: [
