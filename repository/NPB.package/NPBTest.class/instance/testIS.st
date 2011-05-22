@@ -1,8 +1,6 @@
 tests
 testIS
 	| verified runner suite |
-	<timeout: 300>
-	
 	runner := SMarkRunner new.
 	suite  := NPBSuite new.
 	suite runner: runner.

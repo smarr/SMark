@@ -1,8 +1,6 @@
 tests
 testKeyArrayContent
 	| o keyArray |
-	<timeout: 300>
-	
 	o := NPBIS newOfSizeClass: #S with: 0 serial: true.
 	o initKeys: NPBIS amult.
 	
