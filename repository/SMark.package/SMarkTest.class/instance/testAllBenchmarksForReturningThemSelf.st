@@ -2,8 +2,6 @@ tests
 testAllBenchmarksForReturningThemSelf
 	"This is a regression test to ensure that the old behavior worked in the first place"
 	| allSuites |
-	<timeout: 300>
-	
 	allSuites := SMarkSuite subclasses.
 	
 	allSuites do: [:suite |
