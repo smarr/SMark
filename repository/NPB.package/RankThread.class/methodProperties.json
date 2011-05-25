@@ -1,26 +1,26 @@
 {
 	"instance" : {
-		"rEnd:" : "StefanMarr 9/23/2009 19:33",
-		"step1" : "StefanMarr 4/15/2011 17:20",
-		"state:" : "StefanMarr 9/23/2009 19:34",
-		"start" : "StefanMarr 9/26/2009 04:46",
-		"rStart:" : "StefanMarr 9/23/2009 19:33",
-		"rEnd" : "StefanMarr 9/21/2009 16:38",
-		"initializeValues:" : "StefanMarr 10/14/2009 23:04",
-		"initKeys" : "StefanMarr 4/15/2011 17:22",
-		"id:" : "StefanMarr 9/23/2009 19:33",
-		"rStart" : "StefanMarr 9/21/2009 16:38",
+		"rEnd:" : "",
+		"step1" : "",
+		"state:" : "",
+		"start" : "",
+		"rStart:" : "",
+		"rEnd" : "",
+		"initializeValues:" : "",
+		"initKeys" : "",
+		"id:" : "",
+		"rStart" : "",
 		"license" : "StefanMarr 4/15/2011 17:04",
-		"localHist" : "StefanMarr 9/21/2009 16:39",
-		"run" : "StefanMarr 11/7/2010 12:32",
-		"localHist:" : "StefanMarr 9/23/2009 19:34",
-		"end:" : "StefanMarr 9/23/2009 19:51",
-		"start:" : "StefanMarr 9/23/2009 19:33",
-		"step2" : "StefanMarr 10/14/2009 19:44"
+		"localHist" : "",
+		"run" : "",
+		"localHist:" : "",
+		"end:" : "",
+		"start:" : "",
+		"step2" : ""
 	},
 	"class" : {
-		"iteration:" : "StefanMarr 1/16/2011 21:52",
-		"iteration" : "StefanMarr 1/16/2011 21:52",
-		"newFor:with:start:end:rStart:rEnd:" : "StefanMarr 11/7/2010 12:32"
+		"iteration:" : "",
+		"iteration" : "",
+		"newFor:with:start:end:rStart:rEnd:" : ""
 	}
 }
