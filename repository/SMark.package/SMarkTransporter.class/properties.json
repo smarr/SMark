@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "sm 5/25/2011 14:09",
+	"super" : "Object",
+	"category" : "SMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkTransporter",
+	"type" : "normal"
+}

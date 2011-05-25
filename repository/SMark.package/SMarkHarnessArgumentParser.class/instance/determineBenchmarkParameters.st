@@ -4,10 +4,6 @@ determineBenchmarkParameters
 	 it is specified."
 	iterations := runner class defaultNumberOfIterations.
 	processes  := runner class defaultNumberOfProcesses.
-	problemSize:= suite class defaultProblemSize.
+	problemSize:= suiteClass defaultProblemSize.
 	
 	self determineBenchmarkParametersFromArguments.
-	
-	runner iterations: iterations.
-	runner processes: processes.
-	runner problemSize: problemSize.

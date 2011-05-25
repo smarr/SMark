@@ -1,15 +1,15 @@
 {
 	"instance" : {
-		"testSetUp" : "StefanMarr 4/15/2011 12:26",
-		"testCleanUpInstanceVariables" : "StefanMarr 3/20/2011 21:07",
-		"testTearDown" : "StefanMarr 4/15/2011 12:45",
-		"testBenchmarkNameForSelector" : "StefanMarr 3/20/2011 20:57",
-		"testClassRun" : "StefanMarr 3/20/2011 21:07",
-		"testSetupAndTeaddownCalledForEveryBenchForEveryIteration" : "StefanMarr 4/15/2011 12:48",
-		"testShouldRunSelector" : "StefanMarr 3/20/2011 20:57",
-		"testCustomSetUp" : "StefanMarr 4/15/2011 12:13",
-		"testCustomTearDown" : "StefanMarr 4/15/2011 12:20",
-		"testRunOnly" : "StefanMarr 5/14/2011 18:59"
+		"testSetUp" : "",
+		"testCleanUpInstanceVariables" : "",
+		"testTearDown" : "",
+		"testBenchmarkNameForSelector" : "",
+		"testClassRun" : "",
+		"testSetupAndTeaddownCalledForEveryBenchForEveryIteration" : "",
+		"testShouldRunSelector" : "",
+		"testCustomSetUp" : "",
+		"testCustomTearDown" : "",
+		"testRunOnly" : ""
 	},
 	"class" : { }
 }

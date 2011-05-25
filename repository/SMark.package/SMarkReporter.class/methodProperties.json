@@ -1,19 +1,19 @@
 {
 	"instance" : {
-		"header" : "StefanMarr 3/20/2011 18:58",
-		"benchmarkHeader:" : "StefanMarr 3/20/2011 18:58",
-		"reportAllRuns:of:" : "StefanMarr 5/16/2011 15:22",
-		"initialize" : "StefanMarr 5/15/2011 01:18",
-		"benchmarkFooter:" : "StefanMarr 3/20/2011 18:56",
-		"outputStream:" : "StefanMarr 3/20/2011 18:57",
-		"report" : "StefanMarr 5/16/2011 16:08",
-		"runner:" : "StefanMarr 3/20/2011 18:57",
-		"footer" : "StefanMarr 3/20/2011 18:59"
+		"header" : "",
+		"benchmarkHeader:" : "",
+		"reportAllRuns:of:" : "",
+		"initialize" : "",
+		"benchmarkFooter:" : "",
+		"outputStream:" : "",
+		"report" : "",
+		"runner:" : "",
+		"footer" : ""
 	},
 	"class" : {
-		"defaultReporter" : "StefanMarr 5/16/2011 14:48",
-		"reportFor:" : "StefanMarr 3/20/2011 18:42",
-		"defaultOutputDestination" : "StefanMarr 5/21/2011 23:10",
-		"reportFor:on:" : "StefanMarr 3/20/2011 18:43"
+		"defaultReporter" : "",
+		"reportFor:" : "",
+		"defaultOutputDestination" : "",
+		"reportFor:on:" : ""
 	}
 }

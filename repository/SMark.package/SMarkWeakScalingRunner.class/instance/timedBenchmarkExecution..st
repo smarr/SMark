@@ -6,9 +6,7 @@ timedBenchmarkExecution: aSelector
 
 	timer := self createTimer: 'total'.
 	
-	numProcesses = 1 
-		ifTrue:  [ self executeDirectly: aSelector withTimer: timer. ]
-		ifFalse: [ self execute: aSelector withProcesses: numProcesses withTimer: timer. ].
+	self execute: aSelector withProcesses: numProcesses withTimer: timer.
 	
 	self recordResults: timer for: aSelector.
 	

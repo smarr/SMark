@@ -1,8 +1,8 @@
 {
 	"instance" : {
-		"testConvenienceReportOnRunner" : "StefanMarr 4/15/2011 16:43",
-		"setUp" : "StefanMarr 3/20/2011 21:10",
-		"testContentOfStream" : "StefanMarr 3/20/2011 21:02"
+		"testConvenienceReportOnRunner" : "",
+		"setUp" : "",
+		"testContentOfStream" : ""
 	},
 	"class" : { }
 }

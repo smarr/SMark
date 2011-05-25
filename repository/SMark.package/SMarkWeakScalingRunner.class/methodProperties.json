@@ -2,12 +2,11 @@
 	"instance" : {
 		"processes:" : "StefanMarr 4/15/2011 10:53",
 		"initialize" : "StefanMarr 4/15/2011 15:43",
-		"executeDirectly:withTimer:" : "StefanMarr 4/15/2011 13:55",
-		"execute:withProcesses:withTimer:" : "StefanMarr 4/15/2011 15:41",
 		"innerIterations" : "StefanMarr 4/15/2011 15:43",
+		"execute:withProcesses:withTimer:" : "sm 5/25/2011 18:30",
 		"processes" : "StefanMarr 4/15/2011 10:54",
-		"startBenchmarkAndWaitForCompletion:" : "StefanMarr 3/21/2011 12:22",
-		"timedBenchmarkExecution:" : "StefanMarr 4/15/2011 13:50",
+		"reportConfiguration:" : "sm 5/25/2011 17:50",
+		"timedBenchmarkExecution:" : "sm 5/25/2011 18:31",
 		"innerIterations:" : "StefanMarr 4/15/2011 15:43"
 	},
 	"class" : {

@@ -1,9 +1,9 @@
 {
 	"instance" : {
-		"benchDoNothing" : "StefanMarr 3/19/2011 00:55",
-		"benchNotifyRunner" : "StefanMarr 4/15/2011 15:45"
+		"benchDoNothing" : "",
+		"benchNotifyRunner" : ""
 	},
 	"class" : {
-		"isAbstractClass" : "StefanMarr 3/13/2011 22:58"
+		"isAbstractClass" : ""
 	}
 }

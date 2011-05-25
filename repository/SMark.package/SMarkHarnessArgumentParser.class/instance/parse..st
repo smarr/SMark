@@ -1,4 +1,4 @@
-accessing
+parsing
 parse: argumentsArray
 	arguments := argumentsArray.
 	numParams := arguments size.
@@ -13,5 +13,7 @@ parse: argumentsArray
 	self determineSuiteOrBenchmark.
 	
 	self determineBenchmarkParameters.
+	
+	self instructRunner.
 	
 	^ {runner. reporter}

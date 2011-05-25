@@ -1,24 +1,24 @@
 {
 	"instance" : {
-		"shouldRunSelector:" : "ToonVerwaest 8/31/2010 15:21",
-		"cleanUpInstanceVariables" : "StefanMarr 3/12/2011 21:56",
-		"performCustomSelector:with:" : "StefanMarr 3/12/2011 22:53",
-		"tearDown" : "StefanMarr 3/12/2011 21:39",
-		"benchmarkNameForSelector:" : "StefanMarr 3/19/2011 00:36",
-		"problemSize" : "StefanMarr 4/15/2011 16:14",
-		"selectedBenchmarks" : "StefanMarr 5/15/2011 00:17",
-		"runner" : "StefanMarr 3/12/2011 22:19",
-		"runner:" : "StefanMarr 3/12/2011 21:22",
-		"run" : "StefanMarr 5/14/2011 18:57",
-		"runOnly:" : "StefanMarr 5/15/2011 00:40",
-		"runBenchmark:" : "StefanMarr 4/15/2011 11:51",
-		"setUp" : "StefanMarr 3/12/2011 21:38"
+		"shouldRunSelector:" : "",
+		"cleanUpInstanceVariables" : "",
+		"performCustomSelector:with:" : "",
+		"tearDown" : "",
+		"benchmarkNameForSelector:" : "",
+		"problemSize" : "",
+		"selectedBenchmarks" : "",
+		"runner" : "",
+		"runner:" : "",
+		"run" : "",
+		"runOnly:" : "",
+		"runBenchmark:" : "",
+		"setUp" : ""
 	},
 	"class" : {
-		"defaultRunner" : "StefanMarr 3/20/2011 21:00",
-		"run:" : "StefanMarr 3/20/2011 19:50",
-		"defaultProblemSize" : "StefanMarr 5/15/2011 00:44",
-		"isAbstractClass" : "StefanMarr 3/19/2011 10:29",
-		"run" : "StefanMarr 3/13/2011 21:04"
+		"defaultRunner" : "",
+		"run:" : "",
+		"defaultProblemSize" : "",
+		"isAbstractClass" : "",
+		"run" : ""
 	}
 }

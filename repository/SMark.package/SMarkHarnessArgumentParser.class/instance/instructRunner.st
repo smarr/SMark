@@ -1,4 +1,4 @@
-argument parsing
+helper
 instructRunner
 	suite := suiteClass new.
 	specificBenchmark ifNotNil: [
@@ -6,4 +6,6 @@ instructRunner
 	].
 	
 	runner suite: suite.
- 
+ 	runner iterations: iterations.
+	runner processes: processes.
+	runner problemSize: problemSize.

@@ -1,8 +1,9 @@
 {
 	"instance" : {
-		"determineReporter" : "StefanMarr 5/16/2011 11:35",
-		"determineRunner" : "StefanMarr 5/16/2011 11:55",
-		"determineBenchmarkParametersFromArguments" : "StefanMarr 5/16/2011 11:34"
+		"determineReporter" : "",
+		"determineRunner" : "",
+		"determineBenchmarkParametersFromArguments" : "sm 5/25/2011 17:17",
+		"instructRunner" : "sm 5/25/2011 17:31"
 	},
 	"class" : { }
 }

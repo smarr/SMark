@@ -1,12 +1,12 @@
 {
 	"instance" : {
-		"runnerClass" : "StefanMarr 3/24/2011 12:35",
-		"testWeakScaling3Processes" : "StefanMarr 4/15/2011 15:48",
-		"testWeakScalingManyProcesses" : "StefanMarr 4/15/2011 15:49",
-		"testWeakScalingFewProcesses" : "StefanMarr 3/24/2011 12:57",
-		"testInnerIterations" : "StefanMarr 4/15/2011 15:57"
+		"runnerClass" : "",
+		"testWeakScaling3Processes" : "",
+		"testWeakScalingManyProcesses" : "",
+		"testWeakScalingFewProcesses" : "",
+		"testInnerIterations" : ""
 	},
 	"class" : {
-		"shouldInheritSelectors" : "StefanMarr 3/24/2011 12:32"
+		"shouldInheritSelectors" : ""
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"instance" : {
-		"benchIntLoop" : "StefanMarr 3/21/2011 15:33",
-		"benchFloatLoop" : "StefanMarr 3/21/2011 15:33"
+		"benchIntLoop" : "",
+		"benchFloatLoop" : ""
 	},
 	"class" : { }
 }

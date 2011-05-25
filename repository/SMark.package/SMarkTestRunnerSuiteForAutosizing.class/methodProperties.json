@@ -1,10 +1,10 @@
 {
 	"instance" : {
-		"baseBenchmark" : "StefanMarr 3/20/2011 10:50",
-		"benchBig" : "StefanMarr 3/19/2011 11:18",
-		"benchSmall" : "StefanMarr 3/19/2011 11:15"
+		"baseBenchmark" : "",
+		"benchBig" : "",
+		"benchSmall" : ""
 	},
 	"class" : {
-		"defaultRunner" : "StefanMarr 3/20/2011 21:09"
+		"defaultRunner" : ""
 	}
 }

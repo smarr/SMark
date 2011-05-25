@@ -1,20 +1,20 @@
 {
 	"instance" : {
 		"fractonacci:" : "nishis 2/14/98 02:47",
-		"primesUpTo:" : "StefanMarr 1/16/2011 21:11",
+		"primesUpTo:" : "",
 		"sort:" : "nishis 2/14/98 02:39",
-		"benchStone" : "StefanMarr 4/15/2011 16:20",
+		"benchStone" : "",
 		"readme" : "nishis 2/14/98 02:46",
-		"generate:counts:" : "StefanMarr 1/16/2011 21:11",
-		"problemSize" : "StefanMarr 4/15/2011 16:21",
+		"generate:counts:" : "",
+		"problemSize" : "",
 		"setFrom:" : "nishis 2/14/98 02:46",
-		"sorcerersApprentice" : "StefanMarr 1/16/2011 21:11",
+		"sorcerersApprentice" : "",
 		"stringsUpTo:" : "nishis 2/14/98 02:39",
-		"defaultProblemSize" : "StefanMarr 4/15/2011 16:21",
+		"defaultProblemSize" : "",
 		"streamTestsOn:" : "sm 1/17/2011 09:55",
-		"setUp" : "StefanMarr 4/15/2011 11:04"
+		"setUp" : ""
 	},
 	"class" : {
-		"initialize" : "simon.denier 9/14/2010 13:44"
+		"initialize" : ""
 	}
 }

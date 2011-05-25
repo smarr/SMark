@@ -5,6 +5,10 @@ determineBenchmarkParametersFromArguments
 		processes := (arguments at: i) asInteger.
 		i := i + 1.
 		i <= numParams ifTrue: [
-			problemSize := arguments at: i.
+			iterations := (arguments at: i) asInteger.
+			i := i + 1.
+			i <= numParams ifTrue: [
+				problemSize := arguments at: i.
+			]
 		]
-	]
+	].

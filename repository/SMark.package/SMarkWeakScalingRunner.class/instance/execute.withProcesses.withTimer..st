@@ -1,6 +1,6 @@
 benchmarking
 execute: aSelector withProcesses: numberOfProcesses withTimer: timer
-	"This case is meant for numberOfProcesses > 1.
+	"This case is meant for all cases. REM: this is also used for numProc==1 to be able to measure the process start overhead in all cases.
 	 It will start the processes and wait for their completion."
 	
 	| processes monitor runningProcesses signal |
