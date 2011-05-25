@@ -2,14 +2,15 @@
 	"instance" : { },
 	"class" : {
 		"saveImageBeforeQuit:" : "StefanMarr 5/16/2011 13:59",
-		"startUp" : "StefanMarr 5/15/2011 22:29",
+		"startUp" : "",
 		"uninstall" : "StefanMarr 5/15/2011 11:33",
 		"getSystemAttributes" : "",
 		"saveImageBeforeQuit" : "StefanMarr 5/16/2011 13:58",
-		"initialize" : "StefanMarr 5/16/2011 14:02",
+		"initialize" : "",
 		"quitVMAfterScriptExecution" : "StefanMarr 5/16/2011 13:57",
+		"transportersForFileOutMenu" : "sm 2/13/2011 19:09",
 		"quitVMAfterScriptExecution:" : "StefanMarr 5/16/2011 13:58",
-		"executeRunFor:with:" : "StefanMarr 5/16/2011 14:01",
-		"install" : "StefanMarr 5/15/2011 11:31"
+		"executeRunFor:with:" : "",
+		"install" : "sm 5/25/2011 12:41"
 	}
 }

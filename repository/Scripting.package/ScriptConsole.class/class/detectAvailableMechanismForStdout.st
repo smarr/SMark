@@ -1,10 +1,11 @@
 as yet unclassified
 detectAvailableMechanismForStdout
 	"The RoarVM has its own primitive"
-	((Smalltalk hasClassNamed: 'RVMOperations')
-		and: [(Smalltalk at: #RVMOperations) perform: #isRVM])
+	| cls |
+	cls := Smalltalk at: #RVMOperations ifAbsent: [nil].
+	(cls notNil and: [cls perform: #isRVM])
 		ifTrue: [ 
-			PrintAStringBlock := [:aString :lineEnd | RVMOperations print: aString ].
+			PrintAStringBlock := [:aString :lineEnd | cls print: aString ].
 			^ PrintAStringBlock
 		].
 	
@@ -16,11 +17,12 @@ detectAvailableMechanismForStdout
 		].
 	
 	"Pharo and Squeak <4.2 do not have that..., so requires OSProcess"
-	(Smalltalk hasClassNamed: 'OSProcess')
-		ifTrue: [
-			PrintAStringBlock := [:aString :lineEnd | OSProcess thisOSProcess stdOut nextPutAll: (aString, lineEnd) ].
+	cls := Smalltalk at: #OSProcess ifAbsent: [nil].
+	cls ifNotNil: [
+			PrintAStringBlock := [:aString :lineEnd | cls thisOSProcess stdOut nextPutAll: (aString, lineEnd) ].
 			^ PrintAStringBlock.
 		].
 	
 	"Ok, else? When there is no PrintAStringBlock, we go to the Transcript"
 	PrintAStringBlock := nil.
+	^ nil
