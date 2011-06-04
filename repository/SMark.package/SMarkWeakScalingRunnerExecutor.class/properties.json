@@ -1,16 +1,16 @@
 {
 	"commentStamp" : "",
-	"super" : "SMarkRunner",
+	"super" : "Object",
 	"category" : "SMark",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"numInnerIterations",
-		"runningProcesses",
-		"completionSignal",
-		"runningProcessesMtx"
+		"benchmarkSelector",
+		"suite",
+		"runner"
 	],
-	"name" : "SMarkWeakScalingRunner",
+	"name" : "SMarkWeakScalingRunnerExecutor",
 	"type" : "normal"
 }
