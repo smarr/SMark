@@ -1,8 +1,10 @@
 benchmarking
 benchFannkuchRedux
    | f problemSize |
-	problemSize := self problemSize ifNotNilDo: [:ps | ps asInteger ]
-										  ifNil: [ BGFannkuchRedux defaultProblemSize ].
+	problemSize := self problemSize ifNotNil: [ self problemSize asInteger ]
+								  ifNil: [ BGFannkuchRedux defaultProblemSize ].
    f := BGFannkuchRedux fannkuchRedux: problemSize to: (TextStream with: String new).
-   ScriptConsole print: 'Pfannkuchen(', problemSize asString , ') = ', f asString.
+   
+" the output should only be done by some reporter"
+[ScriptConsole print: 'Pfannkuchen(', problemSize asString , ') = ', f asString.].
    ^f
