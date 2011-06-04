@@ -8,16 +8,16 @@
 	"class" : {
 		"validate" : "StefanMarr 5/14/2011 12:19",
 		"load" : "StefanMarr 5/14/2011 12:19",
-		"transporter" : "StefanMarr 5/22/2011 00:38",
 		"baseConfigurationClassIfAbsent:" : "StefanMarr 5/14/2011 12:19",
 		"DevelopmentSupport" : "StefanMarr 5/14/2011 12:19",
 		"ensureMetacello" : "StefanMarr 5/14/2011 12:19",
 		"loadDevelopment" : "StefanMarr 5/14/2011 12:19",
-		"saveWithTransporter" : "StefanMarr 5/22/2011 00:39",
+		"transporters" : "StefanMarr 5/25/2011 11:48",
+		"saveWithTransporter" : "StefanMarr 5/25/2011 11:49",
 		"isMetacelloConfig" : "StefanMarr 5/14/2011 12:19",
 		"ensureMetacelloBaseConfiguration" : "StefanMarr 5/14/2011 12:19",
 		"loadBleedingEdge" : "StefanMarr 5/14/2011 12:19",
-		"transportersForFileOutMenu" : "StefanMarr 5/22/2011 00:38",
+		"transportersForFileOutMenu" : "StefanMarr 5/25/2011 11:48",
 		"subPackages" : "StefanMarr 5/22/2011 00:03",
 		"project" : "StefanMarr 5/14/2011 12:19"
 	}

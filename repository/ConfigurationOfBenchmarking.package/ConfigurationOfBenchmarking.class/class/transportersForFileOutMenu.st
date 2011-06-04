@@ -1,3 +1,3 @@
 transporter
 transportersForFileOutMenu
-	^ { self transporter }
+	^ self transporters
