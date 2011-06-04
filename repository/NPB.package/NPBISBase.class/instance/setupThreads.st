@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setupThreads
 	"Initialize the threads/processes for the benchmark"
 	
@@ -9,7 +9,7 @@ setupThreads
 	
 	rankThreads := Array new: numThreads.
 	
-	rankThreads doWithIndex: [ :val :i |
+	1 to: numThreads do: [ :i |
 		| zeroIdx |
 		zeroIdx := i - 1.
 		start := (zeroIdx * ((totalKeys / numThreads) asInteger)) + offset.
@@ -29,7 +29,6 @@ setupThreads
 		
 		rThread := RankThread newFor: self with: i start: (start + 1) end: (end + 1) rStart: (rStart + 1) rEnd: (rEnd + 1).
 		rankThreads at: i put: rThread.
-		rThread start.].
-	
-	rankThreads doWithIndex: [ :val :i | 
-		val rankThreads: rankThreads.]
+		rThread rankThreads: rankThreads.
+		rThread start.
+	].

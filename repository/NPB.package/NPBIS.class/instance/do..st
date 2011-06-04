@@ -1,14 +1,10 @@
 as yet unclassified
 do: aStep
 	self critical: [
-		| thread |
-		1 to: numThreads do: [ :m |
-			thread := rankThreads at: m.
-			thread critical: [
-				thread state: aStep.
-				thread notify.]].
+		rankThreads do: [ :thread |
+			thread startStep: aStep.].
 	
-		1 to: numThreads do: [ :m | 
+		rankThreads do: [ :ignored | 
 			self wait.
 		]
 	].

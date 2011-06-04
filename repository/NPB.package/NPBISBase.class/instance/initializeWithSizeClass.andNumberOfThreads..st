@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWithSizeClass: aSymbol andNumberOfThreads: numberOfThreads 
 	| consts |
 	benchmarkClass := aSymbol asSymbol.

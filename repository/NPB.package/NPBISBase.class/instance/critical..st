@@ -1,3 +1,3 @@
-as yet unclassified
+synchronization
 critical: aBlock
 	mtxCritical critical: aBlock

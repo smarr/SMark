@@ -20,7 +20,7 @@ fullVerify
 		((keyArray at: (i - 1)) > (keyArray at: i)) ifTrue: [ count := count + 1]].
 
 	(count ~= 0)
-		ifTrue: [ ScriptConsole println: 'Full_verify: number of keys out of sort: '. count asString ]
+		ifTrue: [ Error signal: 'Full_verify: number of keys out of sort: '. count asString ]
 		ifFalse: [ PassedVerification := PassedVerification + 1].
     
     ^ PassedVerification

@@ -1,17 +1,17 @@
 {
 	"instance" : {
-		"do:" : "StefanMarr 10/14/2009 22:26",
+		"do:" : "sm 6/1/2011 15:57",
 		"keyArray" : "StefanMarr 9/23/2009 19:14",
 		"resetMasterHist" : "StefanMarr 9/21/2009 23:31",
 		"rank:" : "StefanMarr 4/15/2011 17:18",
 		"license" : "StefanMarr 4/15/2011 17:04",
 		"initKeys:" : "StefanMarr 10/16/2009 00:23",
 		"runner:" : "StefanMarr 5/14/2011 01:00",
-		"fullVerify" : "StefanMarr 5/16/2011 14:47",
+		"fullVerify" : "sm 6/1/2011 14:22",
 		"rng:" : "StefanMarr 9/21/2009 23:00",
-		"run" : "StefanMarr 5/16/2011 14:44",
+		"run" : "sm 6/1/2011 14:24",
 		"serial:" : "StefanMarr 9/21/2009 22:59",
-		"partialVerify:" : "StefanMarr 5/16/2011 14:46",
+		"partialVerify:" : "sm 6/1/2011 14:23",
 		"masterHist" : "StefanMarr 9/23/2009 19:15"
 	},
 	"class" : {

@@ -64,8 +64,7 @@ run
 	
 	executionVerified := ((NPBISBase passedVerification) == ((5 * NPBIS maxIterations) + 1)).
 	executionVerified
-		ifTrue:  [ ScriptConsole println: 'Benchmark done and verified']
-		ifFalse: [ ScriptConsole println: 'Benchmark done and verification failed'].
+		ifFalse: [ Error signal: 'Benchmark verification failed'].
 		
 	serial ifFalse: [ self do: #quit. ].
 	^ executionVerified

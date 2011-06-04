@@ -1,3 +1,3 @@
-as yet unclassified
+accessors
 rng: val
 	rng := val
