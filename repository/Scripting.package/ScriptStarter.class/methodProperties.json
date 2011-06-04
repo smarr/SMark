@@ -1,15 +1,16 @@
 {
 	"instance" : { },
 	"class" : {
-		"saveImageBeforeQuit:" : "StefanMarr 5/16/2011 13:59",
-		"startUp" : "",
-		"uninstall" : "StefanMarr 5/15/2011 11:33",
+		"saveImageBeforeQuit:" : "",
+		"startUp" : "sm 5/30/2011 22:35",
+		"uninstall" : "",
 		"getSystemAttributes" : "",
-		"saveImageBeforeQuit" : "StefanMarr 5/16/2011 13:58",
-		"initialize" : "",
-		"quitVMAfterScriptExecution" : "StefanMarr 5/16/2011 13:57",
+		"saveImageBeforeQuit" : "",
+		"initialize" : "sm 5/30/2011 22:33",
+		"quitVMAfterScriptExecution" : "",
+		"startUp:" : "sm 5/30/2011 22:30",
 		"transportersForFileOutMenu" : "sm 2/13/2011 19:09",
-		"quitVMAfterScriptExecution:" : "StefanMarr 5/16/2011 13:58",
+		"quitVMAfterScriptExecution:" : "",
 		"executeRunFor:with:" : "",
 		"install" : "sm 5/25/2011 12:41"
 	}

@@ -4,11 +4,12 @@ print: somethingAsString withLineEnding: lineEnd
 	| output |
 	output := somethingAsString asString.
 	
-	PrintAStringBlock ifNotNil: [
-		PrintAStringBlock value: output value: lineEnd.
+	PrintTarget ifNotNil: [
+		IsRVM ifTrue: [ PrintTarget print: output. ]
+			   ifFalse: [ PrintTarget nextPutAll: (output, lineEnd) ].
 	].
 
-	(OutputToTranscript or: [PrintAStringBlock isNil])
+	(OutputToTranscript or: [PrintTarget isNil])
 		ifTrue: [
 			Transcript show: output, lineEnd.
 		].

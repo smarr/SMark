@@ -5,8 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
+		"IsRVM",
 		"OutputToTranscript",
-		"PrintAStringBlock"
+		"PrintTarget"
 	],
 	"instvars" : [ ],
 	"name" : "ScriptConsole",

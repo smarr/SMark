@@ -5,3 +5,4 @@ initialize
 	
 	QuitVM := true.
 	SafeBeforeQuit := false.
+	IsResuming := false.
