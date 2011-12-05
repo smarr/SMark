@@ -1,3 +1,7 @@
 A benchmark harness stears the execution and reporting of benchmarks.
 For that purpose, it will use a designated benchmark runner to do the execution and a benchmark reporter to output the results.
 The benchmark harness is also parameterized by the benchmark suites that are to be executed.
+
+The simplest way to execute a benchmark suite is to use SMarkSuite >> #run.
+
+However, directly using the harness classes gives more freedom on reporting and execution strategies.
