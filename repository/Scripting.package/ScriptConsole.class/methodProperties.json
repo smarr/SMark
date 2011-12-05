@@ -1,14 +1,15 @@
 {
 	"instance" : { },
 	"class" : {
-		"outputToTranscript:" : "",
-		"detectAvailableMechanismForStdout" : "sm 6/1/2011 14:50",
-		"cr" : "",
-		"initialize" : "",
-		"println:" : "",
-		"print:" : "",
-		"print:withLineEnding:" : "sm 6/1/2011 14:47",
 		"<<" : "",
-		"outputToTranscript" : ""
+		"detectAvailableMechanismForStdout" : "sm 6/1/2011 14:50",
+		"println:" : "",
+		"outputToTranscript:" : "",
+		"initialize" : "",
+		"print:withLineEnding:" : "sm 6/1/2011 14:47",
+		"nextPut:" : "StefanMarr 12/5/2011 18:11",
+		"outputToTranscript" : "",
+		"print:" : "",
+		"cr" : ""
 	}
 }
