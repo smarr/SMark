@@ -2,16 +2,17 @@
 	"instance" : {
 		"shouldRunSelector:" : "",
 		"cleanUpInstanceVariables" : "",
+		"processResult:withTimer:" : "ReinoutStevens 12/6/2011 14:31",
 		"performCustomSelector:with:" : "",
 		"tearDown" : "",
 		"benchmarkNameForSelector:" : "",
 		"problemSize" : "StefanMarr 12/4/2011 21:09",
-		"selectedBenchmarks" : "",
-		"runner" : "",
 		"runner:" : "",
+		"runner" : "",
+		"runBenchmark:" : "",
 		"run" : "",
 		"runOnly:" : "",
-		"runBenchmark:" : "",
+		"selectedBenchmarks" : "",
 		"setUp" : ""
 	},
 	"class" : {
