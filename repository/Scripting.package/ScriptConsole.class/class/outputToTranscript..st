@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 outputToTranscript: aBool
 	OutputToTranscript := aBool

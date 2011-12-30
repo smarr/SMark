@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 cr
 	self println: ''.

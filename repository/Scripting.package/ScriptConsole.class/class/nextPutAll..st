@@ -1,3 +1,3 @@
 streaming
-nextPut: somethingAsString
+nextPutAll: somethingAsString
 	self print: somethingAsString

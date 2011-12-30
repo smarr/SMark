@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 detectAvailableMechanismForStdout
 	"The RoarVM has its own primitive"
 	| cls |

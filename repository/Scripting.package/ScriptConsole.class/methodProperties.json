@@ -1,15 +1,20 @@
 {
 	"instance" : { },
 	"class" : {
+		"space" : "StefanMarr 12/31/2011 01:22",
 		"<<" : "",
+		"peekLast" : "StefanMarr 12/31/2011 01:29",
 		"detectAvailableMechanismForStdout" : "sm 6/1/2011 14:50",
 		"println:" : "",
 		"outputToTranscript:" : "",
-		"initialize" : "",
-		"print:withLineEnding:" : "sm 6/1/2011 14:47",
+		"initialize" : "StefanMarr 12/31/2011 01:27",
+		"print:withLineEnding:" : "StefanMarr 12/31/2011 01:30",
 		"nextPut:" : "StefanMarr 12/5/2011 18:11",
+		"nextPutAll:" : "StefanMarr 12/31/2011 01:23",
 		"outputToTranscript" : "",
 		"print:" : "",
+		"position" : "StefanMarr 12/31/2011 01:27",
+		"tab" : "StefanMarr 12/31/2011 01:27",
 		"cr" : ""
 	}
 }
