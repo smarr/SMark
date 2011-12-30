@@ -1,5 +1,6 @@
 helper
 parseArguments: arguments
 	| parser |
-	parser := SMarkHarnessArgumentParser new.
+	parser := self defaultArgumentParser new.
+	parser harness: self.
 	^ parser parse: arguments.

@@ -5,3 +5,6 @@ The benchmark harness is also parameterized by the benchmark suites that are to 
 The simplest way to execute a benchmark suite is to use SMarkSuite >> #run.
 
 However, directly using the harness classes gives more freedom on reporting and execution strategies.
+
+A typical call of the harness from the commandline would result in the following invokation:
+	SMarkHarness run: {'SMarkHarness'. 'SMarkLoops.benchIntLoop'. 1. 1. 5}

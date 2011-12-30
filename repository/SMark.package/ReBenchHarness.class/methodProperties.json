@@ -3,7 +3,7 @@
 	"class" : {
 		"defaultRunner" : "sm 5/25/2011 17:06",
 		"usageHeader" : "sm 5/25/2011 17:20",
-		"parseArguments:" : "",
+		"defaultArgumentParser" : "StefanMarr 12/30/2011 19:59",
 		"usageReporter:" : "",
 		"usageRunner:" : "",
 		"usageBenchmarkParameters:" : "sm 5/25/2011 17:20",

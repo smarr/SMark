@@ -1,7 +1,7 @@
 {
 	"instance" : { },
 	"class" : {
-		"parseArguments:" : "",
+		"parseArguments:" : "StefanMarr 12/30/2011 20:00",
 		"defaultRunner" : "",
 		"usage" : "",
 		"usageBenchmarkParameters:" : "",
@@ -9,11 +9,12 @@
 		"defaultReporter" : "",
 		"usageRunner:" : "",
 		"version" : "",
+		"defaultArgumentParser" : "StefanMarr 12/30/2011 19:59",
 		"shouldShowUsage:" : "",
 		"execute:using:andReport:" : "",
 		"usageHeader" : "",
 		"execute:andReport:" : "sm 5/25/2011 17:41",
 		"defaultOutputDestination" : "",
-		"run:" : ""
+		"run:" : "StefanMarr 12/30/2011 20:19"
 	}
 }
