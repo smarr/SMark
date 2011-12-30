@@ -16,10 +16,11 @@
 		"setUp" : ""
 	},
 	"class" : {
-		"defaultRunner" : "",
+		"defaultRunner" : "StefanMarr 12/30/2011 22:43",
 		"run:" : "",
 		"defaultProblemSize" : "",
-		"isAbstractClass" : "",
-		"run" : ""
+		"onCog:else:" : "StefanMarr 12/30/2011 22:45",
+		"run" : "",
+		"isAbstractClass" : ""
 	}
 }

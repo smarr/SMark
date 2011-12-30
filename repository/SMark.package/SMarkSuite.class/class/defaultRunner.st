@@ -1,3 +1,4 @@
 defaults
 defaultRunner
-	^ SMarkRunner
+	^ self onCog: [SMarkCogRunner]
+	       else:  [SMarkRunner]
