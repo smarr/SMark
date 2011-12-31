@@ -1,12 +1,12 @@
 {
 	"instance" : {
-		"benchChameleons" : "sm 6/1/2011 14:01",
+		"benchChameleons" : "StefanMarr 12/31/2011 16:14",
 		"license" : "StefanMarr 5/15/2011 12:31",
-		"benchNBody" : "sm 5/31/2011 15:28",
-		"benchFasta" : "sm 5/31/2011 15:28",
-		"benchFannkuchRedux" : "sm 6/1/2011 14:02",
-		"benchChameneosRedux" : "sm 6/1/2011 14:02",
-		"benchBinaryTrees" : "sm 5/31/2011 15:27"
+		"benchNBody" : "StefanMarr 12/31/2011 16:15",
+		"benchFasta" : "StefanMarr 12/31/2011 16:15",
+		"benchFannkuchRedux" : "StefanMarr 12/31/2011 16:14",
+		"benchChameneosRedux" : "StefanMarr 12/31/2011 16:14",
+		"benchBinaryTrees" : "StefanMarr 12/31/2011 16:14"
 	},
 	"class" : {
 		"transportersForFileOutMenu" : "sm 5/25/2011 15:36"

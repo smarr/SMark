@@ -1,7 +1,7 @@
 benchmarking
 benchChameleons
 	| result problemSize |
-	problemSize := self problemSize ifNotNil: [ self problemSize asInteger ]
+	problemSize := self problemSize ifNotNil: [ self problemSize ]
 								  ifNil: [ BGChameleons defaultProblemSize ].
 	result := BGChameleons chameneos: problemSize.
 	

@@ -1,7 +1,7 @@
 benchmarking
 benchChameneosRedux
 	| result report problemSize |
-	problemSize := self problemSize ifNotNil: [ self problemSize asInteger ]
+	problemSize := self problemSize ifNotNil: [ self problemSize ]
 								  ifNil: [ BGChameneosRedux defaultProblemSize ].
 	report := TextStream with: String new.
 	result := BGMall runBenchMark: problemSize on: report.
