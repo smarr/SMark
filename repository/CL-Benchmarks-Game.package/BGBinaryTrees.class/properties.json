@@ -8,7 +8,8 @@
 	"instvars" : [
 		"left",
 		"right",
-		"item"
+		"item",
+		"btFactory"
 	],
 	"name" : "BGBinaryTrees",
 	"type" : "normal"

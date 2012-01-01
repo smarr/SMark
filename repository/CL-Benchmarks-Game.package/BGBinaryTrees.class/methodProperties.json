@@ -1,6 +1,9 @@
 {
 	"instance" : {
-		"binarytrees:to:" : "StefanMarr 5/15/2011 12:25"
+		"initialize" : "StefanMarr 12/31/2011 18:06",
+		"binaryTreeFactory:" : "StefanMarr 12/31/2011 18:03",
+		"buildTreesFrom:to:reportTo:" : "StefanMarr 12/31/2011 18:09",
+		"binarytrees:to:" : "StefanMarr 12/31/2011 18:10"
 	},
 	"class" : {
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:25"
