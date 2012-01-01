@@ -1,3 +1,6 @@
 as yet unclassified
 testNBody
-	self assert: (((BGNBody nbody: 1000) asString) beginsWith: '-0.169087605')
+	| result |
+	result := BGNBody nbody: 1000.
+	
+	self assert: (((result at: 2) asString) beginsWith: '-0.169087605')

@@ -2,6 +2,7 @@
 	"instance" : { },
 	"class" : {
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:36",
-		"nbody:" : "sm 6/1/2011 14:09"
+		"nbody:" : "StefanMarr 1/1/2012 22:37",
+		"nbody:with:" : "StefanMarr 1/1/2012 22:36"
 	}
 }
