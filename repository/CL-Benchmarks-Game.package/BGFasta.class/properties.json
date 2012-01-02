@@ -5,7 +5,14 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"lineLength",
+		"n",
+		"out",
+		"r",
+		"repeatStreamFact",
+		"randomStreamFact"
+	],
 	"name" : "BGFasta",
 	"type" : "normal"
 }
