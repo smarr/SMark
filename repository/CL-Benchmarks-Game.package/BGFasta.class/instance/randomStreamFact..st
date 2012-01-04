@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 randomStreamFact: aStreamFact
 	randomStreamFact := aStreamFact

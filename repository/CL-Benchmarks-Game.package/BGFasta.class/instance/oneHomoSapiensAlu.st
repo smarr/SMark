@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 oneHomoSapiensAlu
 	 self
       writeFasta: 'ONE Homo sapiens alu'

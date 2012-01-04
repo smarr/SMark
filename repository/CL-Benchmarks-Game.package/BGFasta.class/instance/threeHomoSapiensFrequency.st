@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 threeHomoSapiensFrequency
 	self
       writeFasta: 'THREE Homo sapiens frequency'

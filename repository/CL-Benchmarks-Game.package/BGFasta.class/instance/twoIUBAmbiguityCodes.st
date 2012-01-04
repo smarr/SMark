@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 twoIUBAmbiguityCodes
 	self
       writeFasta: 'TWO IUB ambiguity codes'
@@ -20,6 +20,6 @@ twoIUBAmbiguityCodes
                   #($S 0.02d0)
                   #($V 0.02d0)
                   #($W 0.02d0)
-                  #($Y 0.02d0)))
-         random: r;
-         yourself).
+                  #($Y 0.02d0))
+		) random: r;
+         	yourself).
