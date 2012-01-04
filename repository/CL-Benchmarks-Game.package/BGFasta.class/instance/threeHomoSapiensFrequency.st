@@ -10,6 +10,4 @@ threeHomoSapiensFrequency
                   #($g 0.1975473066391d0)
                   #($t 0.3015094502008d0)))
             random: r;
-            yourself)
-      to: out
-      lineLength: lineLength.
+            yourself).

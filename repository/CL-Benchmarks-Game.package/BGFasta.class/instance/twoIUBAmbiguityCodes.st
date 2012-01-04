@@ -22,6 +22,4 @@ twoIUBAmbiguityCodes
                   #($W 0.02d0)
                   #($Y 0.02d0)))
          random: r;
-         yourself)
-      to: out
-      lineLength: lineLength.
+         yourself).
