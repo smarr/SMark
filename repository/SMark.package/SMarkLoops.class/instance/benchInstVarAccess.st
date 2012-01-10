@@ -1,7 +1,7 @@
 benchmarking
 benchInstVarAccess
 	| i r |
-	i := 50000.
+	i := self problemSize.
 	[i > 0] whileTrue: [
 		r := someInstVar.
 		someInstVar := nil.

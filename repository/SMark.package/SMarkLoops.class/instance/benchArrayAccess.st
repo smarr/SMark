@@ -4,7 +4,7 @@ benchArrayAccess
 	
 	array := #( nil ).
 	
-	i := 50000.
+	i := self problemSize.
 	[i > 0] whileTrue: [
 		array at: 1.
 		array at: 1 put: nil.

@@ -1,14 +1,16 @@
 {
 	"instance" : {
-		"benchSend" : "StefanMarr 1/10/2012 10:32",
-		"benchSendWithManyArguments" : "StefanMarr 1/10/2012 10:36",
+		"benchSend" : "StefanMarr 1/10/2012 16:56",
+		"benchSendWithManyArguments" : "StefanMarr 1/10/2012 16:56",
 		"doNothingA:b:c:d:e:f:g:h:i:j:" : "StefanMarr 1/10/2012 10:35",
-		"benchFloatLoop" : "",
-		"benchClassVarBinding" : "StefanMarr 1/10/2012 10:28",
-		"benchIntLoop" : "",
-		"benchInstVarAccess" : "StefanMarr 1/10/2012 10:29",
+		"benchFloatLoop" : "StefanMarr 1/10/2012 16:56",
+		"benchClassVarBinding" : "StefanMarr 1/10/2012 16:55",
+		"benchIntLoop" : "StefanMarr 1/10/2012 16:56",
+		"benchInstVarAccess" : "StefanMarr 1/10/2012 16:56",
 		"doNothing" : "StefanMarr 1/10/2012 10:32",
-		"benchArrayAccess" : "StefanMarr 1/10/2012 10:41"
+		"benchArrayAccess" : "StefanMarr 1/10/2012 16:55"
 	},
-	"class" : { }
+	"class" : {
+		"defaultProblemSize" : "StefanMarr 1/10/2012 16:56"
+	}
 }

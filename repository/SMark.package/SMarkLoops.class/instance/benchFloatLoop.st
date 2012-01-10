@@ -1,8 +1,9 @@
 benchmarking
 benchFloatLoop
-	| a |
+	| a limit |
 	a := 1.23.
-	[a < 50000] whileTrue: [
+	limit := self problemSize.
+	[a < limit] whileTrue: [
 		a := a + 0.6.
 		a := a + 0.4.
 	].
