@@ -7,12 +7,3 @@ baseline01: spec
 		spec repository: 'http://www.squeaksource.com/SMark'.
 		self class subPackages do: [:pkg | spec package:  pkg ].
 	].
-
-	spec for: #pharo do: [
-		spec project: 'OSProcess'
-			with:
-				[ spec
-					className: 'ConfigurationOfOSProcess';
-					file: 'ConfigurationOfOSProcess';
-					repository: 'http://www.squeaksource.com/MetacelloRepository' ]
-		]
