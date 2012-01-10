@@ -1,7 +1,14 @@
 {
 	"instance" : {
+		"benchSend" : "StefanMarr 1/10/2012 10:32",
+		"benchSendWithManyArguments" : "StefanMarr 1/10/2012 10:36",
+		"doNothingA:b:c:d:e:f:g:h:i:j:" : "StefanMarr 1/10/2012 10:35",
+		"benchFloatLoop" : "",
+		"benchClassVarBinding" : "StefanMarr 1/10/2012 10:28",
 		"benchIntLoop" : "",
-		"benchFloatLoop" : ""
+		"benchInstVarAccess" : "StefanMarr 1/10/2012 10:29",
+		"doNothing" : "StefanMarr 1/10/2012 10:32",
+		"benchArrayAccess" : "StefanMarr 1/10/2012 10:41"
 	},
 	"class" : { }
 }

@@ -4,8 +4,12 @@
 	"category" : "SMark-Classic",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classvars" : [
+		"ClassVarValue"
+	],
+	"instvars" : [
+		"someInstVar"
+	],
 	"name" : "SMarkLoops",
 	"type" : "normal"
 }
