@@ -1,8 +1,10 @@
 {
 	"instance" : { },
 	"class" : {
+		"pfannkuchen:" : "StefanMarr 1/10/2012 10:55",
+		"maxPfannkuchenTo:with:" : "StefanMarr 1/10/2012 10:55",
 		"fannkuchredux" : "StefanMarr 5/16/2011 14:45",
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:35",
-		"fannkuchRedux:to:" : "StefanMarr 5/15/2011 12:19"
+		"fannkuchRedux:to:" : "StefanMarr 1/10/2012 10:54"
 	}
 }

@@ -1,11 +1,11 @@
-benchmarks
-maxPfannkuchenTo: output
+benchmarking
+maxPfannkuchenTo: output with: gen
    | max permutation checksum permCount flipsCount |
    max := 0.
    permCount := 0.
    checksum := 0.
-   [self atEnd] whileFalse:
-      [permutation := self next.
+   [gen atEnd] whileFalse:
+      [permutation := gen next.
       permCount := permCount + 1.
       (permCount = 1048576) ifTrue: [permCount := 0].
       flipsCount := self pfannkuchen: permutation.
