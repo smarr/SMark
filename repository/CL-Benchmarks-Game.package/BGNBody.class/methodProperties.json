@@ -1,8 +1,12 @@
 {
-	"instance" : { },
+	"instance" : {
+		"initialize" : "StefanMarr 1/15/2012 19:03",
+		"energy" : "StefanMarr 1/15/2012 19:02",
+		"after:" : "StefanMarr 1/15/2012 19:00"
+	},
 	"class" : {
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:36",
-		"nbody:" : "StefanMarr 1/1/2012 22:37",
+		"nbody:" : "StefanMarr 1/15/2012 18:57",
 		"nbody:with:" : "StefanMarr 1/1/2012 22:36"
 	}
 }

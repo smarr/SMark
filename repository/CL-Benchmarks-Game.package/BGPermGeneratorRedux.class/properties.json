@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "OstObject",
+	"super" : "Object",
 	"category" : "CL-Benchmarks-Game",
 	"classinstvars" : [ ],
 	"pools" : [ ],
