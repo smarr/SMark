@@ -2,9 +2,9 @@ tests
 testBasicRun
 	| runner results benchResult result |
 	
-	runner := PBFloat run.
+	runner := SMarkLoops run.
 	results := runner results.
-	result := (results at: #Add).
+	result := (results at: #IntLoop).
 	
 	self assert: (result isKindOf: Collection).
 	self assert: result size equals: 1.
