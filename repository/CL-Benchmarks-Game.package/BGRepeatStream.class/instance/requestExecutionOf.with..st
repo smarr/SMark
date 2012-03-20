@@ -2,6 +2,6 @@ omni reflection
 requestExecutionOf: t1 with: t2 
 	<omniDoNotTransform>
 	^ omniDomain
-		requestExecutionOf: t1
-		on: self
-		with: t2
+		requestExecution: t1
+		of: self
+		on: t2
