@@ -1,7 +1,14 @@
 initialization
 detectAvailableMechanismForStdout
-	"The RoarVM has its own primitive"
+	"The prefered means is to use the stdout file handle.
+	 Will try to fall back on the RoarVM primitive if necessary."
 	| cls |
+	(FileStream respondsTo: #stdout)
+		ifTrue: [
+			PrintTarget := FileStream stdout.
+			^ self.
+		].
+		
 	cls := Smalltalk at: #RVMOperations ifAbsent: [nil].
 	IsRVM := (cls notNil and: [cls perform: #isRVM]).
 	IsRVM 
@@ -11,12 +18,8 @@ detectAvailableMechanismForStdout
 		]
 		ifFalse: [
 			"Squeak 4.2 provides a stream at FileStream>>stdout"
-			(FileStream respondsTo: #stdout)
-				ifTrue: [
-					PrintTarget := FileStream stdout.
-					^ self.
-				].
+			
 		].
 	
-	PrintTarget := nil.
-	^ nil
+	PrintTarget := Transcript.
+	^ Transcript
