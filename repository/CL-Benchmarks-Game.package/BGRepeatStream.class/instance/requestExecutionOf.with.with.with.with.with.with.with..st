@@ -1,13 +1,13 @@
 omni reflection
-requestExecutionOf: t1 with: t2 with: t3 with: t4 with: t5 with: t6 with: t7 with: t8 
+requestExecutionOf: aSel with: p1 with: p2 with: p3 with: p4 with: p5 with: p6 with: p7
 	<omniDoNotTransform>
 	^ omniDomain
-		requestExecution: t1
-		with: self
-		with: t2
-		with: t3
-		with: t4
-		with: t5
-		with: t6
-		of: t7
-		on: t8
+		requestExecution: p1
+		with: p2
+		with: p3
+		with: p4
+		with: p5
+		with: p6
+		with: p7
+		of: aSel
+		on: self
