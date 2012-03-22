@@ -1,7 +1,7 @@
 omni reflection
-requestExecutionOf: t1 with: t2 
+requestExecutionOf: aSel with: p1
 	<omniDoNotTransform>
 	^ omniDomain
-		requestExecution: t1
-		of: self
-		on: t2
+		requestExecution: p1
+		of: aSel
+		on: self
