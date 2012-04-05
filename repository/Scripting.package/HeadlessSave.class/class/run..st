@@ -3,9 +3,9 @@ run: arguments
 	| proc |
 	proc := [
 		| basicName newName |
-		RVMOperations print: 'Do wait, let system run non-busy, and then save and quit'.
+		ScriptConsole println: 'Do wait, let system run non-busy, and then save and quit'.
 		(Delay forSeconds: 10) wait.
-		RVMOperations print: 'Do headless save now.'.
+		ScriptConsole println: 'Do headless save now.'.
 		basicName := SmalltalkImage current imageName withoutLast: '.image' size.
 		newName := basicName, '-headless.image'.
 		SmalltalkImage current saveAs: newName.
