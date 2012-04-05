@@ -6,6 +6,7 @@ detectAvailableMechanismForStdout
 	(FileStream respondsTo: #stdout)
 		ifTrue: [
 			PrintTarget := FileStream stdout.
+			IsRVM := false. "Not needed when stdout is used"
 			^ self.
 		].
 		
