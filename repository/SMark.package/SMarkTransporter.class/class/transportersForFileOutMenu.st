@@ -1,3 +1,4 @@
 transporter
 transportersForFileOutMenu
-	^ { Transporter forPackage: (PackageInfo named: 'SMark') }
+	^ { (Smalltalk at: #Transporter ifAbsent: [^#()])
+			forPackage: (PackageInfo named: 'SMark') }
