@@ -1,3 +1,4 @@
 transporter
 transportersForFileOutMenu
-	^ { Transporter forPackage: (PackageInfo named: 'NPB') }
+	^ { (Smalltalk at: #Transporter ifAbsent: [^#()])
+			forPackage: (PackageInfo named: 'NPB') }
