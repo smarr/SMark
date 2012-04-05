@@ -1,3 +1,4 @@
 transporter
 transportersForFileOutMenu
-	^ { Transporter forPackage: (PackageInfo named: 'CL-Benchmarks-Game') }
+	^ { (Smalltalk at: #Transporter ifAbsent: [^#()])
+			forPackage: (PackageInfo named: 'CL-Benchmarks-Game') }
