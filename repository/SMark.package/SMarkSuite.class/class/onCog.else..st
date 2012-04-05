@@ -1,5 +1,5 @@
-as yet unclassified
+platform support
 onCog: cogSpecificBlock else: general
-	^ (SmalltalkImage current vmVersion includesSubString: 'Cog VM')
+	^ (Smalltalk vm isRunningCogit)
 		ifTrue:  [cogSpecificBlock value]
 		ifFalse: [general value]
