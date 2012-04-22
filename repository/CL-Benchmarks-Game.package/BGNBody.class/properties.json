@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bodies"
+		"bodies",
+		"afterCnt"
 	],
 	"name" : "BGNBody",
 	"type" : "normal"

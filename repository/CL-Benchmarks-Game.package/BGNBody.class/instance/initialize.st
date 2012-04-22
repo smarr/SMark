@@ -1,5 +1,7 @@
 initialization
 initialize
+	afterCnt := 0.
+	
 	bodies := OrderedCollection new add: BGBody sun;
 				 add: BGBody jupiter;
 				 add: BGBody saturn;
