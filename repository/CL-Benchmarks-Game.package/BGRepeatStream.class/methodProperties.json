@@ -1,20 +1,8 @@
 {
 	"instance" : {
-		"requestExecutionOf:with:with:with:" : "StefanMarr 3/22/2012 16:31",
-		"next" : "StefanMarr 4/1/2012 17:46",
-		"requestExecutionOf:with:with:with:with:with:with:with:" : "StefanMarr 3/22/2012 16:38",
-		"requestExecutionOf:lookup:" : "",
-		"requestExecutionOf:with:with:" : "StefanMarr 3/22/2012 16:23",
 		"atEnd" : "",
-		"requestExecutionOf:with:with:with:with:with:with:with:with:with:with:" : "StefanMarr 3/22/2012 16:40",
-		"omniDomain" : "",
-		"requestExecutionOf:with:with:with:with:with:with:" : "StefanMarr 3/22/2012 16:37",
-		"requestExecutionOf:with:with:with:with:" : "StefanMarr 3/22/2012 16:33",
-		"requestExecutionOf:" : "",
-		"omniDomain:" : "",
-		"requestExecutionOf:with:" : "StefanMarr 3/22/2012 16:02",
-		"requestExecutionOf:with:with:with:with:with:" : "StefanMarr 3/22/2012 16:36",
-		"to:" : ""
+		"to:" : "",
+		"next" : "StefanMarr 4/1/2012 17:46"
 	},
 	"class" : {
 		"to:on:" : ""

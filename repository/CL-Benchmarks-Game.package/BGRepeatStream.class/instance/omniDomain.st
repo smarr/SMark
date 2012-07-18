@@ -1,3 +1,0 @@
-omni reflection
-omniDomain
-	^ omniDomain
