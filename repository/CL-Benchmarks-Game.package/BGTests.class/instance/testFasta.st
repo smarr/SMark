@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testFasta
 	| result |
 	self flag: 'TODO: add proper verification'.

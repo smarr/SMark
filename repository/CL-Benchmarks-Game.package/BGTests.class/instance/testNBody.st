@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNBody
 	| result |
 	result := BGNBody nbody: 1000.

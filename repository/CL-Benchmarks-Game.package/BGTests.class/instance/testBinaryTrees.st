@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBinaryTrees
 	| bench output expected |
 	bench := BGBinaryTrees new.

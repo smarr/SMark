@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChameleons
 	self assert: (BGChameleons chameneos:     100) equals: 200. 
 	self assert: (BGChameleons chameneos:   10000) equals: 20000.
