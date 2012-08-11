@@ -3,8 +3,9 @@
 	"class" : {
 		"space" : "StefanMarr 12/31/2011 01:22",
 		"<<" : "",
-		"peekLast" : "StefanMarr 12/31/2011 01:29",
+		"flush" : "StefanMarr 8/11/2012 14:03",
 		"detectAvailableMechanismForStdout" : "StefanMarr 4/5/2012 22:08",
+		"peekLast" : "StefanMarr 12/31/2011 01:29",
 		"println:" : "",
 		"outputToTranscript:" : "",
 		"initialize" : "StefanMarr 12/31/2011 01:27",

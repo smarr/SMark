@@ -1,3 +1,6 @@
 defaults
 defaultOutputTarget
-	^ DefaultOutputTarget ifNil: [Transcript] ifNotNil: [DefaultOutputTarget]
+	^ DefaultOutputTarget ifNil: [
+		(Smalltalk hasClassNamed: #ScriptConsole) ifTrue: [^Smalltalk classNamed: #ScriptConsole].
+		Transcript
+		] ifNotNil: [DefaultOutputTarget]
