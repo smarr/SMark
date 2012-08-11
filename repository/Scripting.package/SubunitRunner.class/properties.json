@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "TestResult",
+	"category" : "Scripting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DefaultOutputTarget"
+	],
+	"instvars" : [
+		"suite",
+		"suitePosition",
+		"suiteTime",
+		"suiteFailures",
+		"suiteErrors",
+		"stream"
+	],
+	"name" : "SubunitRunner",
+	"type" : "normal"
+}

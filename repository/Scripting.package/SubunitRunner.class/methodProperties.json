@@ -1,0 +1,33 @@
+{
+	"instance" : {
+		"runCase:" : "StefanMarr 8/11/2012 13:17",
+		"setUp" : "StefanMarr 8/11/2012 12:30",
+		"tearDown" : "StefanMarr 8/11/2012 13:14",
+		"runAll" : "",
+		"failedTestCase:with:stack:" : "StefanMarr 8/11/2012 13:18",
+		"successfulTestCase:" : "StefanMarr 8/11/2012 13:18",
+		"initialize" : "StefanMarr 7/14/2011 17:18",
+		"errorTestCase:with:stack:" : "StefanMarr 8/11/2012 13:17",
+		"expectedFailTestCase:" : "StefanMarr 8/11/2012 13:18",
+		"stackTraceString:of:" : "",
+		"beforeTestSuite:" : "StefanMarr 8/11/2012 13:17",
+		"run" : "StefanMarr 8/11/2012 13:15",
+		"reportCause:stack:" : "StefanMarr 8/11/2012 13:12",
+		"initializeOn:" : "",
+		"reportTestName:" : "StefanMarr 8/11/2012 13:14",
+		"beforeTestCase:" : "StefanMarr 8/11/2012 13:17"
+	},
+	"class" : {
+		"usage" : "StefanMarr 3/10/2012 17:48",
+		"runClasses:named:" : "",
+		"runPackage:" : "",
+		"defaultOutputTarget:" : "sm 5/25/2011 14:21",
+		"runCategories:" : "",
+		"runCategory:" : "",
+		"runPackages:" : "",
+		"defaultOutputTarget" : "sm 5/25/2011 14:20",
+		"runSuite:" : "",
+		"runAllTests" : "sm 5/25/2011 16:05",
+		"run:" : "StefanMarr 3/10/2012 18:06"
+	}
+}
