@@ -1,4 +1,4 @@
-benchmarking
+stone benchmarks
 fractonacci: n 
 	"Return something like the fibonacci function of n but
 	using fractional numbers rather than whole ones. The

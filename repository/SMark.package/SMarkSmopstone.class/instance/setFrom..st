@@ -1,4 +1,4 @@
-benchmarking
+stone benchmarks
 setFrom: collection
 	"Form a set from collection and return it.
 

@@ -1,4 +1,4 @@
-benchmarking
+stone benchmarks
 stringsUpTo: n 
 	"Return a collection of strings representing the integers from 1 
 	to n with their digits reversed. 

@@ -1,4 +1,4 @@
-benchmarking
+stone benchmarks
 streamTestsOn: integers 
 	"modified by nishis"
 	"Test steaming operations on the collection of integers. 
@@ -18,19 +18,15 @@ streamTestsOn: integers
 	char.   Thanks to Marten Feldtmann for pointing this out."
 
 	| delim space s floats float string |
-	WhichFloatPrintOn 
-		ifTrue: [delim := 1.0 printString at: 2]	"$. for USA, $, for some Europe."
-		ifFalse: [delim := $e].					"modified by nishis"
+	delim := 1.0 printString at: 2.	"$. for USA, $, for some Europe."
 
 	space := Character value: 32.
 	"Can't use Character space in ST/V-DOS"
 	s := ReadWriteStream on: String new.
 	integers do: 
-		[:i | 
-		WhichFloatPrintOn 
-			ifTrue: [i asFloat printOn: s]
-			ifFalse: [i asFloat testPrintOn: s base: 10].
-		s space].
+		[:i |
+			i asFloat printOn: s.
+			s space].
 	"Now make sure the underlying string size is < 16383, a 16-bit small int."
 	s contents size > (SmallInteger maxVal) ifTrue: [self error: 'String too big.'].
 	s reset.

@@ -4,15 +4,8 @@
 	"category" : "SMark-Classic",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"IsSupportRecursiveBlock",
-		"WhichFloatPrintOn"
-	],
-	"instvars" : [
-		"testParams",
-		"testBlocks",
-		"output"
-	],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "SMarkSmopstone",
 	"type" : "normal"
 }

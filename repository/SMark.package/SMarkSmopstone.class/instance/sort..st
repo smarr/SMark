@@ -1,4 +1,4 @@
-benchmarking
+stone benchmarks
 sort: collection
 	"Form a sorted collection from collection and return it.
 

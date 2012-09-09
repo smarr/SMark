@@ -1,4 +1,4 @@
-benchmarking
+stone benchmarks
 sorcerersApprentice
 	"modified by nishis"
 
@@ -92,7 +92,6 @@ sorcerersApprentice
 											ifTrue: [self error: 'Converges too slowly.']
 											ifFalse: [nextGen add: intersection]]]]]].
 			nextGen size > 0 ifTrue: [generate value: nextGen]].
-	IsSupportRecursiveBlock
-		ifTrue: [generate value: firstGen]
-		ifFalse: [^ self generate: firstGen counts: counts].
+	
+	generate value: firstGen.
 	^counts

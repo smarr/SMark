@@ -1,5 +1,7 @@
 benchmarking
 readme
+   "STEFAN: use the original benchmarks, but do not use original way
+            of reporting results. Rely on the SMark reporting instead."
 
 	"INTRODUCTION 
 	 
