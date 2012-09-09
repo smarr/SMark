@@ -1,10 +1,16 @@
 {
 	"instance" : {
-		"benchStone" : "",
-		"readme" : "nishis 2/14/98 02:33",
-		"setUp" : "",
-		"defaultProblemSize" : "",
-		"problemSize" : ""
+		"doBlockValue" : "StefanMarr 9/9/2012 01:52",
+		"doObjectCreation" : "StefanMarr 9/9/2012 01:51",
+		"doStringAccess" : "StefanMarr 9/9/2012 01:50",
+		"benchStone" : "StefanMarr 9/9/2012 02:13",
+		"readme" : "StefanMarr 9/9/2012 02:16",
+		"doIntAdd" : "StefanMarr 9/9/2012 01:47",
+		"doObjectCopy" : "StefanMarr 9/9/2012 01:51",
+		"problemSize" : "",
+		"doPerform" : "StefanMarr 9/9/2012 01:52",
+		"doFloatAdd" : "StefanMarr 9/9/2012 01:48",
+		"defaultProblemSize" : ""
 	},
 	"class" : { }
 }
