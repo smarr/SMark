@@ -1,9 +1,11 @@
 {
 	"instance" : {
-		"baseline01:" : "StefanMarr 1/10/2012 23:07",
+		"baseline02:" : "StefanMarr 1/13/2013 14:24",
 		"project" : "StefanMarr 5/14/2011 12:19",
 		"version01:" : "StefanMarr 5/14/2011 12:54",
-		"development:" : "StefanMarr 5/14/2011 12:19"
+		"baseline01:" : "StefanMarr 1/10/2012 23:07",
+		"development:" : "StefanMarr 1/13/2013 14:25",
+		"version02:" : "StefanMarr 1/13/2013 14:24"
 	},
 	"class" : {
 		"validate" : "StefanMarr 5/14/2011 12:19",
