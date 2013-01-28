@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSetUp
 	| suite runner |
 	suite := SMarkTestSuite new.

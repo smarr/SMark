@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testWeakScalingManyProcesses
 	"test with large number of processes and varying number of iterations"
 	| runner results |

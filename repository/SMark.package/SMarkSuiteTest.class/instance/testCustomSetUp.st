@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCustomSetUp
 	| suite runner |
 	

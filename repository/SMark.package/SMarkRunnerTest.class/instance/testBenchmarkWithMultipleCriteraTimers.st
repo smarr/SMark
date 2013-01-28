@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBenchmarkWithMultipleCriteraTimers
 	"Check whether the benchmark benchWithMultipleCriteria, really results in different unrelated timings"
 	| runner result |

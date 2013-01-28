@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStartStop
 	| timer |
 	timer := SMarkTimer new.

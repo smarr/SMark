@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIterations
 	| runner |
 	"This test is different then the one in the base class, it is not direct, but just looks at the results"

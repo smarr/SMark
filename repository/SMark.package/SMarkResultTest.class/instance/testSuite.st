@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testSuite
 	self assert: result suite notNil

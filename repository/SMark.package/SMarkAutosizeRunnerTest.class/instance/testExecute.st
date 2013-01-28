@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testExecute
 	"This test is slightly different from the one in the base class"
 	| runner results performedBenchmarks |

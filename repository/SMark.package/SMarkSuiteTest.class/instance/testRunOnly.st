@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testRunOnly
 	self assert: false description: 'not yet implemented'.

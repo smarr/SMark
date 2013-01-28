@@ -1,3 +1,3 @@
-as yet unclassified
+running
 setUp
 	runner := SMarkTestRunnerSuiteForAutosizing run.

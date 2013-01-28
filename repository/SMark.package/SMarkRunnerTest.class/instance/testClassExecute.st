@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testClassExecute
 	| runner |
 	runner := self runnerClass execute: SMarkTestSuiteWithBaseBenchmark new.

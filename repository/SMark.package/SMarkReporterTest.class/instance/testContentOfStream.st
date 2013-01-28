@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testContentOfStream
 	"Hm, how to test that robustly?"
 	| reporter stream out |

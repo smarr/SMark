@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testConvenienceReportOnRunner
 	| stream out |
 	stream := TextStream on: String new.

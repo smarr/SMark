@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"performBenchmark:" : "CamilloBruni 1/28/2013 18:34",
+		"initialize" : "CamilloBruni 1/28/2013 18:28",
+		"timedBenchmarkExecution:" : "CamilloBruni 1/28/2013 18:34",
+		"execute:" : "CamilloBruni 1/28/2013 18:28",
+		"execute" : "CamilloBruni 1/28/2013 18:24"
+	},
+	"class" : {
+		"execute:selector:" : "CamilloBruni 1/28/2013 18:19",
+		"execute:selector:iterations:" : "CamilloBruni 1/28/2013 18:31"
+	}
+}

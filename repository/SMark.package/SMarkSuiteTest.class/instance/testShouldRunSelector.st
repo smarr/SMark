@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testShouldRunSelector
 	| suite |
 	suite := SMarkSuite new.

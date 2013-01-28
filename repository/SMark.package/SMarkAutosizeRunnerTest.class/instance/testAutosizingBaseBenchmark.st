@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAutosizingBaseBenchmark
 	"Ensure that baseBenchmarks are not delivering any data since I do not see how that could be done nicely"
 	| runner results |

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCustomTearDown
 	| suite runner |
 	suite := SMarkTestSuite new.

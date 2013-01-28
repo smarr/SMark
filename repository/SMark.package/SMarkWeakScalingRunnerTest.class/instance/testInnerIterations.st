@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testInnerIterations
 	"Test the semantics of the inner loop parameter"
 	| runner results |

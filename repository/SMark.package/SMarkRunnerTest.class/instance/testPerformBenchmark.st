@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPerformBenchmark
 	"Ensure that performBenchmark executes all the defined #bench methods, but for instance not #Bench"
 	

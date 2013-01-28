@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	| runner |
 	runner := SMarkTestRunner execute: SMarkTestRunnerSuite new.

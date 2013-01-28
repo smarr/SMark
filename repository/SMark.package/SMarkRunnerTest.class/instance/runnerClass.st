@@ -1,3 +1,3 @@
-as yet unclassified
+helper
 runnerClass
 	^ SMarkTestRunner

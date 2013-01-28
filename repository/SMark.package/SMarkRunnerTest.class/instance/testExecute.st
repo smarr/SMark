@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testExecute
 	"Ensure all benchmarks are run, including the baseBenchmark and the results are returned"
 	| runner results performedBenchmarks |

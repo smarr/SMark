@@ -16,11 +16,15 @@
 		"setUp" : ""
 	},
 	"class" : {
+		"profileAll" : "CamilloBruni 1/28/2013 18:21",
 		"defaultRunner" : "StefanMarr 12/30/2011 22:43",
-		"run:" : "",
-		"defaultProblemSize" : "",
+		"profile:iterations:" : "CamilloBruni 1/28/2013 18:30",
 		"onCog:else:" : "StefanMarr 4/5/2012 22:20",
+		"profile:" : "CamilloBruni 1/28/2013 18:22",
 		"run" : "",
-		"isAbstractClass" : ""
+		"profileRunner" : "CamilloBruni 1/28/2013 18:17",
+		"defaultProblemSize" : "",
+		"isAbstractClass" : "",
+		"run:" : ""
 	}
 }

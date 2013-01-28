@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTimer
 	"Simple test whether a timer is created and it is from the expected class.
 	 This test is very basic, other tests like testBenchmarkWithMultipleCirteria* need to cover the rest"

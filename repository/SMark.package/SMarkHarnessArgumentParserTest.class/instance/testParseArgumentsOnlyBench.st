@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParseArgumentsOnlyBench
 	| arguments runnerAndReporter runner reporter runOnly |
 	arguments := {#ignored. 'SMarkTestSuite.benchA' }.

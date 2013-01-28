@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTotalTimeWithResume
 	| timer |
 	timer := SMarkTimer new.

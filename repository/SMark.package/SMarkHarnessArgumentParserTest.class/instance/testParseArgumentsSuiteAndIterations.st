@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParseArgumentsSuiteAndIterations
 	| arguments runnerAndReporter runner reporter |
 	arguments := {#ignored. 'SMarkTestSuite'. '13' }.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testResultStructure
 	| runner results resultA resultB suite |
 	suite := SMarkTestSuite new.

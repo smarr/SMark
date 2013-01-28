@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBaseBenchmarkNone
 	"Ensure that not having a base benchmark does not pose a problem"
 

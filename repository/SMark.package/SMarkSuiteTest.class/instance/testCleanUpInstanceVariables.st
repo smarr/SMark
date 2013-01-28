@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCleanUpInstanceVariables
 	| suite |
 	suite := SMarkTestSuite new.

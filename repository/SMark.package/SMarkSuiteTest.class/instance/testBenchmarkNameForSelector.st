@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBenchmarkNameForSelector
 	| suite |
 	suite := SMarkSuite new.

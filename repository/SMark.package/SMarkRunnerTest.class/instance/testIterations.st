@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIterations
 	| runner |
 	" simple scenario should default to 1 run for now "

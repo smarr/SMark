@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAutosizing
 	"Ensure that the runtime is automatically sized up to a predefined value"
 	| runner results big small runTime benchmarkSum |

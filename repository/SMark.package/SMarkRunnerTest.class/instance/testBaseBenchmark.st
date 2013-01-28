@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBaseBenchmark
 	"Ensure the base benchmark is executed when available"
 	
