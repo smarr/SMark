@@ -1,8 +1,9 @@
 {
 	"instance" : {
 		"acceptsLoggingOfCompilation" : "",
+		"classify:under:" : "StefanMarr 2/13/2013 00:42",
 		"initialize" : "sm 1/17/2011 09:38",
-		"addAndClassifySelector:withMethod:inProtocol:notifying:" : ""
+		"addAndClassifySelector:withMethod:inProtocol:notifying:" : "StefanMarr 2/13/2013 00:43"
 	},
 	"class" : { }
 }

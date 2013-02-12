@@ -7,6 +7,5 @@ testContentOfStream
 	
 	out := stream contents.
 	
-	self assert: (out includesSubString: 'Small').
-	self assert: (out includesSubString: 'Big').
-	self assert: (out includesSubString: 'Small').
+	self assert: (self string: out includes: 'Small').
+	self assert: (self string: out includes: 'Big').

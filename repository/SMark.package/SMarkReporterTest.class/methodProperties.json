@@ -1,8 +1,9 @@
 {
 	"instance" : {
-		"testConvenienceReportOnRunner" : "",
+		"string:includes:" : "StefanMarr 2/13/2013 00:58",
+		"testConvenienceReportOnRunner" : "StefanMarr 2/13/2013 00:55",
 		"setUp" : "",
-		"testContentOfStream" : ""
+		"testContentOfStream" : "StefanMarr 2/13/2013 00:56"
 	},
 	"class" : { }
 }
