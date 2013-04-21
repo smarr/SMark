@@ -1,15 +1,14 @@
 {
 	"instance" : {
-		"testSetUp" : "",
-		"testCleanUpInstanceVariables" : "",
-		"testTearDown" : "",
-		"testBenchmarkNameForSelector" : "",
-		"testClassRun" : "",
 		"testSetupAndTeaddownCalledForEveryBenchForEveryIteration" : "",
+		"testBenchmarkNameForSelector" : "",
 		"testShouldRunSelector" : "",
+		"testTearDown" : "",
 		"testCustomSetUp" : "",
+		"testClassRun" : "",
+		"testCleanUpInstanceVariables" : "",
 		"testCustomTearDown" : "",
-		"testRunOnly" : ""
+		"testSetUp" : ""
 	},
 	"class" : { }
 }
