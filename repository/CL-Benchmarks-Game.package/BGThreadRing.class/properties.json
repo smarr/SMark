@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "CL-Benchmarks-Game-BinaryTree",
+	"category" : "CL-Benchmarks-Game-ThreadRing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"left",
-		"right",
-		"item"
-	],
-	"name" : "BGTreeNode",
+	"instvars" : [ ],
+	"name" : "BGThreadRing",
 	"type" : "normal"
 }

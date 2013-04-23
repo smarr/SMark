@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "CL-Benchmarks-Game",
+	"category" : "CL-Benchmarks-Game-NBody",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

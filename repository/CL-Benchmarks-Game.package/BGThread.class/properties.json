@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game-ThreadRing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"nextThread",
+		"token",
+		"semaphore",
+		"done"
+	],
+	"name" : "BGThread",
+	"type" : "normal"
+}
