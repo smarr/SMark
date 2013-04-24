@@ -5,5 +5,6 @@ SystemOrganization addCategory: #'CL-Benchmarks-Game-ChameneosRedux'!
 SystemOrganization addCategory: #'CL-Benchmarks-Game-FannkuchRedux'!
 SystemOrganization addCategory: #'CL-Benchmarks-Game-Fasta'!
 SystemOrganization addCategory: #'CL-Benchmarks-Game-NBody'!
+SystemOrganization addCategory: #'CL-Benchmarks-Game-PiDigits'!
 SystemOrganization addCategory: #'CL-Benchmarks-Game-Tests'!
 SystemOrganization addCategory: #'CL-Benchmarks-Game-ThreadRing'!

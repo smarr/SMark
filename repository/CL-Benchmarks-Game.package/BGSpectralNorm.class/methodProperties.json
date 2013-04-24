@@ -6,5 +6,7 @@
 		"multiplyAtAv:" : "StefanMarr 4/23/2013 22:39",
 		"multiplyAv:" : "StefanMarr 4/23/2013 22:41"
 	},
-	"class" : { }
+	"class" : {
+		"defaultProblemSize" : "StefanMarr 4/24/2013 14:24"
+	}
 }

@@ -2,14 +2,15 @@
 	"instance" : {
 		"testChameleons" : "StefanMarr 5/15/2011 18:03",
 		"testChameneosRedux" : "StefanMarr 5/15/2011 18:03",
+		"testPiDigits" : "StefanMarr 4/24/2013 14:19",
 		"testNBody" : "StefanMarr 1/1/2012 22:33",
 		"testBinaryTrees" : "StefanMarr 5/15/2011 14:06",
 		"testFannkuchReduxResult" : "StefanMarr 5/15/2011 12:15",
 		"testFasta" : "StefanMarr 5/15/2011 18:07",
-		"testSpectralNorm" : "StefanMarr 4/23/2013 22:48",
-		"testBinaryTreesResult" : "StefanMarr 5/15/2011 14:08",
 		"testMandelbrot" : "StefanMarr 4/21/2013 23:20",
+		"testBinaryTreesResult" : "StefanMarr 5/15/2011 14:08",
 		"testKNucleotide" : "StefanMarr 4/21/2013 21:22",
+		"testSpectralNorm" : "StefanMarr 4/23/2013 22:48",
 		"testThreadRing" : "StefanMarr 4/23/2013 21:48"
 	},
 	"class" : { }
