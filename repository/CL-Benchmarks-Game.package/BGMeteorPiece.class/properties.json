@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game-Meteor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mask",
+		"row"
+	],
+	"name" : "BGMeteorPiece",
+	"type" : "normal"
+}

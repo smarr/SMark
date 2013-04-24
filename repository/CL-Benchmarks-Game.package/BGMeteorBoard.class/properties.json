@@ -1,0 +1,31 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game-Meteor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pieces",
+		"ncol",
+		"ncell",
+		"twoRows",
+		"sixRows",
+		"oddRowsMask",
+		"evenRowsMask",
+		"southEdge",
+		"eastEdge",
+		"westEdge",
+		"southToNorthMasks",
+		"eastToWestMasks",
+		"northWestMask",
+		"northEastMask",
+		"southWestMask",
+		"southEastMask",
+		"positionsPerPiece",
+		"loopCount",
+		"fillMask"
+	],
+	"name" : "BGMeteorBoard",
+	"type" : "normal"
+}

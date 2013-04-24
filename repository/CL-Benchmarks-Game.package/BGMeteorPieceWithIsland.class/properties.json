@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BGMeteorPiece",
+	"category" : "CL-Benchmarks-Game-Meteor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"islands",
+		"aPieceCouldFitIntoIsland"
+	],
+	"name" : "BGMeteorPieceWithIsland",
+	"type" : "normal"
+}
