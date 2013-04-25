@@ -12,6 +12,7 @@
 		"benchBinaryTrees" : "StefanMarr 12/31/2011 16:14",
 		"benchFasta" : "StefanMarr 9/11/2012 17:20",
 		"license" : "StefanMarr 5/15/2011 12:31",
+		"benchRegexDNA" : "StefanMarr 4/25/2013 13:46",
 		"benchThreadRing" : "StefanMarr 4/23/2013 22:29"
 	},
 	"class" : {

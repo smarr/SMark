@@ -1,0 +1,13 @@
+{
+	"instance" : { },
+	"class" : {
+		"regexDNA:to:" : "StefanMarr 4/25/2013 13:36",
+		"matchPatterns" : "StefanMarr 4/25/2013 00:10",
+		"regexdna" : "StefanMarr 4/25/2013 11:35",
+		"defaultProblemSize" : "StefanMarr 4/25/2013 13:44",
+		"occurrencesOfRegex:in:" : "StefanMarr 4/25/2013 11:45",
+		"substitutionPatterns" : "StefanMarr 4/25/2013 00:10",
+		"input" : "StefanMarr 4/25/2013 13:12",
+		"output" : "StefanMarr 4/25/2013 13:37"
+	}
+}
