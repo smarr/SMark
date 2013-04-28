@@ -1,4 +1,4 @@
-benchmark scripts
+benchmarking
 nbody: times with: bodies
 	"self nbody: 1000"
    | initEnergy finalEnergy |

@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 readFasta: sequenceName from: input
    | prefix newline buffer description line char |
    prefix := '>',sequenceName.

@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 reverseComplement: sequence named: sequenceName to: output
    | complement newline lineLength n |
    (sequenceName isNil) ifTrue: [^self].

@@ -1,4 +1,4 @@
-as yet unclassified
+test data
 output
 	^ '2098 solutions found
 

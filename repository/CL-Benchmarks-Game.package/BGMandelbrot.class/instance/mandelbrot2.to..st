@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 mandelbrot2: extent to: output
    | limit2 m bits zr zi cr ci i tr stepr stepi |
    limit2 := 4.0d0.

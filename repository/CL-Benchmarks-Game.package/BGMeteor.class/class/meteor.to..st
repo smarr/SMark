@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 meteor: nMax to: outputStream
     | board count minSolution maxSolution |
     count := 0.

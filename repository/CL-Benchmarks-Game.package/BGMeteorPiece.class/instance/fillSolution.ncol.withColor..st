@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 fillSolution: aString ncol: ncol withColor: c 
     | offset |
     offset := row * ncol.

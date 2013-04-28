@@ -1,4 +1,4 @@
-as yet unclassified
+test data
 input
 	^ '>ONE Homo sapiens alu
 GGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGA

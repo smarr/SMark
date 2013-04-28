@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 revcomp
    | input output |
    input := RWBinaryOrTextStream with: self input.

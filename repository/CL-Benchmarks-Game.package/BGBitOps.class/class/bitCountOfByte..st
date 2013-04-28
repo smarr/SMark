@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 bitCountOfByte: anInt
     "Count the number of bits set to 1 in a byte."
 

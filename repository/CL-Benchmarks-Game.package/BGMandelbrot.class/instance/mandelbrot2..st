@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 mandelbrot2: n
    | output |
    (output := MultiByteBinaryOrTextStream with: String new)

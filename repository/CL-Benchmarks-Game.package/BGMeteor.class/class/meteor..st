@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 meteor: n
 	| output |
 	output := TextStream with: String new.

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "CL-Benchmarks-Game-ChameneosRedux",
+	"category" : "CL-Benchmarks-Game",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

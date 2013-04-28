@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 complementaryColourFor: aChameneosColour 
    "determine the complementary colour defined as..."
 

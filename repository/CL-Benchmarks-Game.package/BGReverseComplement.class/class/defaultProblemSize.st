@@ -1,3 +1,3 @@
-as yet unclassified
+helpers
 defaultProblemSize
 	^ 1

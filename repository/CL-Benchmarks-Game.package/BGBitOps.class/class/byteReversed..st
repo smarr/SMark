@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 byteReversed: anInt
     "Answer the receiver with bits reversed in a byte.
     The receiver must be between 0 and 255.

@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 in: dict at: key putValueOf: putBlock ifAbsentPutValueOf: absentBlock
    "* Set the value at key to be the value of evaluating putBlock
     with the existing value. If key is not found, create a new

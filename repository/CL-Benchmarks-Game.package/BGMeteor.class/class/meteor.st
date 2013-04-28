@@ -1,3 +1,3 @@
-as yet unclassified
+benchmarking
 meteor
 	^ self meteor: 2098

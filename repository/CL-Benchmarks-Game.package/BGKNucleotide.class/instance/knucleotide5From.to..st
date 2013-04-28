@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 knucleotide5From: input to: output
    "Same as av3, but create less strings while updating the frequencies"
 

@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 substringFrequencies5On: aSeq with: aLength using: aDictionary
 
    | buffer |
