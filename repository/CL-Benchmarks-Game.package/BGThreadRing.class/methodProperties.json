@@ -1,8 +1,11 @@
 {
-	"instance" : { },
+	"instance" : {
+		"initialize" : "StefanMarr 4/28/2013 21:08",
+		"createThreadRing:" : "StefanMarr 4/28/2013 21:08",
+		"threadring:" : "StefanMarr 4/28/2013 21:07"
+	},
 	"class" : {
-		"createThreadRing:" : "StefanMarr 4/23/2013 20:48",
 		"defaultProblemSize" : "StefanMarr 4/23/2013 22:29",
-		"threadring:" : "StefanMarr 4/23/2013 21:46"
+		"threadring:" : "StefanMarr 4/28/2013 21:07"
 	}
 }

@@ -16,7 +16,8 @@
 		"process",
 		"queue",
 		"cache",
-		"pairCache"
+		"pairCache",
+		"pairFactory"
 	],
 	"name" : "BGMall",
 	"type" : "normal"

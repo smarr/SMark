@@ -1,4 +1,4 @@
-benchmark scripts
+benchmarking
 fasta
 	" self fasta"
   | out |

@@ -1,7 +1,17 @@
 {
-	"instance" : { },
+	"instance" : {
+		"generateReportForColours:printOn:" : "StefanMarr 4/28/2013 18:04",
+		"createCreaturesWith:" : "StefanMarr 4/28/2013 18:17",
+		"initialize" : "StefanMarr 4/28/2013 18:17",
+		"generateReportFor:printOn:" : "StefanMarr 4/28/2013 18:25",
+		"createAllowing:" : "StefanMarr 4/28/2013 18:24",
+		"openMallWith:forNumberOfMeets:" : "StefanMarr 4/28/2013 18:14",
+		"runBenchMark:on:" : "StefanMarr 4/28/2013 18:15",
+		"openMall:forCreatures:usingGuard:" : "StefanMarr 4/28/2013 18:17",
+		"waitForClosingOfMall:withCreatures:usingGuard:" : "StefanMarr 4/28/2013 18:24"
+	},
 	"class" : {
-		"chameneosredux2" : "StefanMarr 5/15/2011 12:27",
+		"chameneosredux2" : "StefanMarr 4/28/2013 18:01",
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:34"
 	}
 }

@@ -1,10 +1,8 @@
-initialize-release
+instance creation
 createCreaturesWith: aCollectionOfColours 
-   "Private"
-
    | aName |
    aName := 0.
    ^aCollectionOfColours collect: 
          [:aColour | 
          aName := aName + 1.
-         BGCreature withName: aName colour: aColour]
+         creatureFactory withName: aName colour: aColour]

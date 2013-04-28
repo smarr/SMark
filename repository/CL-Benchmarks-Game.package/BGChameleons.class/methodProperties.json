@@ -1,8 +1,11 @@
 {
-	"instance" : { },
+	"instance" : {
+		"initialize" : "StefanMarr 4/28/2013 17:16",
+		"chameneos:" : "StefanMarr 4/28/2013 17:14"
+	},
 	"class" : {
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:31",
-		"chameneos" : "StefanMarr 1/16/2011 12:12",
-		"chameneos:" : "StefanMarr 5/15/2011 12:17"
+		"chameneos" : "StefanMarr 4/28/2013 17:14",
+		"chameneos:" : "StefanMarr 4/28/2013 17:14"
 	}
 }

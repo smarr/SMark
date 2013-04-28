@@ -6,9 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"timesRotated",
-		"perm",
-		"atEnd"
+		"permGenFactory"
 	],
 	"name" : "BGFannkuchRedux",
 	"type" : "normal"

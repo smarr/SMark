@@ -5,7 +5,14 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"lastSum",
+		"colorFactory",
+		"mallFactory",
+		"arrayFactory",
+		"collectionFactory",
+		"creatureFactory"
+	],
 	"name" : "BGChameneosRedux",
 	"type" : "normal"
 }

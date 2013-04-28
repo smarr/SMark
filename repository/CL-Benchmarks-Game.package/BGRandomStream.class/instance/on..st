@@ -1,8 +1,10 @@
 initialize-release
 on: aCollection
    | size cp |
+	self initialize.
+	
    repeatPtr := 0.
-   random := BGRandomNumber to: 1.0d0.
+   random := randomNumFactory to: 1.0d0.
    size := aCollection size.
    percentages := Array new: size.
    collection := Array new: size.

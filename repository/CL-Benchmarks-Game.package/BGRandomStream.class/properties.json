@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"random",
-		"percentages"
+		"percentages",
+		"randomNumFactory"
 	],
 	"name" : "BGRandomStream",
 	"type" : "normal"

@@ -1,10 +1,12 @@
 {
-	"instance" : { },
+	"instance" : {
+		"initialize" : "StefanMarr 4/28/2013 20:27",
+		"meteor:to:" : "StefanMarr 4/28/2013 20:28"
+	},
 	"class" : {
-		"meteor:" : "StefanMarr 4/24/2013 18:24",
 		"meteor" : "StefanMarr 4/24/2013 18:24",
 		"defaultProblemSize" : "StefanMarr 4/24/2013 18:27",
-		"output" : "StefanMarr 4/24/2013 18:23",
-		"meteor:to:" : "StefanMarr 4/24/2013 15:02"
+		"meteor:" : "StefanMarr 4/28/2013 20:28",
+		"output" : "StefanMarr 4/24/2013 18:23"
 	}
 }

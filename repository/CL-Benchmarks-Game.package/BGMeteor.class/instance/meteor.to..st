@@ -4,7 +4,7 @@ meteor: nMax to: outputStream
     count := 0.
     minSolution := String new: 50 withAll: $9.
     maxSolution := String new: 50 withAll: $0.
-    (board := BGMeteorBoard default) solvedPuzzleDo:
+    (board := meteorBoardFactory default) solvedPuzzleDo:
         [:aString |
             count := count + 1.
             aString < minSolution ifTrue: [minSolution := aString].

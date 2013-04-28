@@ -1,4 +1,4 @@
-private
+setup
 openMall: aMall forCreatures: creatures usingGuard: sema 
    | processes |
    processes := creatures 

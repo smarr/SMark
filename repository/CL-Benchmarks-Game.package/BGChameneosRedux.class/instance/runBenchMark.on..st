@@ -3,14 +3,14 @@ runBenchMark: number on: anOutputStream
    "self runBenchMark: 60000 on: Transcript."
 
    | firstTestColours secondTestColours blue red yellow creatures |
-   blue := BGChameneosColour blue.
-   red := BGChameneosColour red.
-   yellow := BGChameneosColour yellow.
-   firstTestColours := Array 
+   blue   := colorFactory blue.
+   red    := colorFactory red.
+   yellow := colorFactory yellow.
+   firstTestColours := arrayFactory 
             with: blue
             with: red
             with: yellow.
-   secondTestColours := (OrderedCollection new)
+   secondTestColours := (collectionFactory new)
             add: blue;
             add: red;
             add: yellow;
@@ -22,16 +22,16 @@ runBenchMark: number on: anOutputStream
             add: red;
             add: blue;
             yourself.
-   (BGChameneosColour generateReportOfColoursOn: anOutputStream) cr.
+   (colorFactory generateReportOfColoursOn: anOutputStream) cr.
    (self generateReportForColours: firstTestColours printOn: anOutputStream) 
       cr.
-   creatures := BGMall openMallWith: firstTestColours forNumberOfMeets: number.
+   creatures := self openMallWith: firstTestColours forNumberOfMeets: number.
    (self generateReportFor: creatures printOn: anOutputStream)
       cr;
       cr.
    (self generateReportForColours: secondTestColours printOn: anOutputStream) 
       cr.
-   creatures := BGMall openMallWith: secondTestColours forNumberOfMeets: number.
+   creatures := self openMallWith: secondTestColours forNumberOfMeets: number.
    (self generateReportFor: creatures printOn: anOutputStream)
       cr;
       cr.

@@ -1,5 +1,3 @@
 benchmarking
 fannkuchRedux: n to: output
-	| gen |
-	gen := BGPermGeneratorRedux new: n.
-   ^ self maxPfannkuchenTo: output with: gen.
+	^ self new fannkuchRedux: n to: output

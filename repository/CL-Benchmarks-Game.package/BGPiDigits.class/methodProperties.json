@@ -1,8 +1,10 @@
 {
-	"instance" : { },
+	"instance" : {
+		"initialize" : "StefanMarr 4/28/2013 21:17",
+		"piDigitsTo:" : "StefanMarr 4/28/2013 21:02"
+	},
 	"class" : {
-		"piDigitsTo:into:" : "StefanMarr 4/24/2013 14:10",
 		"defaultProblemSize" : "StefanMarr 4/24/2013 14:02",
-		"piDigits:" : "StefanMarr 4/24/2013 14:06"
+		"piDigits:" : "StefanMarr 4/28/2013 21:03"
 	}
 }

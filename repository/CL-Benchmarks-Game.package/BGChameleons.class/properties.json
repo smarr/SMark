@@ -6,10 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"meetings",
-		"color",
-		"semaphore",
-		"waitingForPair"
+		"chameleonFactory",
+		"meetingPlaceFactory"
 	],
 	"name" : "BGChameleons",
 	"type" : "normal"

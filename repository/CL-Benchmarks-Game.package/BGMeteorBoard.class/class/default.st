@@ -1,6 +1,6 @@
 instance creation
 default
-    ^self basicNew fromString:
+    ^self new fromString:
 '0 0 0 0 1 
  2 2 2 0 1 
 2 6 6 1 1 

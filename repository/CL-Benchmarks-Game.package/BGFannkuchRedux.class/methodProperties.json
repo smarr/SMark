@@ -1,10 +1,13 @@
 {
-	"instance" : { },
+	"instance" : {
+		"initialize" : "StefanMarr 4/28/2013 19:50",
+		"maxPfannkuchenTo:with:" : "StefanMarr 4/28/2013 19:54",
+		"pfannkuchen:" : "StefanMarr 4/28/2013 19:54",
+		"fannkuchRedux:to:" : "StefanMarr 4/28/2013 19:51"
+	},
 	"class" : {
-		"pfannkuchen:" : "StefanMarr 1/10/2012 10:55",
-		"maxPfannkuchenTo:with:" : "StefanMarr 1/10/2012 10:55",
-		"fannkuchredux" : "StefanMarr 5/16/2011 14:45",
+		"fannkuchredux" : "StefanMarr 4/28/2013 19:52",
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:35",
-		"fannkuchRedux:to:" : "StefanMarr 1/10/2012 10:54"
+		"fannkuchRedux:to:" : "StefanMarr 4/28/2013 19:54"
 	}
 }

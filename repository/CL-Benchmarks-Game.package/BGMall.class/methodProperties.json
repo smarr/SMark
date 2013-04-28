@@ -5,23 +5,16 @@
 		"maxRendezvous:" : "",
 		"visitWith:" : "",
 		"shutdown" : "",
-		"initialize" : "StefanMarr 5/15/2011 12:27",
+		"initialize" : "StefanMarr 4/28/2013 18:30",
 		"setPartnersOn:and:" : "",
 		"releasePair:" : "",
 		"run" : "",
+		"initializeFactories" : "StefanMarr 4/28/2013 18:30",
 		"obtainPair" : ""
 	},
 	"class" : {
-		"createCreaturesWith:" : "StefanMarr 5/15/2011 12:29",
-		"generateReportFor:printOn:" : "StefanMarr 1/16/2011 14:42",
-		"createAllowing:" : "",
-		"openMall:forCreatures:usingGuard:" : "",
-		"generateReportForColours:printOn:" : "",
 		"initialize" : "",
-		"units" : "",
 		"new" : "",
-		"runBenchMark:on:" : "StefanMarr 5/15/2011 12:28",
-		"waitForClosingOfMall:withCreatures:usingGuard:" : "",
-		"openMallWith:forNumberOfMeets:" : ""
+		"units" : ""
 	}
 }

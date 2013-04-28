@@ -20,7 +20,7 @@ initializePossiblePositions
                         ifTrue:
                             [(iRow = 1 and: [cellNumber <= ncol])
                                 ifTrue: [(self hasSouthIsland: aPiece mask)
-                                    ifFalse: [str nextPut: (BGMeteorPiece mask: aPiece mask islands: 0)]]
+                                    ifFalse: [str nextPut: (self mask: aPiece mask islands: 0)]]
                                 ifFalse: [(aPiece mask bitAnd: northRow) > 0
                                     ifTrue: [(self hasNorthIsland: aPiece mask row: iRow)
                                         ifFalse:
@@ -28,6 +28,6 @@ initializePossiblePositions
                                             isle := iRow = 5
                                                 ifTrue: [0]
                                                 ifFalse: [self northIslandsFor: aPiece mask row: iRow].
-                                            str nextPut: (BGMeteorPiece mask: aPiece mask islands: isle)]]
+                                            str nextPut: (self mask: aPiece mask islands: isle)]]
                                     ifFalse: [str nextPut: aPiece]]]].
                 str contents]]]

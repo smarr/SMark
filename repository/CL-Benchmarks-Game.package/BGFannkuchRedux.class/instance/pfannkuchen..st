@@ -12,4 +12,4 @@ pfannkuchen: anArray
          anArray at: complement - i put: a.
       ]
    ].
-   ^k
+   ^ k

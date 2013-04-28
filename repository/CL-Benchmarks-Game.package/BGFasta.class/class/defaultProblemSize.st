@@ -1,3 +1,3 @@
-benchmark scripts
+defaults
 defaultProblemSize
 	^ 1000

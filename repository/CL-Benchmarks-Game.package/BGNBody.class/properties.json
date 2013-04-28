@@ -7,7 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"bodies",
-		"afterCnt"
+		"afterCnt",
+		"collectionFactory",
+		"bodyFactory",
+		"arrayFactory"
 	],
 	"name" : "BGNBody",
 	"type" : "normal"

@@ -4,7 +4,7 @@ benchChameneosRedux
 	problemSize := self problemSize ifNotNil: [ self problemSize ]
 								  ifNil: [ BGChameneosRedux defaultProblemSize ].
 	report := TextStream with: String new.
-	result := BGMall runBenchMark: problemSize on: report.
+	result := BGChameneosRedux new runBenchMark: problemSize on: report.
 	
 	"Result should be 2*problemSize"
 	self flag: 'TODO: adapt once verification is supported'.

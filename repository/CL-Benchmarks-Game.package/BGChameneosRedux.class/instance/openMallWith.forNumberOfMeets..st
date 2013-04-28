@@ -1,4 +1,4 @@
-initialize-release
+setup
 openMallWith: aCollectionOfColours forNumberOfMeets: aNumber 
    | mall creatures guard |
    mall := self createAllowing: aNumber.

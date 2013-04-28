@@ -24,7 +24,9 @@
 		"southEastMask",
 		"positionsPerPiece",
 		"loopCount",
-		"fillMask"
+		"fillMask",
+		"pieceFactory",
+		"pieceWithIsland"
 	],
 	"name" : "BGMeteorBoard",
 	"type" : "normal"

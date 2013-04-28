@@ -12,4 +12,4 @@ maxPfannkuchenTo: output with: gen
       checksum := permCount odd ifTrue: [checksum+flipsCount] ifFalse: [checksum-flipsCount].
       max := max max: flipsCount].
    output print: checksum; cr.
-   ^max
+   ^ max

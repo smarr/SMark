@@ -1,9 +1,10 @@
 {
 	"instance" : {
+		"fasta:to:" : "StefanMarr 4/28/2013 20:10",
 		"out:" : "StefanMarr 1/2/2012 10:21",
 		"writeFasta:from:" : "StefanMarr 1/4/2012 11:09",
 		"twoIUBAmbiguityCodes" : "StefanMarr 1/4/2012 15:03",
-		"initialize" : "StefanMarr 1/2/2012 10:33",
+		"initialize" : "StefanMarr 4/28/2013 20:10",
 		"oneHomoSapiensAlu" : "StefanMarr 1/4/2012 11:09",
 		"repeatStreamFact:" : "StefanMarr 1/2/2012 10:34",
 		"n:" : "StefanMarr 1/2/2012 10:21",
@@ -14,6 +15,6 @@
 	"class" : {
 		"fasta" : "StefanMarr 1/2/2012 10:44",
 		"defaultProblemSize" : "StefanMarr 5/15/2011 23:20",
-		"fasta:to:" : "StefanMarr 1/2/2012 10:27"
+		"fasta:to:" : "StefanMarr 4/28/2013 20:11"
 	}
 }

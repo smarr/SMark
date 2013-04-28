@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"spigotFactory",
+		"arrayFactory"
+	],
 	"name" : "BGPiDigits",
 	"type" : "normal"
 }
