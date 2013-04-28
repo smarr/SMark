@@ -2,4 +2,4 @@ tests
 testMeteor
 	| result |
 	result := BGMeteor meteor.
-	self assert: result equals: BGMeteor output
+	self assert: result contents equals: BGMeteor output
