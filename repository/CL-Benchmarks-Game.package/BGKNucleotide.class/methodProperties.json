@@ -1,10 +1,11 @@
 {
 	"instance" : {
+		"initialize" : "StefanMarr 4/30/2013 13:12",
 		"readFasta:from:" : "StefanMarr 4/21/2013 21:09",
 		"knucleotide5" : "StefanMarr 4/18/2013 15:36",
 		"in:at:putValueOf:ifAbsentPutValueOf:" : "StefanMarr 4/21/2013 21:14",
-		"substringFrequencies5On:with:using:" : "StefanMarr 4/21/2013 21:00",
-		"knucleotide5From:to:" : "StefanMarr 4/21/2013 21:21"
+		"knucleotide5From:to:" : "StefanMarr 4/30/2013 13:12",
+		"substringFrequencies5On:with:using:" : "StefanMarr 4/21/2013 21:00"
 	},
 	"class" : {
 		"defaultProblemSize" : "StefanMarr 4/25/2013 22:03",

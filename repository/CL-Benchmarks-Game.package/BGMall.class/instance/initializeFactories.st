@@ -1,3 +1,5 @@
 initialize-release
 initializeFactories
-	pairFactory := BGPair
+	pairFactory := BGPair.
+	sharedQueueFactory := SharedQueue.
+	orderedCollectionFactory := OrderedCollection.

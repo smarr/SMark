@@ -3,6 +3,6 @@ initialize
 	super initialize.
 	self initializeFactories.
    guard := Semaphore forMutualExclusion.
-   queue := SharedQueue new.
-   cache := OrderedCollection new.
+   queue := sharedQueueFactory new.
+   cache := orderedCollectionFactory new.
    1 to: 10 do: [:x | cache add: pairFactory new].

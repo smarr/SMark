@@ -8,7 +8,7 @@ fromString: aString
     twoRows := ncol * 2.
     sixRows := ncol * 6.
     self initializeRowColMasks.
-    pieces := rawString asSet sorted collect: [:char |
+    pieces := (setFactory withAll: rawString) sorted collect: [:char |
         self shiftSEmost:
             (rawString inject: 0 into: [:pmask :c | pmask * 2 + (c = char ifTrue: [1] ifFalse: [0])])].
     self initializePossiblePositions

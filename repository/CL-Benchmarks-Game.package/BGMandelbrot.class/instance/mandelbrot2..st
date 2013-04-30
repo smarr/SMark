@@ -1,9 +1,14 @@
 benchmarking
 mandelbrot2: n
-   | output |
+   | output outputArray |
    (output := MultiByteBinaryOrTextStream with: String new)
       nextPutAll: 'P4'; lf; print: n; space; print: n; lf";
       binary".
 
-   self mandelbrot2: n to: output.
+	outputArray := Array new: n * n / 8.
+
+   self mandelbrot2: n to: outputArray.
+
+	output nextPutAll: outputArray.
+
    ^ output

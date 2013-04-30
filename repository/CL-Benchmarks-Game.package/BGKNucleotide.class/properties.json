@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"dictFactory",
+		"sortCollectionFactory"
+	],
 	"name" : "BGKNucleotide",
 	"type" : "normal"
 }

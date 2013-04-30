@@ -1,8 +1,10 @@
 benchmarking
 mandelbrot2: extent to: output
-   | limit2 m bits zr zi cr ci i tr stepr stepi |
+   | limit2 m bits zr zi cr ci i tr stepr stepi  outputI |
    limit2 := 4.0d0.
    m := 50.
+
+	outputI := 1.
 
    stepr := 2.0d0 / extent.
    stepi := 2.0d0 / extent.
@@ -25,12 +27,15 @@ mandelbrot2: extent to: output
 
            i = m ifTrue: [ bits := bits + 1 ].
            (x bitAnd: 7) == 7 ifTrue: [
-               output nextPut: bits.
+               output at: outputI put: bits.
+               outputI := outputI + 1.
                bits := 0.
            ]
        ]. 
        (extent bitAnd: 7) == 0 ifFalse: [
            bits := bits bitShift: 8 - (extent bitAnd: 7).
-           output nextPut: bits.
+           output at: outputI put: bits.
+           outputI := outputI + 1.
        ]
    ]
+

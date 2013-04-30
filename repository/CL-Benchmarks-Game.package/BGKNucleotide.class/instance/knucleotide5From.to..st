@@ -8,11 +8,11 @@ knucleotide5From: input to: output
 
    writeFrequencies :=
       [:k | | frequencies count |
-      frequencies := SortedCollection sortBlock: [:a :b|
+      frequencies := sortCollectionFactory sortBlock: [:a :b|
       (a value = b value) ifTrue: [b key < a key] ifFalse: [b value < a value]].
 
    count := 0.0.
-   (self substringFrequencies5On: sequence with: k using: (Dictionary new: 1024))
+   (self substringFrequencies5On: sequence with: k using: (dictFactory new: 1024))
       associationsDo: [:each|
          frequencies add: each. count := count + each value].
 
@@ -25,7 +25,7 @@ knucleotide5From: input to: output
 
    writeCount := [:nucleotideFragment | | frequencies count |
       frequencies := self substringFrequencies5On: sequence with: nucleotideFragment size
-         using: (Dictionary new: 1024).
+         using: (dictFactory new: 1024).
       count := frequencies at: nucleotideFragment ifAbsent: [0].
       output print: count; tab; nextPutAll: nucleotideFragment; cr].
 

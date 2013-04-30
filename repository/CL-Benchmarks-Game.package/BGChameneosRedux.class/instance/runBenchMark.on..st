@@ -10,7 +10,7 @@ runBenchMark: number on: anOutputStream
             with: blue
             with: red
             with: yellow.
-   secondTestColours := (collectionFactory new)
+   secondTestColours := (collectionFactory new: 10)
             add: blue;
             add: red;
             add: yellow;
@@ -22,6 +22,7 @@ runBenchMark: number on: anOutputStream
             add: red;
             add: blue;
             yourself.
+
    (colorFactory generateReportOfColoursOn: anOutputStream) cr.
    (self generateReportForColours: firstTestColours printOn: anOutputStream) 
       cr.

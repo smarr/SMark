@@ -15,12 +15,12 @@ regexDNA: sequence to: output
       ]. 
 
    "* regex substitution *"
-   translation := Dictionary new.
+   translation := dictFactory new.
    self substitutionPatterns do: [:each| 
       translation at: each first put: each last].
 
    s := s copyWithRegex: '[', 
-         (translation keys asArray fold: [:a :b| a, b]), ']'
+         ((arrayFactory withAll: translation keys) fold: [:a :b| a, b]), ']'
       matchesTranslatedUsing: [:l| translation at: l].
 
    output

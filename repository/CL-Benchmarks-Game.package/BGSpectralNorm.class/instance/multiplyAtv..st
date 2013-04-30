@@ -2,7 +2,7 @@ helper
 multiplyAtv: arr
    | n atv sum |
    n := arr size.
-   atv := Array new: n.
+   atv := arrayFactory new: n.
    1 to: n do: [:i|
       sum := 0.0d0.
       1 to: n do: [:j|

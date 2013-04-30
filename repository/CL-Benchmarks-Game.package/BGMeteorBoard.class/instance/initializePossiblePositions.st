@@ -3,16 +3,16 @@ initializePossiblePositions
     | positionsPerPiecePerCell thePieceWhichBreakSymmetry |
     positionsPerPiecePerCell := self possiblePositionsOnTwoRows.
     thePieceWhichBreakSymmetry := 6.
-    positionsPerPiece := (1 to: 5) collect: [:iRow |
+    positionsPerPiece := (intervalFactory from: 1 to: 5) collect: [:iRow |
         | maxMaskForRow northRow |
         maxMaskForRow := (1 bitShift: (#(6 6 6 4 2) at: iRow) * ncol) - 1.
         northRow :=  southEdge bitShift: ((#(-1 -1 6 4 2) at: iRow) - 1 * ncol).
-        (1 to: twoRows) collect: [:cellNumber |
-            (1 to: pieces size) collect: [:pieceNumber |
+        (intervalFactory from: 1 to: twoRows) collect: [:cellNumber |
+            (intervalFactory from: 1 to: pieces size) collect: [:pieceNumber |
                 | orientations n str |
                 orientations := (positionsPerPiecePerCell at: pieceNumber) at: cellNumber.
                 n := pieceNumber = thePieceWhichBreakSymmetry ifTrue: [6] ifFalse: [12].
-                str := (Array new: n) writeStream.
+                str := (arrayFactory new: n) writeStream.
                 1 to: n do: [:i |
                     | aPiece |
                     aPiece := orientations at: i.

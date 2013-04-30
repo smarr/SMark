@@ -10,16 +10,16 @@
 		"hasSameColorAs:" : ""
 	},
 	"class" : {
-		"red" : "",
-		"generateReportOfColoursOn:" : "StefanMarr 1/16/2011 14:13",
-		"yellow:" : "",
-		"createYellow" : "",
-		"red:" : "",
-		"yellow" : "",
+		"red" : "StefanMarr 4/29/2013 16:02",
+		"generateReportOfColoursOn:" : "StefanMarr 4/29/2013 16:01",
+		"yellow:" : "StefanMarr 4/29/2013 16:02",
+		"createYellow" : "StefanMarr 4/29/2013 16:01",
+		"red:" : "StefanMarr 4/29/2013 16:02",
+		"yellow" : "StefanMarr 4/29/2013 16:02",
 		"initialize" : "",
-		"createRed" : "",
-		"blue:" : "",
-		"blue" : "",
-		"createBlue" : ""
+		"createRed" : "StefanMarr 4/29/2013 16:01",
+		"blue:" : "StefanMarr 4/29/2013 16:01",
+		"blue" : "StefanMarr 4/29/2013 16:00",
+		"createBlue" : "StefanMarr 4/29/2013 16:01"
 	}
 }

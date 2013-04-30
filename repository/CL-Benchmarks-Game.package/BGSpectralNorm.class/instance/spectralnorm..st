@@ -1,7 +1,7 @@
 benchmark
 spectralnorm: n
    | u v vBv vv |
-   u := Array new: n withAll: 1.0d0.
+   u := arrayFactory new: n withAll: 1.0d0.
    10 timesRepeat:
       [v := self multiplyAtAv: u.
        u := self multiplyAtAv: v].

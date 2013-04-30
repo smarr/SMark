@@ -1,11 +1,11 @@
 {
 	"instance" : {
 		"canShiftSW:" : "StefanMarr 4/24/2013 14:53",
-		"initializePossiblePositions" : "StefanMarr 4/28/2013 20:49",
+		"initializePossiblePositions" : "StefanMarr 4/30/2013 17:31",
 		"searchPuzzlesWithColorMask:boardMask:rowOffset:pieces:ifFound:" : "StefanMarr 4/24/2013 14:58",
 		"placesFor:do:" : "StefanMarr 4/24/2013 14:44",
 		"findIsland:" : "StefanMarr 4/24/2013 14:42",
-		"initialize" : "StefanMarr 4/28/2013 20:47",
+		"initialize" : "StefanMarr 4/30/2013 17:49",
 		"mask:islands:" : "StefanMarr 4/28/2013 20:48",
 		"printSolution:on:" : "StefanMarr 4/24/2013 14:57",
 		"hasSouthIsland:" : "StefanMarr 4/24/2013 14:43",
@@ -19,13 +19,13 @@
 		"boardStringWithPieces:" : "StefanMarr 4/24/2013 14:58",
 		"shiftSEmost:" : "StefanMarr 4/24/2013 14:53",
 		"hasNorthIsland:row:" : "StefanMarr 4/24/2013 14:41",
-		"initializeRowColMasks" : "StefanMarr 4/24/2013 14:55",
+		"initializeRowColMasks" : "StefanMarr 4/30/2013 17:31",
 		"canShiftSE:" : "StefanMarr 4/24/2013 14:53",
 		"solvedPuzzleDo:" : "StefanMarr 4/24/2013 14:58",
 		"shiftW:" : "StefanMarr 4/24/2013 14:53",
 		"rotate:" : "StefanMarr 4/24/2013 14:54",
 		"shiftSW:" : "StefanMarr 4/24/2013 14:54",
-		"fromString:" : "StefanMarr 4/24/2013 14:55",
+		"fromString:" : "StefanMarr 4/30/2013 17:48",
 		"canShiftNE:" : "StefanMarr 4/24/2013 14:53",
 		"canShiftE:" : "StefanMarr 4/24/2013 14:54",
 		"rotationsOf:do:" : "StefanMarr 4/24/2013 14:55",
@@ -33,7 +33,7 @@
 		"fillMaskStartingAt:stoppingAbove:ifFoundEnough:" : "StefanMarr 4/24/2013 14:43",
 		"hasEastOrWestIsland:" : "StefanMarr 4/24/2013 14:41",
 		"shiftE:" : "StefanMarr 4/24/2013 14:44",
-		"possiblePositionsOnTwoRows" : "StefanMarr 4/28/2013 20:49",
+		"possiblePositionsOnTwoRows" : "StefanMarr 4/30/2013 16:27",
 		"flip:" : "StefanMarr 4/24/2013 14:44"
 	},
 	"class" : {

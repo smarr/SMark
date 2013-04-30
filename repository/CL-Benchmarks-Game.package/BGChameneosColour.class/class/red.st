@@ -1,3 +1,3 @@
 accessing
 red
-   ^Red
+   ^ Red

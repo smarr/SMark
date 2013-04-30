@@ -2,4 +2,4 @@ initialize-release
 createRed
    "comment stating purpose of message"
 
-   ^super new color: #red
+   ^ self new color: #red

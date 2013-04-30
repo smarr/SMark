@@ -1,4 +1,7 @@
 initialize-release
 initialize
 	pieceFactory    := BGMeteorPiece.
-	pieceWithIsland := BGMeteorPieceWithIsland 
+	pieceWithIsland := BGMeteorPieceWithIsland.
+	arrayFactory    := Array.
+	intervalFactory := Interval.
+	setFactory      := Set.

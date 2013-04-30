@@ -1,3 +1,3 @@
 accessing
 blue
-   ^Blue
+   ^ Blue
