@@ -8,7 +8,8 @@
 	"instvars" : [
 		"random",
 		"percentages",
-		"randomNumFactory"
+		"randomNumFactory",
+		"arrayFactory"
 	],
 	"name" : "BGRandomStream",
 	"type" : "normal"

@@ -1,3 +1,4 @@
 initialize-release
 initialize
-	randomNumFactory := BGRandomNumber
+	randomNumFactory := BGRandomNumber.
+	arrayFactory     := Array.

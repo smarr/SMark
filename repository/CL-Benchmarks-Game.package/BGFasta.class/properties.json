@@ -12,7 +12,8 @@
 		"r",
 		"repeatStreamFact",
 		"randomStreamFact",
-		"randomNumberFactory"
+		"randomNumberFactory",
+		"arrayFactory"
 	],
 	"name" : "BGFasta",
 	"type" : "normal"
