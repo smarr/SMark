@@ -1,9 +1,7 @@
 benchmarking
 benchRegexDNA
 	| problemSize |
-	problemSize := self problemSize ifNotNil: [ self problemSize ]
+	problemSize := self problemSize ifNotNil: [:ps | ps ]
 								  ifNil: [ BGRegexDNA defaultProblemSize ].
 	
-	1 to: problemSize do: [:i |
-		BGRegexDNA regexdna.
-	]
+	BGRegexDNA regexdna: problemSize

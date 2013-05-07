@@ -1,11 +1,11 @@
 {
 	"instance" : { },
 	"class" : {
-		"revcomp" : "StefanMarr 4/25/2013 16:16",
+		"revcomp" : "StefanMarr 5/7/2013 15:10",
+		"revcomp:" : "StefanMarr 5/7/2013 15:10",
 		"readFasta:from:" : "StefanMarr 4/25/2013 16:14",
-		"defaultProblemSize" : "StefanMarr 4/25/2013 16:21",
+		"defaultProblemSize" : "StefanMarr 5/7/2013 15:07",
 		"reverseComplement:named:to:" : "StefanMarr 4/25/2013 16:19",
-		"input" : "StefanMarr 4/25/2013 15:54",
 		"output" : "StefanMarr 4/25/2013 15:55"
 	}
 }

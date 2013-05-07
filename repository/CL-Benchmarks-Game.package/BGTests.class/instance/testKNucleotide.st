@@ -1,7 +1,7 @@
 tests
 testKNucleotide
 	| input result |
-	input  := ReadStream on: BGKNucleotide input.
+	input  := ReadStream on: (BGFastaCache forFasta: BGKNucleotide defaultProblemSize).
 	result := TextStream with: String new.
 	BGKNucleotide new knucleotide5From: input to: result.
 	

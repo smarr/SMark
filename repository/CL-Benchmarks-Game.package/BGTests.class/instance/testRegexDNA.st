@@ -1,6 +1,9 @@
 tests
 testRegexDNA
-	| output |
+	| output input |
+	input := BGFastaCache forFasta: BGRegexDNA defaultProblemSize.
+	
 	output := TextStream with: String new.
-	BGRegexDNA new regexDNA: BGRegexDNA input to: output.
+	
+	BGRegexDNA new regexDNA: input to: output.
 	self assert: output contents equals: BGRegexDNA output

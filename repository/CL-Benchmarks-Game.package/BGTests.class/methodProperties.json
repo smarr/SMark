@@ -1,7 +1,7 @@
 {
 	"instance" : {
 		"testThreadRing" : "StefanMarr 4/23/2013 21:48",
-		"testRegexDNA" : "StefanMarr 4/30/2013 22:13",
+		"testRegexDNA" : "StefanMarr 5/7/2013 14:35",
 		"testChameleons" : "StefanMarr 5/15/2011 18:03",
 		"testChameneosRedux" : "StefanMarr 4/28/2013 18:03",
 		"testPiDigits" : "StefanMarr 4/24/2013 14:19",
@@ -13,7 +13,7 @@
 		"testMandelbrot" : "StefanMarr 4/30/2013 14:55",
 		"testMeteor" : "StefanMarr 4/25/2013 22:05",
 		"testBinaryTreesResult" : "StefanMarr 5/15/2011 14:08",
-		"testKNucleotide" : "StefanMarr 4/21/2013 21:22",
+		"testKNucleotide" : "StefanMarr 5/7/2013 15:13",
 		"testSpectralNorm" : "StefanMarr 4/23/2013 22:48"
 	},
 	"class" : { }

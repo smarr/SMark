@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "StefanMarr 5/7/2013 14:13",
 	"super" : "Object",
 	"category" : "CL-Benchmarks-Game",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [
-		"dictFactory",
-		"arrFact"
+	"classvars" : [
+		"Cache"
 	],
-	"name" : "BGRegexDNA",
+	"instvars" : [
+		"cache"
+	],
+	"name" : "BGFastaCache",
 	"type" : "normal"
 }

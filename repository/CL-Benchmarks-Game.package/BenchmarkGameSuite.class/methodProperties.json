@@ -1,20 +1,20 @@
 {
 	"instance" : {
 		"benchMandelbrot" : "StefanMarr 4/21/2013 23:56",
-		"benchReverseComplement" : "StefanMarr 4/25/2013 16:21",
+		"benchReverseComplement" : "StefanMarr 5/7/2013 15:10",
 		"benchSpectralNorm" : "StefanMarr 4/23/2013 22:45",
-		"benchChameneosRedux" : "StefanMarr 4/28/2013 18:03",
+		"benchChameneosRedux" : "StefanMarr 5/6/2013 23:11",
 		"benchFannkuchRedux" : "StefanMarr 9/11/2012 17:15",
-		"benchMeteor" : "StefanMarr 4/24/2013 18:25",
-		"benchPiDigits" : "StefanMarr 4/24/2013 14:20",
-		"benchChameleons" : "StefanMarr 12/31/2011 16:14",
-		"benchKNucleotide" : "StefanMarr 4/25/2013 22:03",
-		"benchNBody" : "StefanMarr 12/31/2011 16:15",
-		"benchBinaryTrees" : "StefanMarr 12/31/2011 16:14",
+		"benchMeteor" : "StefanMarr 5/6/2013 23:11",
+		"benchPiDigits" : "StefanMarr 5/6/2013 23:11",
+		"benchChameleons" : "StefanMarr 5/6/2013 23:11",
+		"benchKNucleotide" : "StefanMarr 5/7/2013 14:45",
+		"benchNBody" : "StefanMarr 5/6/2013 23:11",
+		"benchBinaryTrees" : "StefanMarr 5/6/2013 23:10",
 		"benchFasta" : "StefanMarr 9/11/2012 17:20",
 		"license" : "StefanMarr 5/15/2011 12:31",
-		"benchRegexDNA" : "StefanMarr 4/25/2013 13:46",
-		"benchThreadRing" : "StefanMarr 4/23/2013 22:29"
+		"benchRegexDNA" : "StefanMarr 5/7/2013 18:43",
+		"benchThreadRing" : "StefanMarr 5/6/2013 23:10"
 	},
 	"class" : {
 		"transportersForFileOutMenu" : "StefanMarr 4/5/2012 21:54"

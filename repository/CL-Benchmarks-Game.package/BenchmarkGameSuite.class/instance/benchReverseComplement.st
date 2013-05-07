@@ -1,9 +1,7 @@
 benchmarking
 benchReverseComplement
 	| problemSize |
-	problemSize := self problemSize ifNotNil: [ self problemSize ]
+	problemSize := self problemSize ifNotNil: [:ps | ps ]
 								  ifNil: [ BGReverseComplement defaultProblemSize ].
 	
-	1 to: problemSize do: [:i |
-		BGReverseComplement revcomp.
-	]
+	BGReverseComplement revcomp: problemSize

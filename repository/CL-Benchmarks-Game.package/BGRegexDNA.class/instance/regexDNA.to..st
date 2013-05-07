@@ -20,7 +20,7 @@ regexDNA: sequence to: output
       translation at: each first put: each last].
 
    s := s copyWithRegex: '[', 
-         ((arrayFactory withAll: translation keys) fold: [:a :b| a, b]), ']'
+         ((arrFact withAll: translation keys) fold: [:a :b| a, b]), ']'
       matchesTranslatedUsing: [:l| translation at: l].
 
    output

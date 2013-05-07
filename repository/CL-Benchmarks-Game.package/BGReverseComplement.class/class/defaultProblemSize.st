@@ -1,3 +1,3 @@
 helpers
 defaultProblemSize
-	^ 1
+	^ 1000

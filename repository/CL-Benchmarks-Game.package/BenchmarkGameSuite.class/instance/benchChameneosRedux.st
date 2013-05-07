@@ -1,7 +1,7 @@
 benchmarking
 benchChameneosRedux
 	| result report problemSize |
-	problemSize := self problemSize ifNotNil: [ self problemSize ]
+	problemSize := self problemSize ifNotNil: [:ps | ps ]
 								  ifNil: [ BGChameneosRedux defaultProblemSize ].
 	report := TextStream with: String new.
 	result := BGChameneosRedux new runBenchMark: problemSize on: report.

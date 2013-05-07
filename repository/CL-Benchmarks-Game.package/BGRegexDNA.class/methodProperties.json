@@ -1,15 +1,15 @@
 {
 	"instance" : {
-		"regexDNA:to:" : "StefanMarr 4/30/2013 22:12",
-		"matchPatterns" : "StefanMarr 4/30/2013 22:07",
-		"initialize" : "StefanMarr 4/30/2013 22:11",
+		"regexDNA:to:" : "StefanMarr 5/6/2013 23:33",
+		"matchPatterns" : "StefanMarr 5/6/2013 23:35",
+		"initialize" : "StefanMarr 5/6/2013 23:33",
 		"occurrencesOfRegex:in:" : "StefanMarr 4/30/2013 22:08",
-		"substitutionPatterns" : "StefanMarr 4/30/2013 22:08"
+		"substitutionPatterns" : "StefanMarr 5/6/2013 23:38"
 	},
 	"class" : {
-		"regexdna" : "StefanMarr 4/30/2013 22:08",
-		"defaultProblemSize" : "StefanMarr 4/25/2013 13:44",
-		"input" : "StefanMarr 4/25/2013 13:12",
-		"output" : "StefanMarr 4/25/2013 13:37"
+		"regexdna:" : "StefanMarr 5/7/2013 14:37",
+		"defaultProblemSize" : "StefanMarr 5/7/2013 14:33",
+		"output" : "StefanMarr 4/25/2013 13:37",
+		"regexdna" : "StefanMarr 5/7/2013 14:38"
 	}
 }
