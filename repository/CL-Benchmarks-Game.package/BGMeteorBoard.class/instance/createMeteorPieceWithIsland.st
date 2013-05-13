@@ -1,0 +1,3 @@
+constructors
+createMeteorPieceWithIsland
+	^ pieceWithIsland new

@@ -2,7 +2,7 @@ generating
 possiblePositionsOnTwoRows
     ^pieces collect: [:aPieceMask |
         | possible iRot |
-        possible := (arrayFactory new: twoRows) collect: [:freeCell | arrayFactory new: 12 withAll: (pieceFactory new mask: 0)].
+        possible := (arrayFactory new: twoRows) collect: [:freeCell | arrayFactory new: 12 withAll: (self createMeteorPiece mask: 0)].
         iRot := 0.
         self rotationsOf: aPieceMask do: [:rotated |
             iRot := iRot + 1.
