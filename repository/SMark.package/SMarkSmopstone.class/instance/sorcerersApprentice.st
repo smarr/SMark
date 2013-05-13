@@ -50,10 +50,10 @@ sorcerersApprentice
 	| m n firstGen intersection isIncluded counts r random
 	a b c d e f g h generate nextGen |
 	
-	m := 80.
+	m := 40. "was 80"
 	n := 20 * m.
-	firstGen := OrderedCollection new.
-	counts := OrderedCollection new.
+	firstGen := ordCollectionFact new.
+	counts   := ordCollectionFact new.
 	r := 50.
 	random := [r := r + 1 * 87 \\ n].
 	m timesRepeat: [
@@ -65,11 +65,11 @@ sorcerersApprentice
 		f := c min: d.
 		g := a max: b.
 		h := c max: d.
-		firstGen add: (Rectangle origin: e @ f corner: g @ h)].
+		firstGen add: (rectFactory origin: (pointFact x: e y: f) corner: (pointFact x: g y: h))].
 	generate := 
 		[:lastGen |
 		counts add: lastGen size.
-		nextGen := OrderedCollection new.
+		nextGen := ordCollectionFact new.
 		lastGen do:
 			[:r1 |
 			lastGen do: 

@@ -9,4 +9,4 @@ setFrom: collection
 	has a primitive hash for strings, and ST80 has an elaborate one
 	written in Smalltalk."
 
-	^collection asSet
+	^ setFact withAll: collection

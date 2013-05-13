@@ -8,6 +8,8 @@ benchStone
 	n > SmallInteger maxVal
 		ifTrue: [ self error: 'Count exceeded max small int.' ].
 	
+	o := obj new.
+	
 	1 to: n do: [:i | self doIntAdd         ].
 	1 to: n do: [:i | self doFloatAdd       ].
 	1 to: n do: [:i | self doStringAccess   ].

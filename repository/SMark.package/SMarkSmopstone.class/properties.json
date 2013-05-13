@@ -5,7 +5,15 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"ordCollectionFact",
+		"intervalFact",
+		"rectFactory",
+		"sortedColFact",
+		"arrFact",
+		"setFact",
+		"pointFact"
+	],
 	"name" : "SMarkSmopstone",
 	"type" : "normal"
 }

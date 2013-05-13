@@ -1,6 +1,6 @@
 stone benchmarks
 doObjectCreation
-	Object new. Object new. Object new. Object new. Object new.
-	Object new. Object new. Object new. Object new. Object new.
-	Object new. Object new. Object new. Object new. Object new.
-	Object new. Object new. Object new. Object new. Object new
+	obj new. obj new. obj new. obj new. obj new.
+	obj new. obj new. obj new. obj new. obj new.
+	obj new. obj new. obj new. obj new. obj new.
+	obj new. obj new. obj new. obj new. obj new

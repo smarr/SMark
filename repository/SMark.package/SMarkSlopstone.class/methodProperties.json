@@ -1,14 +1,15 @@
 {
 	"instance" : {
 		"doBlockValue" : "StefanMarr 9/9/2012 01:52",
-		"doObjectCreation" : "StefanMarr 9/9/2012 01:51",
+		"doObjectCreation" : "StefanMarr 5/7/2013 17:11",
 		"doStringAccess" : "StefanMarr 9/9/2012 01:50",
-		"benchStone" : "StefanMarr 9/9/2012 02:13",
+		"benchStone" : "StefanMarr 5/7/2013 17:16",
 		"readme" : "StefanMarr 9/9/2012 02:16",
 		"doIntAdd" : "StefanMarr 9/9/2012 01:47",
-		"doObjectCopy" : "StefanMarr 9/9/2012 01:51",
-		"problemSize" : "",
-		"doPerform" : "StefanMarr 9/9/2012 01:52",
+		"doObjectCopy" : "StefanMarr 5/7/2013 17:16",
+		"initialize" : "StefanMarr 5/7/2013 17:10",
+		"doPerform" : "StefanMarr 5/7/2013 17:17",
+		"problemSize" : "StefanMarr 5/8/2013 13:55",
 		"doFloatAdd" : "StefanMarr 9/9/2012 01:48",
 		"defaultProblemSize" : ""
 	},

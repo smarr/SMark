@@ -14,8 +14,8 @@ stringsUpTo: n
 	reader."
 
 	| selector |
-	(Array with: #reverse with: #reversed)
+	(arrFact with: #reverse with: #reversed)
 		do: [:symbol | (String canUnderstand: symbol)
 			ifTrue: [selector := symbol]].
-	^ (1 to: n)
+	^ (intervalFact from: 1 to: n)
 		collect: [:m | m printString perform: selector]

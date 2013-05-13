@@ -1,3 +1,3 @@
 stone benchmarks
 doObjectCopy
-	Object new copy copy copy copy copy copy copy copy copy copy
+	o copy copy copy copy copy copy copy copy copy copy

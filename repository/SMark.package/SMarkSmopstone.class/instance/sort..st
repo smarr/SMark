@@ -6,4 +6,4 @@ sort: collection
 	collection of strings. It indirectly measures the efficiency
 	of the sorting algorithm and of string comparison operations."
 
-	^collection asSortedCollection
+	^collection as: sortedColFact

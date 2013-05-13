@@ -30,7 +30,7 @@ streamTestsOn: integers
 	"Now make sure the underlying string size is < 16383, a 16-bit small int."
 	s contents size > (SmallInteger maxVal) ifTrue: [self error: 'String too big.'].
 	s reset.
-	floats := OrderedCollection new: integers size.
+	floats := ordCollectionFact new: integers size.
 	[s atEnd]
 		whileFalse: 
 			[float := 0.0.

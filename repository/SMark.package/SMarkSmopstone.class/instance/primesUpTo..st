@@ -10,8 +10,8 @@ primesUpTo: n
 	| nSqrt lowPrimes highPrimes genNext first |
 	n < 5 | (n > 16363) ifTrue: [self error: 'Prime limit(s) out of range.'].
 	nSqrt := n sqrt rounded.
-	lowPrimes := OrderedCollection with: 2.
-	highPrimes := 5 to: n by: 2.
+	lowPrimes := ordCollectionFact with: 2.
+	highPrimes := intervalFact from: 5 to: n by: 2.
 	
 	genNext := [:nextPrime |
 		lowPrimes add: nextPrime.
@@ -20,4 +20,4 @@ primesUpTo: n
 	
 	genNext value: 3.
 
-	^lowPrimes , highPrimes
+	^ lowPrimes , highPrimes
