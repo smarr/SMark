@@ -1,5 +1,5 @@
 stone benchmarks
-sorcerersApprentice
+sorcerersApprentice: m
 	"modified by nishis"
 
 	" FORMATTED FOR MONOSPACED FONT
@@ -47,10 +47,9 @@ sorcerersApprentice
 	In an actual application, these shortcomings of ST/V-DOS would have been
 	overcome by adding subclasses and methods rather than writing kludgy code."
 
-	| m n firstGen intersection isIncluded counts r random
+	| n firstGen intersection isIncluded counts r random
 	a b c d e f g h generate nextGen |
 	
-	m := 40. "was 80"
 	n := 20 * m.
 	firstGen := ordCollectionFact new.
 	counts   := ordCollectionFact new.

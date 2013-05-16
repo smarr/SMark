@@ -4,10 +4,13 @@ benchStone
 	
 	n := self problemSize.
 	
-	1 to: n do: [:i | self fractonacci: 5/2            ]. "13/2"
-	1 to: n do: [:i | primes := self primesUpTo: 1000   ]. "7351 - 1" "9000"
-	1 to: n do: [:i | self streamTestsOn: primes        ].
-	1 to: n do: [:i | strings := self stringsUpTo: 1000 ]. "8000"
-	1 to: n do: [:i | set := self setFrom: strings      ].
-	1 to: n do: [:i | self sort: set                    ].
-	1 to: n do: [:i | self sorcerersApprentice          ].
+	self fractonacci: n / 13. "13/2"
+	
+	primes := self primesUpTo: n * 100. "7351 - 1" "9000"
+	self streamTestsOn: primes.
+	
+	strings := self stringsUpTo: n * 100. "8000"
+	set := self setFrom: strings.
+	self sort: set.
+	
+	self sorcerersApprentice: n.

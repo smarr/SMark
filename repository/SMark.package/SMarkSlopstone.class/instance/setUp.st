@@ -1,3 +1,3 @@
 initialize-release
-initialize
+setUp
 	obj := Object.
