@@ -1,3 +1,3 @@
 defaults
 defaultProblemSize
-	^ 10000
+	^ 1000
