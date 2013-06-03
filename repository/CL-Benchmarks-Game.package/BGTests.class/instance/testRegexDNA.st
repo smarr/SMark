@@ -1,7 +1,7 @@
 tests
 testRegexDNA
 	| output input |
-	input := BGFastaCache forFasta: BGRegexDNA defaultProblemSize.
+	input := BGFastaCache primeForFasta: BGRegexDNA defaultProblemSize.
 	
 	output := TextStream with: String new.
 	
