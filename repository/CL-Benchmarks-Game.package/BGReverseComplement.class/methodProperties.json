@@ -1,11 +1,14 @@
 {
-	"instance" : { },
+	"instance" : {
+		"initialize" : "StefanMarr 6/5/2013 00:13",
+		"revcomp:" : "StefanMarr 6/5/2013 00:12",
+		"readFasta:from:" : "StefanMarr 6/5/2013 00:11",
+		"reverseComplement:named:to:" : "StefanMarr 6/5/2013 00:05"
+	},
 	"class" : {
-		"revcomp" : "StefanMarr 5/7/2013 15:10",
-		"revcomp:" : "StefanMarr 5/7/2013 15:10",
-		"readFasta:from:" : "StefanMarr 4/25/2013 16:14",
+		"revcomp:" : "StefanMarr 6/5/2013 00:06",
 		"defaultProblemSize" : "StefanMarr 5/7/2013 15:07",
-		"reverseComplement:named:to:" : "StefanMarr 4/25/2013 16:19",
-		"output" : "StefanMarr 4/25/2013 15:55"
+		"output" : "StefanMarr 4/25/2013 15:55",
+		"revcomp" : "StefanMarr 5/7/2013 15:10"
 	}
 }

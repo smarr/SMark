@@ -20,4 +20,4 @@ readFasta: sequenceName from: input
          ifTrue: [input upTo: newline]
          ifFalse: [buffer nextPutAll: (input upTo: newline)]
       ].
-   ^Association key: description value: buffer contents
+   ^ assocFact key: description value: buffer contents

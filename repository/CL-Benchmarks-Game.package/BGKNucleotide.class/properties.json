@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"dictFactory",
-		"sortCollectionFactory"
+		"sortCollectionFactory",
+		"assocFact"
 	],
 	"name" : "BGKNucleotide",
 	"type" : "normal"
