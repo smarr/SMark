@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CL-Benchmarks-Game-BinaryTree",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nodeCls"
+	],
+	"name" : "BGTreeFactory",
+	"type" : "normal"
+}
