@@ -14,7 +14,7 @@ readFasta: sequenceName from: input
 
    "* line-by-line read - it would be a lot faster to block read *"
    description := line.
-   buffer := ReadWriteStream on: (String new: 1028).
+   buffer := ReadWriteStream on: (ByteString new: 1028).
    [(input atEnd) or: [(char := input peek) = $>]] whileFalse: [
       (char = $;) 
          ifTrue: [input upTo: newline] 

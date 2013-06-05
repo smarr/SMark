@@ -6,7 +6,7 @@ benchKNucleotide
 	
 	bench := BGKNucleotide new.
 	input := ReadStream on: (BGFastaCache forFasta: problemSize).
-	result := TextStream with: String new.
+	result := TextStream with: ByteString new.
 	output := bench knucleotide5From: input to: result.
 	
 	^ output

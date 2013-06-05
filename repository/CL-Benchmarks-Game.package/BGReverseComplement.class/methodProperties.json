@@ -1,9 +1,9 @@
 {
 	"instance" : {
 		"initialize" : "StefanMarr 6/5/2013 00:13",
-		"revcomp:" : "StefanMarr 6/5/2013 00:12",
-		"readFasta:from:" : "StefanMarr 6/5/2013 00:11",
-		"reverseComplement:named:to:" : "StefanMarr 6/5/2013 00:05"
+		"revcomp:" : "StefanMarr 6/5/2013 17:02",
+		"readFasta:from:" : "StefanMarr 6/5/2013 17:02",
+		"reverseComplement:named:to:" : "StefanMarr 6/5/2013 17:02"
 	},
 	"class" : {
 		"revcomp:" : "StefanMarr 6/5/2013 00:06",

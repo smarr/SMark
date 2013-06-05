@@ -3,7 +3,7 @@ reverseComplement: sequence named: sequenceName to: output
    | complement newline lineLength n |
    (sequenceName isNil) ifTrue: [^self].
 
-   complement := String new: 128 withAll: $*.
+   complement := ByteString new: 128 withAll: $*.
 
    'ABCDGHKMNRSTVWY' with: 
    'TVGHCDMKNYSABWR'

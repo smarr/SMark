@@ -1,7 +1,7 @@
 benchmarking
 mandelbrot2: n
    | output outputArray |
-   (output := MultiByteBinaryOrTextStream with: String new)
+   (output := MultiByteBinaryOrTextStream with: ByteString new)
       nextPutAll: 'P4'; lf; print: n; space; print: n; lf";
       binary".
 

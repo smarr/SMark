@@ -2,8 +2,8 @@ benchmarking
 meteor: nMax with: aBoard to: outputStream
     | board count minSolution maxSolution |
     count := 0.
-    minSolution := String new: 50 withAll: $9.
-    maxSolution := String new: 50 withAll: $0.
+    minSolution := ByteString new: 50 withAll: $9.
+    maxSolution := ByteString new: 50 withAll: $0.
     aBoard solvedPuzzleDo:
         [:aString |
             count := count + 1.

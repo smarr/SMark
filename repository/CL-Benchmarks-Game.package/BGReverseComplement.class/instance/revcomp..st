@@ -3,7 +3,7 @@ revcomp: n
    | input output |
    input := RWBinaryOrTextStream with: (BGFastaCache forFasta: n).
    input reset.
-   output := TextStream with: String new.
+   output := TextStream with: ByteString new.
 
    (arrayFact with: 'ONE' with: 'TWO' with: 'THREE') do: [:sequenceName |
 		| fasta |

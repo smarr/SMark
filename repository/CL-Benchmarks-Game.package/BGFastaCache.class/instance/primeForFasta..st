@@ -1,7 +1,7 @@
 cache
 primeForFasta: anInteger
 	| out result |
-   out := TextStream with: String new.
+   out := TextStream with: ByteString new.
    BGFasta fasta: anInteger to: out.
    
 	result := out contents.

@@ -4,4 +4,4 @@ benchBinaryTrees
 	bench := BGBinaryTrees new.
 	problemSize := self problemSize ifNotNil: [:ps | ps ]
 							  ifNil: [ BGBinaryTrees defaultProblemSize ].
-	^ bench binarytrees: problemSize to: (TextStream with: String new).
+	^ bench binarytrees: problemSize to: (TextStream with: ByteString new).

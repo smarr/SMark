@@ -2,7 +2,7 @@ tests
 testBinaryTrees
 	| bench output expected |
 	bench := BGBinaryTrees new.
-	output := (TextStream with: String new).
+	output := (TextStream with: ByteString new).
 
 	self assert: -1 equals: (bench binarytrees: 10 to: output).
 	
