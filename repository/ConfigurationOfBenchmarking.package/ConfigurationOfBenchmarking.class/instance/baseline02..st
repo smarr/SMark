@@ -4,7 +4,7 @@ baseline02: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: 'http://www.squeaksource.com/SMark'.
+		spec repository: 'http://smalltalkhub.com/mc/StefanMarr/SMark/main'.
 		
 		spec package: 'Scripting'.
 		spec package: 'SMark' with: [
