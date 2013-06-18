@@ -1,0 +1,1 @@
+(SMarkLoops new runOnly: #benchFloatLoop) run: 10 

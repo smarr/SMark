@@ -12,4 +12,4 @@ usage
 	usage := usage, '                              or a benchmark denoted by Suite.benchName', String crlf.
 	usage := self usageBenchmarkParameters: usage.
 	
-	ScriptConsole print: usage.
+	self defaultOutputDestination print: usage.

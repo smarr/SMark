@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarks
 performBenchmark: aSelector
 	currentBenchmark := aSelector.
 	

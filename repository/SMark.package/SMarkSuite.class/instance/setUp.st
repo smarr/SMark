@@ -1,4 +1,4 @@
 running
 setUp
-	"subclass responsibility to set up the necessary environment for a benchmark"
+	"It is the subclass responsibility to set up the necessary environment for a benchmark"
 	^ self

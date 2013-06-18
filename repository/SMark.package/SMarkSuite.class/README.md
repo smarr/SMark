@@ -4,6 +4,10 @@ It knows all the magic, that is, how to set up and tear down the environment for
 
 Usage:
 
- Choose a suite and use the class-side #run.
- Print the result of the following expression:
-   SMarkCompiler run: 10
+Choose a suite (i.e. one of my subclasses) and use the class-side #run or run: messages.
+
+To get an example print the result of the following expression:
+	
+	SMarkCompiler run: 10
+	
+	SMarkLoops runOnly: #benchArrayAccess

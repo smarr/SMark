@@ -3,7 +3,7 @@
 		"header" : "",
 		"benchmarkHeader:" : "",
 		"reportAllRuns:of:" : "CamilloBruni 9/5/2011 13:13",
-		"initialize" : "",
+		"initialize" : "StephaneDucasse 6/16/2013 21:10",
 		"benchmarkFooter:" : "",
 		"outputStream:" : "",
 		"report" : "",
@@ -13,7 +13,7 @@
 	"class" : {
 		"defaultReporter" : "",
 		"reportFor:" : "",
-		"defaultOutputDestination" : "",
+		"defaultOutputDestination" : "StephaneDucasse 6/16/2013 20:52",
 		"reportFor:on:" : ""
 	}
 }

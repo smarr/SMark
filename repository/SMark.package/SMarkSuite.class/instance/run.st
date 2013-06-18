@@ -6,12 +6,11 @@ run
 	| potentialBenchmarkSelectors |
 	selectedBenchmarks
 		ifNotNil: [ potentialBenchmarkSelectors := selectedBenchmarks ]
-		ifNil:    [ potentialBenchmarkSelectors := self class allSelectors ].				
+		ifNil: [ potentialBenchmarkSelectors := self class allSelectors ].				
 	
 	potentialBenchmarkSelectors
 		do: [ :selector |
 			(self shouldRunSelector: selector)
-				ifTrue: [
-					runner performBenchmark: selector ]
+				ifTrue: [ runner performBenchmark: selector ]
 		].
 	

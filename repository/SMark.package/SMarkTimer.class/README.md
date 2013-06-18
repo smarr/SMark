@@ -1,0 +1,1 @@
+A SMarkTimer is a simple timer.

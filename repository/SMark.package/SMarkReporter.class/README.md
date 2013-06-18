@@ -1,11 +1,9 @@
-PBenchmarkReporter has not been documented yet. The class comment should describe the purpose of the class, its collaborations and its variables.
+SMarkReporter is a simple formatter of benchmark results. 
 
-Instance Variables:
-	runner	<PBenchmarkRunner>
-	stream	<NSDecoderDeflateStream | SocketStream | ThreadSafeTranscript | WriteStream>
-		
+
 Example:
 
+	| f |
 	f := TextStream on: String new.
 	PBenchmarkSimpleStatisticsReporter reportFor: (PTestBenchmarkRunnerSuiteForAutosizing run: 10) on: f.
 	f contents

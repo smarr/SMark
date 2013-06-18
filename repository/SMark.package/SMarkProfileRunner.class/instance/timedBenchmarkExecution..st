@@ -1,3 +1,3 @@
-as yet unclassified
+benchmarks
 timedBenchmarkExecution: aSelector
 	suite perform: aSelector
