@@ -1,19 +1,19 @@
 {
 	"instance" : {
-		"shouldRunSelector:" : "StephaneDucasse 6/16/2013 20:37",
+		"shouldRunSelector:" : "StefanMarr 6/30/2013 00:59",
 		"cleanUpInstanceVariables" : "",
 		"processResult:withTimer:" : "ReinoutStevens 12/6/2011 14:31",
 		"performCustomSelector:with:" : "",
-		"tearDown" : "StephaneDucasse 6/16/2013 20:37",
+		"tearDown" : "StefanMarr 6/30/2013 00:58",
 		"benchmarkNameForSelector:" : "",
 		"problemSize" : "StefanMarr 5/8/2013 13:55",
 		"runner:" : "",
 		"runner" : "",
 		"runBenchmark:" : "",
-		"run" : "StephaneDucasse 6/16/2013 19:12",
+		"run" : "",
 		"runOnly:" : "",
 		"selectedBenchmarks" : "",
-		"setUp" : "StephaneDucasse 6/16/2013 20:37"
+		"setUp" : "StefanMarr 6/30/2013 00:59"
 	},
 	"class" : {
 		"profileAll" : "CamilloBruni 1/28/2013 18:21",
@@ -23,7 +23,7 @@
 		"onCog:else:" : "StefanMarr 4/5/2012 22:20",
 		"profile:" : "CamilloBruni 1/28/2013 18:22",
 		"run" : "StephaneDucasse 6/16/2013 12:11",
-		"runOnly:" : "StephaneDucasse 6/16/2013 21:02",
+		"runOnly:" : "StefanMarr 6/30/2013 00:57",
 		"profileRunner" : "CamilloBruni 1/28/2013 18:17",
 		"defaultProblemSize" : "",
 		"isAbstractClass" : "",

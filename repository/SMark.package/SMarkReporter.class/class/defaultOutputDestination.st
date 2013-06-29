@@ -1,3 +1,3 @@
 defaults
 defaultOutputDestination
-	^ Transcript
+	^ ScriptConsole

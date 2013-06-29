@@ -1,4 +1,4 @@
 defaults
 defaultOutputDestination
-	^ Smalltalk globals at: #Transcript
+	^ Smalltalk at:       #ScriptConsole
 	            ifAbsent: [SMarkReporter defaultOutputDestination]
