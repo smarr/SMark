@@ -5,7 +5,7 @@
 		"testChameleons" : "StefanMarr 5/15/2011 18:03",
 		"testChameneosRedux" : "StefanMarr 6/5/2013 17:02",
 		"testPiDigits" : "StefanMarr 4/24/2013 14:19",
-		"testReverseComplement" : "StefanMarr 4/25/2013 16:17",
+		"testReverseComplement" : "StefanMarr 7/5/2013 11:14",
 		"testNBody" : "StefanMarr 1/1/2012 22:33",
 		"testBinaryTrees" : "StefanMarr 6/5/2013 17:02",
 		"testFannkuchReduxResult" : "StefanMarr 6/5/2013 17:02",
@@ -13,7 +13,7 @@
 		"testMandelbrot" : "StefanMarr 4/30/2013 14:55",
 		"testMeteor" : "StefanMarr 4/25/2013 22:05",
 		"testBinaryTreesResult" : "StefanMarr 6/5/2013 17:02",
-		"testKNucleotide" : "StefanMarr 6/5/2013 17:03",
+		"testKNucleotide" : "StefanMarr 7/5/2013 11:12",
 		"testSpectralNorm" : "StefanMarr 4/23/2013 22:48"
 	},
 	"class" : { }
