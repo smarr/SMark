@@ -9,7 +9,8 @@ baseline100: spec
 		spec project: 'SMark' with: [
 				spec className: 'ConfigurationOfSMark';
 					  file: 'ConfigurationOfSMark';
-					  version: #stable ].
+					  version: #stable;
+					  repository: 'http://smalltalkhub.com/mc/StefanMarr/SMark/main' ].
 		
 		spec package: 'NPB' with: [
 			spec requires: #(SMark) ].
