@@ -2,7 +2,7 @@ tests
 testAllBenchmarksForReturningThemSelf
 	"This is a regression test to ensure that the old behavior worked in the first place"
 	| allSuites |
-	allSuites := SMarkSuite subclasses.
+	allSuites := { SMarkCompiler. SMarkLoops }.
 	
 	allSuites do: [:suite |
 		suite isAbstractClass ifFalse: [
