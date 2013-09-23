@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SMarkSuite",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"constraints",
+		"determinedBy",
+		"mark",
+		"stay",
+		"value",
+		"walkStrength"
+	],
+	"name" : "DBVariable",
+	"type" : "normal"
+}

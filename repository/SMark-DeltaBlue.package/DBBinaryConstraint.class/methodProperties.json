@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"markUnsatisfied" : "ClementBera 9/23/2013 10:25",
+		"recalculate" : "ClementBera 9/23/2013 10:27",
+		"inputsDo:" : "ClementBera 9/23/2013 10:25",
+		"var:var:strength:" : "ClementBera 9/23/2013 10:21",
+		"isSatisfied" : "ClementBera 9/23/2013 10:21",
+		"addToGraph" : "ClementBera 9/23/2013 10:21",
+		"execute" : "ClementBera 9/23/2013 10:25",
+		"chooseMethod:" : "ClementBera 9/23/2013 10:24",
+		"output" : "ClementBera 9/23/2013 10:26",
+		"removeFromGraph" : "ClementBera 9/23/2013 10:29"
+	},
+	"class" : {
+		"var:var:strength:" : "ClementBera 9/23/2013 10:33"
+	}
+}

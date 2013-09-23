@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "OrderedCollection",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DBPlan",
+	"type" : "normal"
+}

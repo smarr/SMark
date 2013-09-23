@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SMarkSuite",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkDeltaBlue",
+	"type" : "normal"
+}

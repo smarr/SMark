@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "DBBinaryConstraint",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"offset",
+		"scale"
+	],
+	"name" : "DBScaleConstraint",
+	"type" : "normal"
+}

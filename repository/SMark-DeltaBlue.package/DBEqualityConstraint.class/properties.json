@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "DBBinaryConstraint",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DBEqualityConstraint",
+	"type" : "normal"
+}

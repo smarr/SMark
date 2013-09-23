@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SMarkSuite",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"strength"
+	],
+	"name" : "DBAbstractConstraint",
+	"type" : "normal"
+}

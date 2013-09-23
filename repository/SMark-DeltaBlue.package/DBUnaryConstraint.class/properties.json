@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "DBAbstractConstraint",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"output",
+		"satisfied"
+	],
+	"name" : "DBUnaryConstraint",
+	"type" : "normal"
+}

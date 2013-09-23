@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SMarkSuite",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"AbsoluteStrongest",
+		"AbsoluteWeakest",
+		"Required",
+		"StrengthConstants",
+		"StrengthTable"
+	],
+	"instvars" : [
+		"symbolicValue",
+		"arithmeticValue"
+	],
+	"name" : "DBStrength",
+	"type" : "normal"
+}

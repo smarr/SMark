@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SMarkSuite",
+	"category" : "SMark-DeltaBlue",
+	"classinstvars" : [
+		"currentPlanner"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentMark"
+	],
+	"name" : "DBPlanner",
+	"type" : "normal"
+}
