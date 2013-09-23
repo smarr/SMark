@@ -5,8 +5,6 @@ benchDeltaBlue
 	| n |
 	
 	n := self problemSize.
-	n > SmallInteger maxVal
-		ifTrue: [ self error: 'Count exceeded max small int.' ].
 	
 	DBStrength initialize.
 	
