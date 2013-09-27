@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "SMarkSuite",
+	"super" : "Object",
 	"category" : "SMark-DeltaBlue",
 	"classinstvars" : [ ],
 	"pools" : [ ],
