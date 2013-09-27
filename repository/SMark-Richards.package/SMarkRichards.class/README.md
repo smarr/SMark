@@ -1,0 +1,1 @@
+Richards is an OS kernel simulation benchmark, originally written in BCPL by Martin Richards. The main focus in Richards is on property access and calling functions and methods.
