@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "RichObject",
+	"category" : "SMark-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"data",
+		"datum",
+		"identity",
+		"kind",
+		"link"
+	],
+	"name" : "RichPacket",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "RichObject",
+	"category" : "SMark-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packetPendingIV",
+		"taskHolding",
+		"taskWaiting"
+	],
+	"name" : "RichTaskState",
+	"type" : "normal"
+}

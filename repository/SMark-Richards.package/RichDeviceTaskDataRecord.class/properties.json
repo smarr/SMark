@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RichObject",
+	"category" : "SMark-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pending"
+	],
+	"name" : "RichDeviceTaskDataRecord",
+	"type" : "normal"
+}

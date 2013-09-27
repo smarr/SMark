@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "RichObject",
+	"category" : "SMark-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"taskList",
+		"currentTask",
+		"currentTaskIdentity",
+		"taskTable",
+		"queuePacketCount",
+		"holdCount"
+	],
+	"name" : "RichRunner",
+	"type" : "normal"
+}

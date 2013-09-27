@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "RichTaskState",
+	"category" : "SMark-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"link",
+		"identity",
+		"priority",
+		"input",
+		"state",
+		"function",
+		"handle"
+	],
+	"name" : "RichTaskControlBlock",
+	"type" : "normal"
+}
