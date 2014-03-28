@@ -4,6 +4,7 @@
 		"customProjectAttributes" : "StefanMarr 7/5/2013 11:09",
 		"version100:" : "StefanMarr 7/5/2013 11:24",
 		"baseline110:" : "StefanMarr 7/5/2013 11:19",
+		"version101:" : "StefanMarr 3/28/2014 14:05",
 		"stable:" : "StefanMarr 7/5/2013 11:19",
 		"development:" : "StefanMarr 7/5/2013 11:19",
 		"baseline100:" : "StefanMarr 7/5/2013 11:18"
@@ -17,7 +18,7 @@
 		"ensureMetacello" : "StefanMarr 7/5/2013 11:09",
 		"catalogKeywords" : "StefanMarr 3/12/2014 14:30",
 		"loadDevelopment" : "StefanMarr 7/5/2013 11:09",
-		"catalogChangeLog" : "StefanMarr 3/12/2014 14:22",
+		"catalogChangeLog" : "StefanMarr 3/28/2014 14:06",
 		"isMetacelloConfig" : "StefanMarr 7/5/2013 11:09",
 		"ensureMetacelloBaseConfiguration" : "StefanMarr 7/5/2013 11:09",
 		"loadBleedingEdge" : "StefanMarr 7/5/2013 11:09",
