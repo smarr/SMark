@@ -1,4 +1,4 @@
 helper
 totalResultsFor: aListOfResults
-	^aListOfResults collect: [:timer | timer total]
+	^ aListOfResults collect: [:result | result total]
 	
