@@ -1,14 +1,15 @@
 {
 	"instance" : {
 		"shouldRunSelector:" : "StefanMarr 6/30/2013 00:59",
-		"cleanUpInstanceVariables" : "",
+		"cleanUpInstanceVariables" : "MartinDias 3/12/2014 15:52",
 		"processResult:withTimer:" : "ReinoutStevens 12/6/2011 14:31",
 		"performCustomSelector:with:" : "",
 		"tearDown" : "StefanMarr 6/30/2013 00:58",
+		"instanceVariablesToPreserve" : "MartinDias 3/12/2014 15:48",
 		"benchmarkNameForSelector:" : "",
 		"problemSize" : "StefanMarr 5/8/2013 13:55",
-		"runner:" : "",
 		"runner" : "",
+		"runner:" : "",
 		"runBenchmark:" : "",
 		"run" : "",
 		"runOnly:" : "",
