@@ -2,9 +2,9 @@ accessing
 chainTest: n
         "Do chain-of-equality-constraints performance tests."
         | vars editConstraint plan planner |
-        
         planner := DBPlanner new.
-        vars := Array new: n+1 withAll: [ DBVariable new ].
+        vars := Array new: n+1.
+        1 to: n+1 do: [:i | vars at: i put: DBVariable new ].
 
         "thread a chain of equality constraints through the variables"
         1 to: n do:

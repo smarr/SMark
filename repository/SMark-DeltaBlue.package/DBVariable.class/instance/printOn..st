@@ -1,4 +1,4 @@
 printing
 printOn: aStream
-
-	self shortPrintOn: aStream
+	^ super printOn: aStream
+	"self shortPrintOn: aStream"
