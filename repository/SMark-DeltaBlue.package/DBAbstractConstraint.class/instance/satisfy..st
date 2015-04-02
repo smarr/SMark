@@ -7,13 +7,13 @@ satisfy: mark
 
 	| overridden out |
 	self chooseMethod: mark.
-	self isSatisfied
+	(self isSatisfied)
 		ifTrue:			"constraint can be satisfied"
 			["mark inputs to allow cycle detection in addPropagate"
 			 self inputsDo: [ :in | in mark: mark].
 			 out := self output.
 			 overridden := out determinedBy.
-			 overridden ifNotNil: [overridden markUnsatisfied].
+			 (overridden == nil) ifFalse: [overridden markUnsatisfied].
 			 out determinedBy: self.
 			 (DBPlanner current addPropagate: self mark: mark) ifFalse:
 				[self notify:

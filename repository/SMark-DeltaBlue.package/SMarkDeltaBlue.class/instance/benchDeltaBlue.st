@@ -7,6 +7,6 @@ benchDeltaBlue
 	n := self problemSize.
 	
 	DBStrength initialize.
-	
-	self doChain: n. 
-	self doProjection: n
+	DBPlanner chainTest: n.
+	DBPlanner projectionTest: n.
+	^ true

@@ -1,3 +1,3 @@
 accessing
-stay: anObject
-	stay := anObject
+stay: aBoolean
+	stay := aBoolean

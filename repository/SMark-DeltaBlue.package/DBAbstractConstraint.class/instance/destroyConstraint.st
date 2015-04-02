@@ -5,4 +5,4 @@ destroyConstraint
 
 	(self isSatisfied) ifTrue: [DBPlanner current incrementalRemove: self].
 	self removeFromGraph.
-	self release.
+	"self release."

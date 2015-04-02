@@ -1,6 +1,8 @@
 {
 	"instance" : {
-		"execute" : "ClementBera 9/23/2013 11:24"
+		"execute" : "StefanMarr 4/2/2015 15:18"
 	},
-	"class" : { }
+	"class" : {
+		"var:var:strength:" : "StefanMarr 4/2/2015 15:55"
+	}
 }

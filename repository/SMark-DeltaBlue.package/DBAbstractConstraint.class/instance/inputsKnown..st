@@ -8,6 +8,6 @@ inputsKnown: mark
 
 	self inputsDo:
 		[ :v |
-		 (v mark = mark or: [v stay or: [v determinedBy isNil]]) ifFalse:
+		 (v mark = mark or: [(v stay) or: [v determinedBy == nil]]) ifFalse:
 			[^false]].
 	^true

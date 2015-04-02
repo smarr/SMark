@@ -17,5 +17,5 @@ incrementalAdd: c
 	| mark overridden |
 	mark := self newMark.
 	overridden := c satisfy: mark.
-	[overridden isNil] whileFalse:
+	[overridden == nil] whileFalse:
 		[overridden := overridden satisfy: mark].

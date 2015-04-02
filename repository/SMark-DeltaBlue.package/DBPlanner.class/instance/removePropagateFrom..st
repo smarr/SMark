@@ -5,8 +5,8 @@ removePropagateFrom: out
 	 constraints sorted in order of decreasing strength."
 
 	| unsatisfied todo v |
-	unsatisfied := SortedCollection sortBlock:
-		[ :c1 :c2 | c1 strength stronger: c2 strength].
+	unsatisfied := OrderedCollection new.
+	
 	out determinedBy: nil.
 	out walkStrength: DBStrength absoluteWeakest.
 	out stay: true.
@@ -14,9 +14,11 @@ removePropagateFrom: out
 	[todo isEmpty] whileFalse:
 		[v := todo removeFirst.
 		 v constraints do:
-		 	[ :c | c isSatisfied ifFalse: [unsatisfied add: c]].
+		 	[ :c | (c isSatisfied) ifFalse: [unsatisfied add: c]].
 		 self constraintsConsuming: v do:
 			[ :c |
 			 c recalculate.
 			 todo add: c output]].
+	
+	unsatisfied sort: [ :c1 :c2 | c1 strength stronger: c2 strength].
 	^ unsatisfied

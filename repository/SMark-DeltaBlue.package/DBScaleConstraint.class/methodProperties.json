@@ -1,11 +1,11 @@
 {
 	"instance" : {
-		"recalculate" : "ClementBera 9/23/2013 10:32",
-		"inputsDo:" : "ClementBera 9/23/2013 10:31",
+		"recalculate" : "StefanMarr 4/2/2015 16:32",
+		"inputsDo:" : "StefanMarr 4/2/2015 16:32",
 		"src:scale:offset:dst:strength:" : "ClementBera 9/23/2013 10:27",
-		"addToGraph" : "ClementBera 9/23/2013 10:28",
-		"removeFromGraph" : "ClementBera 9/23/2013 10:29",
-		"execute" : "ClementBera 9/23/2013 10:31"
+		"addToGraph" : "StefanMarr 4/2/2015 16:23",
+		"removeFromGraph" : "StefanMarr 4/2/2015 16:24",
+		"execute" : "StefanMarr 4/2/2015 16:30"
 	},
 	"class" : {
 		"var:var:var:var:strength:" : "ClementBera 9/23/2013 10:32"

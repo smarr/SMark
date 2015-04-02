@@ -9,5 +9,5 @@ extractPlanFromVariables: variables
 	variables do:
 		[: v |
 		 (v constraints) do:
-			[: c | (c isInput and: [c isSatisfied]) ifTrue: [sources add: c]]].
+			[: c | ((c isInput) and: [c isSatisfied]) ifTrue: [sources add: c]]].
 	^self makePlan: sources

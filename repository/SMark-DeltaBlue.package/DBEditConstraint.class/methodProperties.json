@@ -3,5 +3,7 @@
 		"execute" : "ClementBera 9/23/2013 10:19",
 		"isInput" : "ClementBera 9/23/2013 10:18"
 	},
-	"class" : { }
+	"class" : {
+		"var:strength:" : "StefanMarr 4/2/2015 15:16"
+	}
 }

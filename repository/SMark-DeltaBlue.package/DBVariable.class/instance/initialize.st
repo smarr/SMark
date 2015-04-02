@@ -1,8 +1,5 @@
 initialize
 initialize
-
-	super initialize.
-
 	value := 0.
 	constraints := OrderedCollection new: 2.
 	determinedBy := nil.

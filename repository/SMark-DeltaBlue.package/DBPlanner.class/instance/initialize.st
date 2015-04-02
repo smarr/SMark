@@ -1,6 +1,6 @@
 initialize
 initialize
 
-	super initialize.
+	"super initialize."
 
 	currentMark := 1.

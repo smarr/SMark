@@ -4,12 +4,12 @@
 		"addConstraint" : "ClementBera 9/23/2013 10:54",
 		"addToGraph" : "ClementBera 9/23/2013 10:54",
 		"inputsDo:" : "ClementBera 9/23/2013 10:55",
-		"destroyConstraint" : "ClementBera 9/23/2013 10:54",
+		"destroyConstraint" : "StefanMarr 4/2/2015 14:54",
 		"strength" : "ClementBera 9/23/2013 10:53",
 		"execute" : "ClementBera 9/23/2013 10:55",
-		"satisfy:" : "ClementBera 9/23/2013 10:56",
+		"satisfy:" : "StefanMarr 4/2/2015 14:56",
 		"chooseMethod:" : "ClementBera 9/23/2013 10:55",
-		"strength:" : "ClementBera 9/23/2013 10:53",
+		"strength:" : "StefanMarr 4/2/2015 14:52",
 		"recalculate" : "ClementBera 9/23/2013 10:56",
 		"isSatisfied" : "ClementBera 9/23/2013 10:54",
 		"shortPrintOn:" : "ClementBera 9/23/2013 11:02",
@@ -18,7 +18,7 @@
 		"longPrintOn:" : "ClementBera 9/23/2013 11:02",
 		"output" : "ClementBera 9/23/2013 10:55",
 		"printOn:" : "ClementBera 9/23/2013 10:57",
-		"inputsKnown:" : "ClementBera 9/23/2013 10:55"
+		"inputsKnown:" : "StefanMarr 4/2/2015 14:55"
 	},
 	"class" : { }
 }

@@ -1,3 +1,3 @@
 accessing
-walkStrength: anObject
-	walkStrength := anObject
+walkStrength: aStrength
+	walkStrength := aStrength

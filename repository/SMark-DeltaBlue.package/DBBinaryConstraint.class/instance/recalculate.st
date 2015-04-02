@@ -5,9 +5,9 @@ recalculate
 	 constraint is satisfied."
 
 	| in out |
-	direction == #forward
+	(direction == #forward)
 		ifTrue: [in := v1. out := v2]
 		ifFalse: [in := v2. out := v1].
 	out walkStrength: (strength weakest: in walkStrength).
-	out stay: in stay.
-	out stay ifTrue: [ self execute ].		"stay optimization"
+	out stay: (in stay).
+	(out stay) ifTrue: [ self execute ].		"stay optimization"

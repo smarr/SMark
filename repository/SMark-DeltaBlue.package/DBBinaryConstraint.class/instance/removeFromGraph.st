@@ -2,6 +2,6 @@ adding
 removeFromGraph
 	"Remove myself from the constraint graph."
 
-	v1 ifNotNil: [v1 removeConstraint: self].
-	v2 ifNotNil: [v2 removeConstraint: self].
+	(v1 == nil) ifFalse: [v1 removeConstraint: self].
+	(v2 == nil) ifFalse: [v2 removeConstraint: self].
 	direction := nil.

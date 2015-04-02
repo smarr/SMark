@@ -1,3 +1,3 @@
 accessing
-strength: anObject
-	strength := anObject
+strength: strengthSymbol
+	strength := DBStrength of: strengthSymbol
