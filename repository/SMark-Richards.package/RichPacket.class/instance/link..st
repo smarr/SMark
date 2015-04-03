@@ -1,3 +1,3 @@
 accessing
-link: anObject
-	link := anObject
+link: aWorkQueue
+	link := aWorkQueue

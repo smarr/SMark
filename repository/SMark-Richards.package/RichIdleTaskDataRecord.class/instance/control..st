@@ -1,3 +1,3 @@
 accessing
-control: anObject
-	control := anObject
+control: aNumber
+	control := aNumber

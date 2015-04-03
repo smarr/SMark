@@ -1,3 +1,3 @@
 accessing
-taskWaiting: anObject
-	^ taskWaiting := anObject
+taskWaiting: aBoolean
+	^ taskWaiting := aBoolean

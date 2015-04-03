@@ -1,0 +1,3 @@
+benchs
+verifyRichards: result
+	^ result

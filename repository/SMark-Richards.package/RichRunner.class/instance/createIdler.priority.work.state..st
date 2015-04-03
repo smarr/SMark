@@ -1,7 +1,7 @@
 creation
 createIdler: identity priority: priority work: work state: state 
     | data |
-    data := RichIdleTaskDataRecord new.
+    data := RichIdleTaskDataRecord create.
     self
 	createTask: identity
 	priority: priority
@@ -17,8 +17,8 @@ createIdler: identity priority: priority work: work state: state
 		    [0 = (data1 control bitAnd: 1)
 			ifTrue: 
 			    [data1 control: data1 control // 2.
-			    self release: DeviceA]
+			    self release: RichObject DeviceA]
 			ifFalse: 
 			    [data1 control: (data1 control // 2 bitXor: 53256).
-			    self release: DeviceB]]]
+			    self release: RichObject DeviceB]]]
 	data: data

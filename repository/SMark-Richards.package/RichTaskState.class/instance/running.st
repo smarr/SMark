@@ -1,3 +1,3 @@
 initialize
 running
-    packetPendingIV := taskWaiting := taskHolding := false
+    packetPending := taskWaiting := taskHolding := false

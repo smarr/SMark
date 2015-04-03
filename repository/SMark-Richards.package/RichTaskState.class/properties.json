@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packetPendingIV",
+		"packetPending",
 		"taskHolding",
 		"taskWaiting"
 	],

@@ -1,3 +1,3 @@
 accessing
-deviceIn: anObject
-	deviceIn := anObject
+deviceIn: aPacket
+	deviceIn := aPacket

@@ -1,3 +1,3 @@
 accessing
-workIn: anObject
-	workIn := anObject
+workIn: aWorkQueue
+	workIn := aWorkQueue

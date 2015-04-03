@@ -4,8 +4,8 @@ link: aLink identity: anIdentity priority: aPriority initialWorkQueue: anInitial
     identity := anIdentity.
     priority := aPriority.
     input := anInitialWorkQueue.
-    packetPendingIV := anInitialState isPacketPending.
-    taskWaiting := anInitialState isTaskWaiting.
-    taskHolding := anInitialState isTaskHolding.
+    self packetPending: anInitialState isPacketPending.
+    self taskWaiting: anInitialState isTaskWaiting.
+    self taskHolding: anInitialState isTaskHolding.
     function := aBlock.
     handle := aPrivateData

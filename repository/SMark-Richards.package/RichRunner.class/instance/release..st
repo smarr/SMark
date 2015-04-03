@@ -2,8 +2,8 @@ private
 release: identity 
     | t |
     t := self findTask: identity.
-    t ifNil: [ ^ nil ].
+    RichObject NoTask == t ifTrue: [ ^ RichObject NoTask ].
     t taskHolding: false.
-    ^ t priority > currentTask priority
-	ifTrue: [ t ]
-	ifFalse: [ currentTask ]
+    t priority > currentTask priority
+		ifTrue: [ ^ t ]
+		ifFalse: [ ^ currentTask ]

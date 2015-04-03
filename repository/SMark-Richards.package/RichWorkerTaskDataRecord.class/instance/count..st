@@ -1,3 +1,3 @@
 accessing
-count: anObject
-	count := anObject
+count: anInteger
+	count := anInteger

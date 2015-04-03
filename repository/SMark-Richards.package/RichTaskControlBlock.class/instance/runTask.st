@@ -5,8 +5,8 @@ runTask
 	ifTrue: 
 	    [message := input.
 	    input := message link.
-	    input 
-		ifNil: [self running]
-		ifNotNil: [self packetPending]]
-	ifFalse: [message := nil].
+	    RichObject NoWork == input 
+		ifTrue: [self running]
+		ifFalse: [self packetPending]]
+	ifFalse: [message := RichObject NoWork].
     ^ function value: message value: handle

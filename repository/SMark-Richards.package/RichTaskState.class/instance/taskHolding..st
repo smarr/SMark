@@ -1,3 +1,3 @@
 accessing
-taskHolding: anObject
-	^ taskHolding := anObject
+taskHolding: aBoolean
+	^ taskHolding := aBoolean

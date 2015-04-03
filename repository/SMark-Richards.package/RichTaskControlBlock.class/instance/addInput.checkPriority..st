@@ -1,10 +1,10 @@
 scheduling
 addInput: packet checkPriority: oldTask
-    input 
-	ifNil: 
+    RichObject NoWork == input
+	ifTrue: 
 	    [input := packet.
-	    packetPendingIV := true.
+	    self packetPending: true.
 	    priority > oldTask priority ifTrue: [ ^ self ]]
-	ifNotNil: 
+	ifFalse: 
 	    [ input := self append: packet head: input ].
     ^ oldTask

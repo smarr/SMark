@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "RichObject",
+	"super" : "Object",
 	"category" : "SMark-Richards",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -10,6 +10,8 @@
 		"currentTask",
 		"currentTaskIdentity",
 		"taskTable",
+		"tracing",
+		"layout",
 		"queuePacketCount",
 		"holdCount"
 	],

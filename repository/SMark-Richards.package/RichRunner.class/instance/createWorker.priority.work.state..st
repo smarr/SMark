@@ -1,7 +1,7 @@
 creation
 createWorker: identity priority: priority work: work state: state 
     | data |
-    data := RichWorkerTaskDataRecord new.
+    data := RichWorkerTaskDataRecord create.
     self
 	createTask: identity
 	priority: priority
@@ -10,12 +10,12 @@ createWorker: identity priority: priority work: work state: state
 	function: 
 	    [:work1 :word | | data1 |
 	    data1 := word.
-	    work1
-		ifNil: [self wait]
-		ifNotNil: 
-		    [data1 destination: (HandlerA = data1 destination
-			    ifTrue: [HandlerB]
-			    ifFalse: [HandlerA]).
+	    RichObject NoWork == work1
+		ifTrue: [self wait]
+		ifFalse: 
+		    [data1 destination: (RichObject HandlerA = data1 destination
+			    ifTrue:  [RichObject HandlerB]
+			    ifFalse: [RichObject HandlerA]).
 		    work1 identity: data1 destination.
 		    work1 datum: 1.
 		    1 to: 4 do: [ :i | 

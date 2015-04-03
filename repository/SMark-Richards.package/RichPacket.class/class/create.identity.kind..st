@@ -1,6 +1,6 @@
 instance creation
 create: link identity: identity kind: kind 
-    ^ self new
+    ^ self basicNew
 		link: link
 		identity: identity
 		kind: kind

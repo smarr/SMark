@@ -1,7 +1,7 @@
 creation
 createDevice: identity priority: priority work: work state: state 
     | data |
-    data := RichDeviceTaskDataRecord new.
+    data := RichDeviceTaskDataRecord create.
     self
 	createTask: identity
 	priority: priority
@@ -11,14 +11,15 @@ createDevice: identity priority: priority work: work state: state
 	    [:work1 :word | | data1 functionWork |
 	    data1 := word.
 	    functionWork := work1.
-	    functionWork 
-		ifNil:
-		    [(functionWork := data1 pending) isNil
+	    RichObject NoWork == functionWork 
+		ifTrue:
+		    [RichObject NoWork == (functionWork := data1 pending)
 			ifTrue: [self wait]
 			ifFalse: 
-			    [data1 pending: nil.
+			    [data1 pending: RichObject NoWork.
 			    self queuePacket: functionWork]]
-		ifNotNil: 
+		ifFalse: 
 		    [data1 pending: functionWork.
+			tracing ifTrue: [ self trace: functionWork datum ].
 		    self holdSelf]]
 	data: data

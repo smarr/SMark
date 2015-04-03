@@ -11,6 +11,8 @@
 		"HandlerA",
 		"HandlerB",
 		"Idler",
+		"NoTask",
+		"NoWork",
 		"WorkPacketKind",
 		"Worker"
 	],

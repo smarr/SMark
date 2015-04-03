@@ -1,3 +1,3 @@
 testing
 isWaiting
-    ^packetPendingIV not and: [taskWaiting and: [taskHolding not]]
+    ^packetPending not and: [taskWaiting and: [taskHolding not]]

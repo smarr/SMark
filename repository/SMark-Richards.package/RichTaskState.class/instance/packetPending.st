@@ -1,5 +1,5 @@
 initialize
 packetPending
-    packetPendingIV := true.
+    packetPending := true.
     taskWaiting := false.
     taskHolding := false

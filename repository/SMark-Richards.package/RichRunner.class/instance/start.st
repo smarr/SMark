@@ -1,68 +1,69 @@
 initialize
 start
     | workQ |
+	 self initTrace.
     self initScheduler.
-    self
-	createIdler: Idler
-	priority: 0
-	work: nil
-	state: RichTaskState running.
+    self 	createIdler: RichObject Idler
+			priority: 0
+			work: RichObject NoWork
+			state: RichTaskState running.
     workQ := self
-		createPacket: nil
-		identity: Worker
-		kind: WorkPacketKind.
-    workQ := self
-		createPacket: workQ
-		identity: Worker
-		kind: WorkPacketKind.
-    self
-	createWorker: Worker
-	priority: 1000
-	work: workQ
-	state: RichTaskState waitingWithPacket.
-    workQ := self
-		createPacket: nil
-		identity: DeviceA
-		kind: DevicePacketKind.
+		createPacket: RichObject NoWork
+		identity: RichObject Worker
+		kind: RichObject WorkPacketKind.
     workQ := self
 		createPacket: workQ
-		identity: DeviceA
-		kind: DevicePacketKind.
+		identity: RichObject Worker
+		kind: RichObject WorkPacketKind.
+    self
+		createWorker: RichObject Worker
+		priority: 1000
+		work: workQ
+		state: RichTaskState waitingWithPacket.
+    workQ := self
+		createPacket: RichObject NoWork
+		identity: RichObject DeviceA
+		kind: RichObject DevicePacketKind.
     workQ := self
 		createPacket: workQ
-		identity: DeviceA
-		kind: DevicePacketKind.
-    self
-	createHandler: HandlerA
-	priority: 2000
-	work: workQ
-	state: RichTaskState waitingWithPacket.
-    workQ := self
-		createPacket: nil
-		identity: DeviceB
-		kind: DevicePacketKind.
+		identity: RichObject DeviceA
+		kind: RichObject DevicePacketKind.
     workQ := self
 		createPacket: workQ
-		identity: DeviceB
-		kind: DevicePacketKind.
+		identity: RichObject DeviceA
+		kind: RichObject DevicePacketKind.
+    self
+		createHandler: RichObject HandlerA
+		priority: 2000
+		work: workQ
+		state: RichTaskState waitingWithPacket.
+    workQ := self
+		createPacket: RichObject NoWork
+		identity: RichObject DeviceB
+		kind: RichObject DevicePacketKind.
     workQ := self
 		createPacket: workQ
-		identity: DeviceB
-		kind: DevicePacketKind.
+		identity: RichObject DeviceB
+		kind: RichObject DevicePacketKind.
+    workQ := self
+		createPacket: workQ
+		identity: RichObject DeviceB
+		kind: RichObject DevicePacketKind.
     self
-	createHandler: HandlerB
-	priority: 3000
-	work: workQ
-	state: RichTaskState waitingWithPacket.
+		createHandler: RichObject HandlerB
+		priority: 3000
+		work: workQ
+		state: RichTaskState waitingWithPacket.
     self
-	createDevice: DeviceA
-	priority: 4000
-	work: nil
-	state: RichTaskState waiting.
+		createDevice: RichObject DeviceA
+		priority: 4000
+		work: RichObject NoWork
+		state: RichTaskState waiting.
     self
-	createDevice: DeviceB
-	priority: 5000
-	work: nil
-	state: RichTaskState waiting.
-    self schedule.
-    queuePacketCount = 23246 & (holdCount = 9297) ifFalse: [self error: 'wrong result'].
+		createDevice: RichObject DeviceB
+		priority: 5000
+		work: RichObject NoWork
+		state: RichTaskState waiting.
+    
+	 self schedule.
+    ^ (queuePacketCount = 23246) & (holdCount = 9297)

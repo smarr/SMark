@@ -1,3 +1,3 @@
 accessing
-pending: anObject
-	pending := anObject
+pending: packet
+	pending := packet

@@ -1,10 +1,10 @@
 utilities
 append: packet head: queueHead
     | mouse link |
-    packet link: nil.
-    queueHead ifNil: [ ^ packet ].
+    packet link: RichObject NoWork.
+    RichObject NoWork == queueHead ifTrue: [ ^ packet ].
     mouse := queueHead.
-    [ (link := mouse link) isNil]
-	whileFalse: [ mouse := link ].
+    [RichObject NoWork == (link := mouse link)]
+        whileFalse: [ mouse := link ].
     mouse link: packet.
     ^ queueHead

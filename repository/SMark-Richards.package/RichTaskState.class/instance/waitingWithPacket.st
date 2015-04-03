@@ -1,4 +1,4 @@
 initialize
 waitingWithPacket
     taskHolding := false.
-    taskWaiting := packetPendingIV := true
+    taskWaiting := packetPending := true
