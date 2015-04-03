@@ -1,0 +1,3 @@
+constants
+MaxWeight
+	^ 1

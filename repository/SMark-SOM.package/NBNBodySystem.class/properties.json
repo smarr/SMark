@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMark-SOM-NBody",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bodies"
+	],
+	"name" : "NBNBodySystem",
+	"type" : "normal"
+}

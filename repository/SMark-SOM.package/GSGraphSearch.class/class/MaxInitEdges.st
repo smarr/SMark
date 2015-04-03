@@ -1,0 +1,3 @@
+constants
+MaxInitEdges
+	^ 4

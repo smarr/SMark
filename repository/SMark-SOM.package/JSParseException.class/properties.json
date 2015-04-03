@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMark-SOM-Json",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"msg",
+		"offset",
+		"line",
+		"column"
+	],
+	"name" : "JSParseException",
+	"type" : "normal"
+}

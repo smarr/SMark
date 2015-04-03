@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "JSJsonValue",
+	"category" : "SMark-SOM-Json",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"names",
+		"values",
+		"table"
+	],
+	"name" : "JSJsonObject",
+	"type" : "normal"
+}

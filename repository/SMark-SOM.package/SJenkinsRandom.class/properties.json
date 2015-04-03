@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMark-SOM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"seed"
+	],
+	"instvars" : [ ],
+	"name" : "SJenkinsRandom",
+	"type" : "normal"
+}

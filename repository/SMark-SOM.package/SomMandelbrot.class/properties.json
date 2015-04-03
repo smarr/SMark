@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkSuite",
+	"category" : "SMark-SOM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstResult"
+	],
+	"name" : "SomMandelbrot",
+	"type" : "normal"
+}

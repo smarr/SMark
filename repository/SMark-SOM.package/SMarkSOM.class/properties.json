@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkSuite",
+	"category" : "SMark-SOM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SMarkSOM",
+	"type" : "normal"
+}

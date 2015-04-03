@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkSuite",
+	"category" : "SMark-SOM-Json",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSJson",
+	"type" : "normal"
+}

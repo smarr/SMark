@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SMarkSuite",
+	"category" : "SMark-SOM-NBody",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"expectedEnergy"
+	],
+	"name" : "SomNBody",
+	"type" : "normal"
+}

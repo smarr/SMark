@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMark-SOM-NBody",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"solarMass"
+	],
+	"instvars" : [
+		"x",
+		"y",
+		"z",
+		"vx",
+		"vy",
+		"vz",
+		"mass"
+	],
+	"name" : "NBBody",
+	"type" : "normal"
+}

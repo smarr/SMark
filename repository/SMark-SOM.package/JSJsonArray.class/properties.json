@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "JSJsonValue",
+	"category" : "SMark-SOM-Json",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"values"
+	],
+	"name" : "JSJsonArray",
+	"type" : "normal"
+}

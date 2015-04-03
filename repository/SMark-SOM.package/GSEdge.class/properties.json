@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMark-SOM-GraphSearch",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dest",
+		"weight"
+	],
+	"name" : "GSEdge",
+	"type" : "normal"
+}

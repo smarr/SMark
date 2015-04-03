@@ -1,0 +1,3 @@
+constants
+MinWeight
+	^ 1
