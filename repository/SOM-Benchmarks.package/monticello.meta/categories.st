@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #'SOM-Benchmarks'!
 SystemOrganization addCategory: 'SOM-Benchmarks-DeltaBlue'!
+SystemOrganization addCategory: 'SOM-Benchmarks-GraphSearch'!
 SystemOrganization addCategory: 'SOM-Benchmarks-Json'!
 SystemOrganization addCategory: 'SOM-Benchmarks-LanguageFeatures'!
 SystemOrganization addCategory: 'SOM-Benchmarks-NBody'!

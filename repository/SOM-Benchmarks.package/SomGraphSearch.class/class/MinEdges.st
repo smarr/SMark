@@ -1,0 +1,3 @@
+constants
+MinEdges
+	^ 2
