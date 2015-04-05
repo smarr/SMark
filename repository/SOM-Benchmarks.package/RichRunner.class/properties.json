@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "SOM-Benchmarks-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"taskList",
+		"currentTask",
+		"currentTaskIdentity",
+		"taskTable",
+		"tracing",
+		"layout",
+		"queuePacketCount",
+		"holdCount"
+	],
+	"name" : "RichRunner",
+	"type" : "normal"
+}

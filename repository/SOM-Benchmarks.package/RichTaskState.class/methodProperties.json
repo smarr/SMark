@@ -1,0 +1,24 @@
+{
+	"instance" : {
+		"waitingWithPacket" : "StefanMarr 4/3/2015 14:38",
+		"isTaskWaiting" : "ClementBera 9/27/2013 16:06",
+		"isRunning" : "StefanMarr 4/3/2015 14:38",
+		"isWaiting" : "StefanMarr 4/3/2015 14:39",
+		"running" : "StefanMarr 4/3/2015 14:38",
+		"packetPending" : "StefanMarr 4/3/2015 14:37",
+		"taskHolding:" : "StefanMarr 4/3/2015 14:37",
+		"taskWaiting:" : "StefanMarr 4/3/2015 14:37",
+		"isTaskHolding" : "ClementBera 9/27/2013 16:06",
+		"waiting" : "StefanMarr 4/3/2015 14:38",
+		"isTaskHoldingOrWaiting" : "StefanMarr 4/3/2015 14:38",
+		"isPacketPending" : "StefanMarr 4/3/2015 14:36",
+		"packetPending:" : "StefanMarr 4/3/2015 14:37",
+		"isWaitingWithPacket" : "StefanMarr 4/3/2015 14:39"
+	},
+	"class" : {
+		"packetPending" : "ClementBera 9/27/2013 16:09",
+		"waitingWithPacket" : "ClementBera 9/27/2013 16:09",
+		"running" : "ClementBera 9/27/2013 16:09",
+		"waiting" : "ClementBera 9/27/2013 16:09"
+	}
+}

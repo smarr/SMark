@@ -1,0 +1,18 @@
+{
+	"instance" : {
+		"append:head:" : "StefanMarr 4/3/2015 13:35"
+	},
+	"class" : {
+		"NoWork" : "StefanMarr 4/3/2015 13:37",
+		"Worker" : "StefanMarr 4/3/2015 13:38",
+		"HandlerB" : "StefanMarr 4/3/2015 13:38",
+		"WorkPacketKind" : "StefanMarr 4/3/2015 13:38",
+		"DevicePacketKind" : "StefanMarr 4/3/2015 13:38",
+		"initialize" : "StefanMarr 4/3/2015 13:37",
+		"DeviceB" : "StefanMarr 4/3/2015 13:38",
+		"Idler" : "StefanMarr 4/3/2015 13:37",
+		"HandlerA" : "StefanMarr 4/3/2015 13:38",
+		"DeviceA" : "StefanMarr 4/3/2015 13:38",
+		"NoTask" : "StefanMarr 4/3/2015 13:37"
+	}
+}

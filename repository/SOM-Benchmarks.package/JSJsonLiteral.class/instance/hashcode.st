@@ -1,0 +1,3 @@
+hash
+hashcode
+	^ value hash

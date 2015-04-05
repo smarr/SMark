@@ -1,0 +1,26 @@
+{
+	"instance" : {
+		"stay" : "ClementBera 9/23/2013 10:59",
+		"walkStrength:" : "StefanMarr 4/2/2015 16:44",
+		"value:" : "ClementBera 9/23/2013 10:59",
+		"initialize" : "StefanMarr 4/2/2015 16:43",
+		"mark:" : "ClementBera 9/23/2013 10:58",
+		"removeConstraint:" : "StefanMarr 4/2/2015 16:44",
+		"stay:" : "StefanMarr 4/2/2015 16:44",
+		"setValue:strength:" : "ClementBera 9/23/2013 11:00",
+		"mark" : "ClementBera 9/23/2013 10:58",
+		"shortPrintOn:" : "StefanMarr 4/2/2015 21:00",
+		"walkStrength" : "ClementBera 9/23/2013 10:59",
+		"longPrintOn:" : "StefanMarr 4/2/2015 21:00",
+		"determinedBy:" : "ClementBera 9/23/2013 10:58",
+		"constraints" : "ClementBera 9/23/2013 10:58",
+		"setValue:" : "ClementBera 9/23/2013 10:59",
+		"printOn:" : "StefanMarr 4/2/2015 20:59",
+		"value" : "ClementBera 9/23/2013 10:59",
+		"addConstraint:" : "ClementBera 9/23/2013 10:58",
+		"determinedBy" : "ClementBera 9/23/2013 10:58"
+	},
+	"class" : {
+		"value:" : "ClementBera 9/23/2013 11:01"
+	}
+}

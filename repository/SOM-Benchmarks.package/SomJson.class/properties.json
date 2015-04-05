@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks-Json",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SomJson",
+	"type" : "normal"
+}

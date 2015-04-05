@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"benchmark" : "StefanMarr 4/3/2015 18:17",
+		"exec" : "StefanMarr 4/5/2015 12:59",
+		"verifyResult:" : "StefanMarr 4/5/2015 13:00"
+	},
+	"class" : {
+		"RapBenchmarkMinified" : "StefanMarr 4/2/2015 22:45"
+	}
+}

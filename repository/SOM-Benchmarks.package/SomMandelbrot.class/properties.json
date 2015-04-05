@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstResult"
+	],
+	"name" : "SomMandelbrot",
+	"type" : "normal"
+}

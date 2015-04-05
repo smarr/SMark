@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SOM-Benchmarks-Json",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"input",
+		"index",
+		"line",
+		"column",
+		"current",
+		"captureBuffer",
+		"captureStart",
+		"exceptionBlock"
+	],
+	"name" : "JSJsonParser",
+	"type" : "normal"
+}

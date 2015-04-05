@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "JSJsonValue",
+	"category" : "SOM-Benchmarks-Json",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"FALSE",
+		"NULL",
+		"TRUE"
+	],
+	"instvars" : [
+		"value",
+		"isNull",
+		"isTrue",
+		"isFalse"
+	],
+	"name" : "JSJsonLiteral",
+	"type" : "normal"
+}

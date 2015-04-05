@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"count",
+		"v"
+	],
+	"name" : "SomPermute",
+	"type" : "normal"
+}

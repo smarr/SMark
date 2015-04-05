@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"reportRun:" : "StefanMarr 4/5/2015 13:40",
+		"total" : "StefanMarr 4/5/2015 10:57",
+		"numIterations:" : "StefanMarr 4/5/2015 10:51",
+		"printUsage" : "StefanMarr 4/5/2015 13:39",
+		"maxRuntime:" : "StefanMarr 4/5/2015 10:51",
+		"printAll:" : "StefanMarr 4/5/2015 10:50",
+		"collectBenchmarkClasses:" : "StefanMarr 4/5/2015 11:33",
+		"benchmarkClasses:" : "StefanMarr 4/5/2015 10:50",
+		"initialize" : "StefanMarr 4/5/2015 10:58",
+		"processArguments:" : "StefanMarr 4/5/2015 11:33",
+		"warmUp:" : "StefanMarr 4/5/2015 10:51",
+		"printTotal" : "StefanMarr 4/5/2015 11:27",
+		"runBenchmarks" : "StefanMarr 4/5/2015 11:25",
+		"run:" : "StefanMarr 4/5/2015 11:31"
+	},
+	"class" : {
+		"run:" : "StefanMarr 4/5/2015 15:18"
+	}
+}

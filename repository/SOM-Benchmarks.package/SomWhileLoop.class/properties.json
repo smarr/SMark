@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks-LanguageFeatures",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SomWhileLoop",
+	"type" : "normal"
+}

@@ -1,0 +1,8 @@
+{
+	"instance" : {
+		"innerBenchmarkLoop" : "StefanMarr 4/5/2015 13:28",
+		"mandelbrot:" : "StefanMarr 4/3/2015 16:46",
+		"verifyResult:" : "StefanMarr 4/5/2015 14:01"
+	},
+	"class" : { }
+}

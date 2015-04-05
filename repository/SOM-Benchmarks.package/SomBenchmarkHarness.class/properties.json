@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SOM-Benchmarks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"total",
+		"runtimes",
+		"benchmarkClasses",
+		"numIterations",
+		"warmUp",
+		"innerIterations",
+		"maxRuntime",
+		"printAll"
+	],
+	"name" : "SomBenchmarkHarness",
+	"type" : "normal"
+}

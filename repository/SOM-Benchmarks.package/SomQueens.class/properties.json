@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"freeMaxs",
+		"freeRows",
+		"freeMins",
+		"queenRows"
+	],
+	"name" : "SomQueens",
+	"type" : "normal"
+}

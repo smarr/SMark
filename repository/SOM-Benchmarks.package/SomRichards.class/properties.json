@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SomRichards",
+	"type" : "normal"
+}

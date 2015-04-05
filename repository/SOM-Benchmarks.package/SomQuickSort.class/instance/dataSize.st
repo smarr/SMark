@@ -1,0 +1,3 @@
+initializing
+dataSize
+	^ 800

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SOM-Benchmarks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"size",
+		"next"
+	],
+	"name" : "SomTowersDisk",
+	"type" : "normal"
+}

@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"initialize" : "StefanMarr 4/2/2015 22:47",
+		"addBoolean:" : "StefanMarr 4/2/2015 22:48",
+		"asArray" : "StefanMarr 4/2/2015 22:51",
+		"values" : "StefanMarr 4/2/2015 22:51",
+		"at:putDouble:" : "StefanMarr 4/2/2015 22:49",
+		"at:putInteger:" : "StefanMarr 4/2/2015 22:49",
+		"size" : "StefanMarr 4/2/2015 22:50",
+		"add:" : "StefanMarr 4/2/2015 22:49",
+		"addDouble:" : "StefanMarr 4/2/2015 22:48",
+		"hashcode" : "StefanMarr 4/2/2015 22:51",
+		"removeAt:" : "StefanMarr 4/2/2015 22:50",
+		"addInteger:" : "StefanMarr 4/2/2015 22:48",
+		"at:" : "StefanMarr 4/2/2015 22:50",
+		"at:putString:" : "StefanMarr 4/2/2015 22:50",
+		"at:putBoolean:" : "StefanMarr 4/2/2015 22:49",
+		"=" : "StefanMarr 4/2/2015 22:51",
+		"at:put:" : "StefanMarr 4/2/2015 22:50",
+		"isArray" : "StefanMarr 4/2/2015 22:51",
+		"isEmpty" : "StefanMarr 4/2/2015 22:50",
+		"addString:" : "StefanMarr 4/2/2015 22:49"
+	},
+	"class" : {
+		"readFrom:" : "StefanMarr 4/2/2015 22:52"
+	}
+}

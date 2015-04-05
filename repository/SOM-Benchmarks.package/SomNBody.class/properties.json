@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks-NBody",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"expectedEnergy"
+	],
+	"name" : "SomNBody",
+	"type" : "normal"
+}

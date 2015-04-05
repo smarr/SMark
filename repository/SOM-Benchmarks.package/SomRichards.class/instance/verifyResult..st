@@ -1,0 +1,3 @@
+benchs
+verifyResult: result
+	^ result

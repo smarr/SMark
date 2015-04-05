@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SomSort",
+	"category" : "SOM-Benchmarks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SomBubbleSort",
+	"type" : "normal"
+}

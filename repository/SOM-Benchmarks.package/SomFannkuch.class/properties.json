@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "SomBenchmark",
+	"category" : "SOM-Benchmarks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"results"
+	],
+	"instvars" : [
+		"timesRotated",
+		"perm",
+		"atEnd"
+	],
+	"name" : "SomFannkuch",
+	"type" : "normal"
+}

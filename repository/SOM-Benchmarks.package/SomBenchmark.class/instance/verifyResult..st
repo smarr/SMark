@@ -1,0 +1,3 @@
+benchmarking
+verifyResult: result
+	self subclassResponsibility

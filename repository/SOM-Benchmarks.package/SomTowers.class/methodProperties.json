@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"popDiskFrom:" : "StefanMarr 4/5/2015 14:37",
+		"buildTowerAt:disks:" : "StefanMarr 4/5/2015 14:37",
+		"move:disksFrom:to:" : "StefanMarr 4/5/2015 14:38",
+		"benchmark" : "StefanMarr 4/5/2015 14:39",
+		"moveTopDiskFrom:to:" : "StefanMarr 4/5/2015 14:37",
+		"verifyResult:" : "StefanMarr 4/5/2015 14:39",
+		"pushDisk:onPile:" : "StefanMarr 4/5/2015 15:23"
+	},
+	"class" : { }
+}

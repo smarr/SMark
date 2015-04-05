@@ -1,0 +1,23 @@
+{
+	"instance" : {
+		"makePlan:" : "ClementBera 9/23/2013 10:35",
+		"extractPlanFromConstraints:" : "StefanMarr 4/2/2015 15:59",
+		"addConstraintsConsuming:to:" : "ClementBera 9/23/2013 10:36",
+		"extractPlanFromVariables:" : "StefanMarr 4/2/2015 16:00",
+		"initialize" : "StefanMarr 4/2/2015 15:57",
+		"newMark" : "ClementBera 9/23/2013 10:37",
+		"constraintsConsuming:do:" : "StefanMarr 4/2/2015 16:03",
+		"incrementalAdd:" : "StefanMarr 4/2/2015 15:58",
+		"incrementalRemove:" : "ClementBera 9/23/2013 10:34",
+		"addPropagate:mark:" : "ClementBera 9/23/2013 10:36",
+		"propagateFrom:" : "ClementBera 9/23/2013 10:36",
+		"removePropagateFrom:" : "StefanMarr 4/2/2015 16:05",
+		"changeVar:newValue:" : "ClementBera 9/23/2013 10:37"
+	},
+	"class" : {
+		"current" : "ClementBera 9/23/2013 11:16",
+		"new" : "ClementBera 9/23/2013 10:39",
+		"projectionTest:" : "StefanMarr 4/2/2015 16:22",
+		"chainTest:" : "StefanMarr 4/2/2015 21:11"
+	}
+}

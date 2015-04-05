@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "RichObject",
+	"category" : "SOM-Benchmarks-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"data",
+		"datum",
+		"identity",
+		"kind",
+		"link"
+	],
+	"name" : "RichPacket",
+	"type" : "normal"
+}

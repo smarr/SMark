@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "RichObject",
+	"category" : "SOM-Benchmarks-Richards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"workIn",
+		"deviceIn"
+	],
+	"name" : "RichHandlerTaskDataRecord",
+	"type" : "normal"
+}
