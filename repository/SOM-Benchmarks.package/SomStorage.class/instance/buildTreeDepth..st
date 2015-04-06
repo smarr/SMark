@@ -2,7 +2,7 @@ benchmarking
 buildTreeDepth: depth
         count := count + 1.
         ^(depth = 1) 
-            ifTrue:  [ Array new: (SomRandom next rem: 10 + 1) ]
+            ifTrue:  [ Array new: SomRandom next % 10 + 1 ]
             ifFalse: [
 	             | arr |
 	             arr := Array new: 4.

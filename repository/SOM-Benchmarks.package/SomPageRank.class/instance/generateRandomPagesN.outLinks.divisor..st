@@ -9,7 +9,7 @@ generateRandomPagesN: n outLinks: outLinks divisor: divisor
       outLinks at: i + 1 put: 0.
 
       0 to: n - 1 do: [:j |
-        (i ~= j and: [(SomJenkinsRandom random abs rem: divisor) = 0]) ifTrue: [
+        (i ~= j and: [(SomJenkinsRandom random abs % divisor) = 0]) ifTrue: [
           pages at: (i * n + j) + 1 put: 1.
           outLinks at: i + 1 put: (outLinks at: i + 1) + 1
         ]
@@ -18,9 +18,9 @@ generateRandomPagesN: n outLinks: outLinks divisor: divisor
     " the case with no outlinks is afunctioned "
     (outLinks at: i + 1) = 0 ifTrue: [
         | k |
-        k := SomJenkinsRandom random abs rem: n.
+        k := SomJenkinsRandom random abs % n.
         [i = k] whileTrue: [
-          k := SomJenkinsRandom random abs rem: n.
+          k := SomJenkinsRandom random abs % n.
         ].
 
         pages at: (i * n + k) + 1 put: 1.

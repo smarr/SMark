@@ -8,7 +8,7 @@ makeNext
 		1 to: r - 1 do: [ :i | perm at: i put: (perm at: i + 1) ].
 		perm at: r put: temp.
 
-		timesRotated at: r put: (((timesRotated at: r) + 1) rem: r).
+		timesRotated at: r put: (((timesRotated at: r) + 1) % r).
 		remainder := timesRotated at: r.
 		remainder = 0 ifFalse: [ ^self ].
 

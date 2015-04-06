@@ -1,6 +1,6 @@
-as yet unclassified
+initialization
 initialize
-        x := SomRandom next rem: 500.
-        y := SomRandom next rem: 500.
-        xVel := (SomRandom next rem: 300) - 150.
-        yVel := (SomRandom next rem: 300) - 150.
+        x := SomRandom next % 500.
+        y := SomRandom next % 500.
+        xVel := (SomRandom next % 300) - 150.
+        yVel := (SomRandom next % 300) - 150.
