@@ -1,3 +1,3 @@
-as yet unclassified
+private
 flush
 	PrintTarget ifNotNil: [PrintTarget flush].

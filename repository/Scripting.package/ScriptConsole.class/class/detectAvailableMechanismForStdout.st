@@ -3,9 +3,15 @@ detectAvailableMechanismForStdout
 	"The prefered means is to use the stdout file handle.
 	 Will try to fall back on the RoarVM primitive if necessary."
 	| cls |
-	(FileStream respondsTo: #stdout)
-		ifTrue: [
-			PrintTarget := FileStream stdout.
+	cls := Smalltalk globals
+		at: #Stdio
+		ifAbsent: [
+			cls := Smalltalk globals
+			at: #FileStream
+			ifAbsent: [ nil ] ].
+	(cls notNil and: [
+		cls respondsTo: #stdout ]) ifTrue: [
+			PrintTarget := cls stdout.
 			IsRVM := false. "Not needed when stdout is used"
 			^ self.
 		].

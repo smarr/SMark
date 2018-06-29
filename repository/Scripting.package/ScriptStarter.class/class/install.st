@@ -12,7 +12,7 @@ install
 			]
 		ifNil: [
 			(Smalltalk globals at: #AbstractLauncer ifAbsent: [nil])
-				ifNotNilDo: [:launcher |
+				ifNotNil: [ :launcher |
 					launcher readDocumentAtStartup: false
 				]
 			].

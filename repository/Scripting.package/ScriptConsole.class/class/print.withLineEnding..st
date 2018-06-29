@@ -8,8 +8,12 @@ print: somethingAsString withLineEnding: lineEnd
 		LastPrintedChar := output last].
 	
 	PrintTarget ifNotNil: [
-		IsRVM ifTrue: [ PrintTarget print: output. ]
-			   ifFalse: [ PrintTarget nextPutAll: (output, lineEnd) ].
+		IsRVM
+			ifTrue: [ PrintTarget print: output. ]
+			ifFalse: [
+				PrintTarget
+					nextPutAll: output;
+					nextPutAll: lineEnd ].
 	].
 
 	(OutputToTranscript or: [PrintTarget isNil])
