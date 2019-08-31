@@ -2,4 +2,4 @@ baselines
 stable: spec
 	<symbolicVersion: #'stable'>
 
-	spec for: #'common' version: '1.0.2'.
+	spec for: #'common' version: '1.0.3'

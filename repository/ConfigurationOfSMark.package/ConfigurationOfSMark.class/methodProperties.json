@@ -1,14 +1,15 @@
 {
 	"instance" : {
-		"version102:" : "MaxLeske 6/29/2018 18:53",
-		"project" : "MaxLeske 6/29/2018 18:32",
-		"customProjectAttributes" : "StefanMarr 7/5/2013 11:09",
-		"version100:" : "StefanMarr 7/5/2013 11:24",
 		"baseline110:" : "StefanMarr 7/5/2013 11:19",
-		"version101:" : "StefanMarr 3/28/2014 14:49",
-		"stable:" : "MaxLeske 6/29/2018 18:52",
 		"development:" : "MartinDias 4/11/2014 16:56",
-		"baseline100:" : "StefanMarr 7/5/2013 11:18"
+		"customProjectAttributes" : "StefanMarr 7/5/2013 11:09",
+		"version101:" : "StefanMarr 3/28/2014 14:49",
+		"version103:" : "MaxLeske 8/31/2019 19:06",
+		"version100:" : "StefanMarr 7/5/2013 11:24",
+		"version102:" : "MaxLeske 6/29/2018 18:53",
+		"stable:" : "MaxLeske 8/31/2019 19:02",
+		"baseline100:" : "StefanMarr 7/5/2013 11:18",
+		"project" : "MaxLeske 6/29/2018 18:32"
 	},
 	"class" : {
 		"validate" : "StefanMarr 7/5/2013 11:09",
