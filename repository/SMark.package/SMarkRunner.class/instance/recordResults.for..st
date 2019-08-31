@@ -3,10 +3,11 @@ recordResults: timer for: aSelector
 	| result name |
 	name := suite benchmarkNameForSelector: aSelector.
 	
-	result := SMarkResult new.
-	result total: timer totalTime.
-	result benchmarkName: name.
-	result suite: suite.
-	result criteria: timers.
+	result := SMarkResult new
+		total: timer totalTime;
+		benchmarkName: name;
+		suite: suite;
+		criteria: timers;
+		yourself.
 	
 	(results at: name ifAbsentPut: OrderedCollection new) add: result.

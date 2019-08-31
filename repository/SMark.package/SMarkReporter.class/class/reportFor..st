@@ -1,3 +1,5 @@
 reporting
 reportFor: aRunner
-	self reportFor: aRunner on: self defaultOutputDestination.
+	^ self
+		reportFor: aRunner
+		on: self defaultOutputDestination.
