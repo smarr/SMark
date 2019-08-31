@@ -3,12 +3,12 @@
 		"parseBenchmarkOrSuite:" : "",
 		"determineBenchmarkParameters" : "sm 5/25/2011 17:38",
 		"determineReporter" : "",
-		"determineRunner" : "",
+		"determineRunner" : "MaxLeske 8/31/2019 18:15",
 		"determineSuiteOrBenchmark" : "sm 5/25/2011 17:26",
 		"determineBenchmarkParametersFromArguments" : "",
 		"harness:" : "",
 		"instructRunner" : "sm 5/25/2011 17:29",
-		"parse:" : "sm 5/25/2011 17:27"
+		"parse:" : "MaxLeske 8/31/2019 18:15"
 	},
 	"class" : { }
 }

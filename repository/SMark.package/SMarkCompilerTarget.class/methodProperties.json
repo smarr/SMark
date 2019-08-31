@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"target" : "",
+		"tearDown" : "",
+		"classFactory" : "",
+		"compile:" : ""
+	},
+	"class" : {
+		"acceptsLoggingOfCompilation" : "MaxLeske 8/31/2019 18:32",
+		"addAndClassifySelector:withMethod:inProtocol:" : ""
+	}
+}

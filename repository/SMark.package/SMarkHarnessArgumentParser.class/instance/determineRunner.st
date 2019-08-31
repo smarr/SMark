@@ -6,6 +6,6 @@ determineRunner
 			i := i + 1.
 			i <= numParams ifTrue: [
 				current := arguments at: i.
-				currentObj := (Smalltalk classNamed: current) ifNotNilDo: [:cls | cls new].
+				currentObj := (Smalltalk classNamed: current) ifNotNil: [:cls | cls new].
 			]
 		].
