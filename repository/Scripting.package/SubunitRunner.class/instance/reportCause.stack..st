@@ -1,5 +1,5 @@
 reporting
-reportCause: error stack: stack.	
+reportCause: error stack: stack
 	stream nextPutAll: ' ['; nextPut: Character lf.
 	stream
 		tab; nextPutAll: 'type: '; nextPutAll: (error class name); nextPut: Character lf;

@@ -1,12 +1,12 @@
 script entry
 run: args
-	| str cmdClass |
+	| str |
 	ScriptStarter quitVMAfterScriptExecution: false.
 	
-	cmdClass := args removeFirst.
+	args removeFirst. "command class"
 	str := args reduce: [:a :b | a asString, ' ', b asString ].
 	ScriptConsole println: str.
 	ScriptConsole println: args asString.
 	ScriptConsole println: 'Going to evaluate the string'.
-	[ Compiler evaluate: str. ]
+	[ self compiler evaluate: str. ]
 		ifError: [:err :rcvr | ScriptConsole println: 'Error: ', err].
