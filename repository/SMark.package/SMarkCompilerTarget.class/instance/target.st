@@ -1,3 +1,0 @@
-running
-target
-	^ target

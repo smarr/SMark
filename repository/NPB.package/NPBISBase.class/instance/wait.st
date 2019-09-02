@@ -1,3 +1,0 @@
-synchronization
-wait
-	mtxNotify wait 

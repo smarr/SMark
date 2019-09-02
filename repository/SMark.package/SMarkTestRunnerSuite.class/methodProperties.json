@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"benchDoNothing" : "",
-		"benchNotifyRunner" : ""
-	},
-	"class" : {
-		"isAbstractClass" : ""
-	}
-}

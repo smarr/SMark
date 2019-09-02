@@ -1,3 +1,0 @@
-accessing
-numIterations
-	^ numIterations

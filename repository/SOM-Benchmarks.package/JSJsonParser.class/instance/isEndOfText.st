@@ -1,3 +1,0 @@
-testing
-isEndOfText
-    ^ current isNil

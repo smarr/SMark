@@ -1,3 +1,0 @@
-benchs
-verifyResult: result
-	^ result

@@ -1,3 +1,0 @@
-benchmarking
-benchmark
-	self subclassResponsibility

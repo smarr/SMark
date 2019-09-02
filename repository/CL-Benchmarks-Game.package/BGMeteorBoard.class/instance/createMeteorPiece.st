@@ -1,3 +1,0 @@
-constructors
-createMeteorPiece
-	^ pieceFactory new

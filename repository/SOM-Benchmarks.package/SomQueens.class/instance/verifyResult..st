@@ -1,3 +1,0 @@
-benchmarking
-verifyResult: result
-      ^ result

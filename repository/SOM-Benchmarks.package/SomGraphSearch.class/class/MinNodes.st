@@ -1,3 +1,0 @@
-constants
-MinNodes
-	^ 20

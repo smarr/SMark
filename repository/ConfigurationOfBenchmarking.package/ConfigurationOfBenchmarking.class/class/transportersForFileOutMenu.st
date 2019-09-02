@@ -1,3 +1,0 @@
-transporter
-transportersForFileOutMenu
-	^ self transporters

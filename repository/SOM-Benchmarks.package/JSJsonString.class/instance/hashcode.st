@@ -1,3 +1,0 @@
-hash
-hashcode
-	^ string hash

@@ -1,3 +1,0 @@
-accessors
-testIndexArray
-	^ testIndexArray

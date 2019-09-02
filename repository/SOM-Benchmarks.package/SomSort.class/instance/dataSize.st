@@ -1,3 +1,0 @@
-initializing
-dataSize
-	self subclassResponsibility

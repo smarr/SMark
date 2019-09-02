@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"determineReporter" : "",
-		"determineRunner" : "",
-		"determineBenchmarkParametersFromArguments" : "sm 5/25/2011 17:17",
-		"instructRunner" : "sm 5/25/2011 17:31"
-	},
-	"class" : { }
-}

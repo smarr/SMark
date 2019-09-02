@@ -1,3 +1,0 @@
-configuration
-saveImageBeforeQuit
-	^ SafeBeforeQuit

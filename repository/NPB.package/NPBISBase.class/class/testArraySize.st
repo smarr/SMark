@@ -1,3 +1,0 @@
-constants
-testArraySize
-	^ 5

@@ -1,3 +1,0 @@
-defaults
-defaultProblemSize
-	^ 100

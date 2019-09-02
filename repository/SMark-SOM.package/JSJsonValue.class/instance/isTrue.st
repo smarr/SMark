@@ -1,3 +1,0 @@
-testing
-isTrue
-	^ false

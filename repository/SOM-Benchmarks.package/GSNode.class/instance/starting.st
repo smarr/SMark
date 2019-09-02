@@ -1,3 +1,0 @@
-accessing
-starting
-	^ starting

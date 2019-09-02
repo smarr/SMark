@@ -1,3 +1,0 @@
-testing
-isEmpty
-    ^ values isEmpty

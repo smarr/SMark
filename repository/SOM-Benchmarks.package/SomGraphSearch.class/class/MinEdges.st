@@ -1,3 +1,0 @@
-constants
-MinEdges
-	^ 2

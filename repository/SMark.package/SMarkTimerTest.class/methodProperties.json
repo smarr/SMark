@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"testStartStop" : "",
-		"testName" : "",
-		"testReset" : "",
-		"testTotalTimeWithResume" : ""
-	},
-	"class" : { }
-}

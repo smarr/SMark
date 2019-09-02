@@ -1,1 +1,0 @@
-Run is a class that will take the command line arguments and will try to evaluate it as Smalltalk.

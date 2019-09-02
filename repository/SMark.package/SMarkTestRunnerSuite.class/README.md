@@ -1,1 +1,0 @@
-This is a benchmark suite used to test the benchmark runner

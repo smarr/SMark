@@ -1,3 +1,0 @@
-instance variables
-iteration
-	^ Iteration

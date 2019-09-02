@@ -1,3 +1,0 @@
-benchs
-verifyRichards: result
-	^ result
