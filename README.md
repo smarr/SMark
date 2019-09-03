@@ -5,15 +5,15 @@ Write Benchmarks like Tests
 ### Pharo 7+
 ```smalltalk
 Metacello new
-    repository: 'github://smarr/SMark';
     baseline: 'SMark';
+    repository: 'github://smarr/SMark';
     load.
 ```
 ### Squeak 5.2+
 ```smalltalk
 Installer ensureRecentMetacello.
 Metacello new
-    repository: 'github://smarr/SMark';
     baseline: 'SMark';
+    repository: 'github://smarr/SMark';
     load.
 ```
