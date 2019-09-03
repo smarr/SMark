@@ -1,5 +1,7 @@
 # SMark
-Write Benchmarks like Tests
+Write Benchmarks like Tests.
+
+SMark is a benchmarking suite for Smalltalk ([Pharo](https://pharo.org) and [Squeak](https://squeak.org) specifically).
 
 ## Installation
 ### Pharo 7+
