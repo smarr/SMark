@@ -97,8 +97,7 @@ ScriptStarter class >> startUp [
 	
 	| arguments scriptClassName |
 	"Ok, only, and really only during startup"
-	IsResuming ifFalse: [ Transcript show: 'ScriptStarter did not execute a given script, since it assumes to be executed after a snapshot and not during startup.'.
-		^ self. ].
+	IsResuming ifFalse: [ ^ self. ].
 	
 	"First make sure that stdout output can be used if available."
 	ScriptConsole detectAvailableMechanismForStdout.
